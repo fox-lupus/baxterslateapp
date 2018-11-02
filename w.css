@@ -1,0 +1,20 @@
+.header ul, li, img,
+{
+float:left; 
+}
+.header ul li
+{
+list-style:none;
+color: black;
+
+}
+.header img
+{
+width: 80px;
+
+
+}
+.color
+{
+background: black;
+}
