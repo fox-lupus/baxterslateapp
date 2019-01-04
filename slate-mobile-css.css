@@ -2,10 +2,63 @@ body, html{
 	margin:0px;
 	padding:0px;
 }
+html {
+	background: #ccc;
+	min-height: 100%
+}
+input:focus, select:focus, textarea:focus, button:focus{
+    outline: none;
+}
+
+body {
+	width: 360px;
+	margin: 0 auto;
+	border-left: solid 1px #aaa;
+	border-right: solid 1px #aaa;
+	background: white;
+	min-height: 500px;
+}
 .nav{
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.menu {
+	float: left;
+	margin-right: 25px;
+	line-height: 38px;
 
 }
-.menu{
+.menu-text {
+	font-size:27px;
+	text-decoration:none;
+	color: #861B8A;
+
+}
+.search{
 	float: left;
-	margin-right: 5px;
+	
+}
+.search form input	{
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	padding: 0 18px;
+	line-height: 34px;
+	font-size: 16px;
+}
+.calendar{
+	border-top:1px solid gray;
+	border-bottom: 1px solid gray;
+
+	text-align: center;
+}
+.Y {
+	font-size:25px;
+}
+.slate-thing{
+	padding:10px;
+	font-size: 16px
 }
