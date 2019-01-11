@@ -16,31 +16,47 @@ body {
 	border-left: solid 1px #aaa;
 	border-right: solid 1px #aaa;
 	background: white;
-	min-height: 500px;
+	min-height: 700px;
 }
 .nav{
-	height: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+
 	padding: 5px;
+	height: 40px;
+
+	background: #333333;
+
+	/*border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;*/
 }
 .menu {
-	float: left;
-	margin-right: 25px;
 	line-height: 38px;
+	float: left;
+	margin-right: 35px;
+	margin-left: 10px;
+	
+}
+.menu:hover{
+	border-radius: 5px;
+	background:#335F76;
 
+	padding: 10px 10px 10px 10px;
+	margin-right:25px; 
+	margin-left: 0;
 }
 .menu-text {
 	font-size:27px;
 	text-decoration:none;
-	color: #000
+	color:#fff;
 
 }
 .search{
 	float: left;
-	
+
+	margin-left: 10px;
 }
 .search form input	{
 	border: 1px solid #ccc;
@@ -49,6 +65,17 @@ body {
 	line-height: 30px;
 	font-size: 16px;
 	width:160px; 
+}
+.moving-background-container{	
+	position: absolute;
+
+	padding: 0;
+	margin: 0;
+}	
+.moving-background{
+	position: fixed;
+
+	z-index: -1;
 }
 .calendar{
 	margin-top: 105px;
@@ -76,7 +103,7 @@ body {
 	color:#861B8A;
 }
 .jpgs{
-	margin:10px 10px 10px 10px;
+	margin:70px 10px 10px 10px;
 }
 .jpgs img{
 	/*float:left;*/
