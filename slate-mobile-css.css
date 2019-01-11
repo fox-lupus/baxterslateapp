@@ -24,7 +24,7 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	padding: 5px;
 }
 .menu {
 	float: left;
@@ -75,25 +75,24 @@ body {
 	text-decoration:none;
 	color:#861B8A;
 }
+.jpgs{
+	margin:10px 10px 10px 10px;
+}
 .jpgs img{
 	/*float:left;*/
-	height: 110px;
+	width: 100px;
 	margin-right:auto; 
 	float: left;
 	margin-left: 5px;
-	align-content: all;
-	`
 }
 .text-Academy {
-	font-size: 29px;
+	padding-top: 8px;
+	font-size: 27px;
 	
 	color: #31A0DA; 
 }
 .text-Open-source{
-	font-size: 20px;
+	font-size: 18px;
 
 	color: #B49D94;
-}
-.text-contier{
-	align-items: 1px;
 }
