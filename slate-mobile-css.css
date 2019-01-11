@@ -35,7 +35,7 @@ body {
 .menu-text {
 	font-size:27px;
 	text-decoration:none;
-	color: #861B8A;
+	color: #000
 
 }
 .search{
@@ -44,21 +44,56 @@ body {
 }
 .search form input	{
 	border: 1px solid #ccc;
-	border-radius: 16px;
+	border-radius: 15px;
 	padding: 0 18px;
-	line-height: 34px;
+	line-height: 30px;
 	font-size: 16px;
+	width:160px; 
 }
 .calendar{
-	border-top:1px solid gray;
-	border-bottom: 1px solid gray;
+	margin-top: 105px;
+	margin-bottom: 15px;
 
 	text-align: center;
 }
+.x{
+	font-size:20px;
+}
 .Y {
-	font-size:25px;
+	font-size:30px;
+	border-bottom: 1px solid gray;
+
+	width:280px;
+	margin: auto;
 }
 .slate-thing{
-	padding:10px;
-	font-size: 16px
+	margin-top: 5px;
+	padding:15px;	
+	font-size: 18px;
+}
+.slate-thing a{
+	text-decoration:none;
+	color:#861B8A;
+}
+.jpgs img{
+	/*float:left;*/
+	height: 110px;
+	margin-right:auto; 
+	float: left;
+	margin-left: 5px;
+	align-content: all;
+	`
+}
+.text-Academy {
+	font-size: 29px;
+	
+	color: #31A0DA; 
+}
+.text-Open-source{
+	font-size: 20px;
+
+	color: #B49D94;
+}
+.text-contier{
+	align-items: 1px;
 }
