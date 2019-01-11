@@ -8,52 +8,118 @@
 
 
 	<style type="text/css">
+
 	html {
 		background: #ccc;
-
 		font-family: 'Roboto', sans-serif;
 
 	}
+
+
+	/* IPHONE FRAME */
 	body {
+		background: url(iphone_bg.png) no-repeat center 20px;
+		background-size: 490px;
+		padding-top: 107px;
+		padding-bottom: 105px;
+		padding-left: 2px;
+	
+	}
+	.iphoneFrame {
 		background: white;
-		width: 360px;
+		width: 322px;
+		height: 572px;
 		margin: 0 auto;
-		min-height: 400px;
-		border-right: solid 1px #aaa;
-		border-left: solid 1px #aaa;	
+		margin-bottom: 100px;
+
+
 	}
-	.mainWrap {
-		padding-left: 20px;
-		padding-right: 20px
-	}
-	.Calendar-head {
-		font-size: 18px;
+
+
+	/* HEADER */
+	.header {
+		background: #333333;
+		height: 40px;
 		line-height: 40px;
-		box-sizing: 30px;
-		border-bottom: solid 1px #aaa;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+
+
+	/* MAIN CONTENT */
+	.mainContent {
+		height: 492px;
+		overflow-y: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		background: #eee;
+	}
+	.mainContent p:first-child {
+		margin-top: 0;
+		padding-top: 15px;
+	}
+
+	/* FOOTER */
+	.footer {
+		background: #333333;
+		height: 40px;
+		line-height: 40px;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+    .footer .search{
+		float:left;	
+		padding: 5px
     }
-    .search{
-     float:left;	
-    }
+    .footer .search input {
+		
+		display: block;
+		border: none;
+		height: 30px;
+		width: 150px;
+		border-radius: 15px;		
+		padding-left: 10px;
+		background: #aaa;
+
+		color: white;
+		font-size: 15px;
+	}		
+
+	.footer .menu {
+		float: right;
+		padding-right: 15px;
+	}
+
 	</style>
 </head>
 <body>
-	<div class="Menu">
-			<span>Menu</span>
+
+	<div class="iphoneFrame">
+
+		<div class="header">
+			UPCOMING EVENTS
 		</div>
-	   
-	 <div class="search">
-	    	<form>
-	    		<input type="text">
-	    	</form>
-	    </div>
-	<div class="mainWrap">
-		<div class="Calendar-head">
-			<span> Upcoming Events</span>
-		</div> 
-		<div class="Box">	
+   
+		<div class="mainContent">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque nunc quis ante euismod tempor. Maecenas sed auctor urna. Phasellus nec ipsum mauris. Vivamus fermentum, eros eget accumsan tincidunt, purus metus posuere ante, eget suscipit leo urna at ante. Nulla cursus efficitur neque sit amet viverra. Integer lorem eros, mattis at commodo sed, sagittis sed nulla. Vivamus consectetur feugiat massa quis venenatis.</p>
+
+
+			<p>Integer mauris risus, auctor id accumsan et, consequat eget leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a finibus diam. Pellentesque fringilla, nisi non blandit semper, ante orci molestie tortor, eget facilisis justo nisl a felis. Nulla varius mattis metus et posuere. Quisque porta sapien eu lorem interdum, et accumsan ligula scelerisque. Phasellus iaculis semper tempus.</p>
+
+			<p>Aliquam tincidunt faucibus felis sit amet iaculis. Morbi orci elit, accumsan vitae congue suscipit, tempor in neque. Aenean efficitur mauris ac nisi hendrerit fermentum. Nam lacinia viverra ex, id ultricies dolor iaculis aliquet. Praesent porttitor viverra maximus. Vivamus imperdiet consequat turpis ac hendrerit. Vivamus gravida erat velit, in tempus sem volutpat id. Cras non vehicula odio. Nam ac volutpat enim. Donec imperdiet at sapien convallis cursus. Fusce rhoncus sagittis nunc non ornare.</p>
+
+			<p>Nullam lacinia, nibh ac porttitor tincidunt, lorem nunc tempus tellus, non maximus elit justo non nisl. In varius odio id diam bibendum, quis tincidunt magna efficitur. Nulla posuere velit eu lacus vehicula sagittis. Praesent aliquam felis at vulputate hendrerit. Maecenas a tristique risus. Sed aliquet convallis quam ut finibus. Pellentesque imperdiet aliquet dui vestibulum condimentum.</p>
+
+			<p>Aliquam volutpat hendrerit condimentum. Pellentesque hendrerit facilisis gravida. Morbi porta ultricies ante, ut fringilla risus efficitur ut. Nulla metus justo, sagittis nec ornare iaculis, aliquet sit amet risus. Nullam sed porta diam, id suscipit nisl. Sed finibus massa eget eleifend aliquam. Suspendisse sed magna cursus, scelerisque lectus vel, fringilla enim. Fusce diam odio, aliquam quis orci ut, tincidunt finibus purus. Duis sed nulla consectetur, molestie libero a, commodo risus. Phasellus molestie at libero nec mollis. Curabitur dignissim vehicula est, eget efficitur mauris vulputate eu. Sed neque nibh, rhoncus id justo ac, vehicula porttitor elit.</p>   
 		</div>
-	   
+
+		<div class="footer">
+			<div class="search"><input type="text" placeholder="Search..." /></div>
+			<div class="menu">MENU</div>
+		</div>
+
 	</div>
 </body>
 </html>
