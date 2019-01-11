@@ -34,18 +34,18 @@ body {
 }
 .menu {
 	line-height: 38px;
+	padding-left: 10px;
+	padding-right: 10px;
+
 	float: left;
 	margin-right: 35px;
 	margin-left: 10px;
 	
 }
 .menu:hover{
-	border-radius: 5px;
+	border-radius: 10px;
 	background:#335F76;
 
-	padding: 10px 10px 10px 10px;
-	margin-right:25px; 
-	margin-left: 0;
 }
 .menu-text {
 	font-size:27px;
@@ -66,6 +66,27 @@ body {
 	font-size: 16px;
 	width:160px; 
 }
+
+
+.background_image {
+	height: 300px;
+	width: 360px;
+	background-size: contain;
+	position: fixed;
+	z-index: 5;
+}
+
+.main_content {
+	position: relative;
+	z-index: 10;
+}
+
+.movbackground {
+	background: white;
+	margin-top: 200px;
+	height: 1000px;
+}
+
 .moving-background-container{	
 	position: absolute;
 
