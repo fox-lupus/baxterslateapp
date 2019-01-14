@@ -86,12 +86,6 @@ body {
 	margin-top: 200px;
 	height: 1000px;
 }
-
-.moving-background-container{	
-	position: absolute;
-
-	padding: 0;
-	margin: 0;
 }	
 .moving-background{
 	position: fixed;
@@ -101,18 +95,23 @@ body {
 .calendar{
 	margin-top: 105px;
 	margin-bottom: 15px;
-
+	margin-left: 20px;
+	
 	text-align: center;
 }
 .x{
 	font-size:20px;
 }
 .Y {
-	font-size:30px;
+	text-align: left;
+
+
 	border-bottom: 1px solid gray;
 
-	width:320px;
-	margin: auto;
+	width:320px;}
+.z{
+	font-size:30px;
+	padding-left: 25px;
 }
 .slate-thing{
 	margin-top: 5px;
