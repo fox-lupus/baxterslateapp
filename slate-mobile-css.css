@@ -29,9 +29,10 @@ body {
 
 	background: #333333;
 
+	position: sticky;  
+	top: 0px;
 	/*border-bottom-right-radius: 2px;
-	border-bottom-left-radius: 2px;*/
-}
+	border-bottom-left-radius: 2px;*/}
 .menu {
 	line-height: 38px;
 	padding-left: 10px;
@@ -40,7 +41,6 @@ body {
 	float: left;
 	margin-right: 35px;
 	margin-left: 10px;
-	
 }
 .menu:hover{
 	border-radius: 10px;
@@ -69,7 +69,7 @@ body {
 
 
 .background_image {
-	height: 300px;
+	height: 241px;
 	width: 360px;
 	background-size: contain;
 	position: fixed;
@@ -83,7 +83,7 @@ body {
 
 .movbackground {
 	background: white;
-	margin-top: 200px;
+	margin-top: -28px;
 	height: 1000px;
 }
 }	
@@ -91,7 +91,8 @@ body {
 	position: fixed;
 
 	z-index: -1;
-}
+	
+	height: 100px;}
 .calendar{
 	margin-top: 105px;
 	margin-bottom: 15px;
@@ -100,34 +101,39 @@ body {
 	text-align: center;
 }
 .x{
-	font-size:20px;
-}
-.Y {
+	font-size:18px;
+
+	color:#9494AD; }
+.calendar-text {
 	text-align: left;
-
-
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #D4D4D4;
 
 	width:320px;}
-.z{
+.calendar-span{
 	font-size:30px;
 	padding-left: 25px;
 }
 .slate-thing{
 	margin-top: 5px;
 	padding:15px;	
-	font-size: 18px;
+	font-size: 12px;
+	font-family: Lato, "Lucida Grande", Verdana, "Helvetica Neue", sans-serif;
+	
 }
 .slate-thing a{
 	text-decoration:none;
 	color:#861B8A;
 }
-.jpgs{
-	margin:70px 10px 10px 10px;
+.container-logo{
+	padding: 15px 15px 25px 15px;
+	
+	background: rgba(233, 233, 233, 0.9);
 }
-.jpgs img{
+.logo {
+	margin:10px 10px 5px 10px;}
+.logo img{
 	/*float:left;*/
-	width: 100px;
+	width: 110px;
 	margin-right:auto; 
 	float: left;
 	margin-left: 5px;
@@ -136,8 +142,7 @@ body {
 .text-Academy {
 	padding-top: 8px;
 	font-size: 27px;
-	
-	color: #31A0DA; 
+	color: #31A0DA;
 }
 .text-Open-source{
 	font-size: 18px;
