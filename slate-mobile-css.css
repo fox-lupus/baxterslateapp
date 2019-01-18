@@ -86,7 +86,6 @@ input:focus, select:focus, textarea:focus, button:focus{
 .movbackground {
 	background: white;
 	margin-top: -28px;
-	height: 1000px;
 }
 }	
 .moving-background{
@@ -96,7 +95,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	
 	height: 100px;}
 .calendar{
-	margin-top: 105px;
+	margin-top: 121px;
 	margin-bottom: 15px;
 	margin-left: 20px;
 	
@@ -116,11 +115,13 @@ input:focus, select:focus, textarea:focus, button:focus{
 	padding-left: 25px;
 }
 .slate-thing{
-	margin-top: 5px;
+	margin-top: 35px;
 	padding:15px;	
 	font-size: 12px;
 	font-family: Lato, "Lucida Grande", Verdana, "Helvetica Neue", sans-serif;
-	
+
+	border:2px solid #D4D4D4;
+	background: #E5EBEE;
 }
 .slate-thing a{
 	text-decoration:none;
