@@ -1,22 +1,24 @@
-body, html{
+/*body, html{
 	margin:0px;
 	padding:0px;
-}
+}*/
 html {
 	background: #ccc;
 	min-height: 100%
+
 }
 input:focus, select:focus, textarea:focus, button:focus{
     outline: none;
 }
 
-body {
+.phoneFrame {
 	width: 360px;
-	margin: 0 auto;
+	margin: 100px auto;
 	border-left: solid 1px #aaa;
 	border-right: solid 1px #aaa;
 	background: white;
-	min-height: 700px;
+	height: 540px;
+	overflow-y: auto;
 }
 .nav{
 	display: flex;
@@ -84,7 +86,6 @@ body {
 .movbackground {
 	background: white;
 	margin-top: -28px;
-	height: 1000px;
 }
 }	
 .moving-background{
@@ -94,7 +95,7 @@ body {
 	
 	height: 100px;}
 .calendar{
-	margin-top: 105px;
+	margin-top: 121px;
 	margin-bottom: 15px;
 	margin-left: 20px;
 	
@@ -114,11 +115,13 @@ body {
 	padding-left: 25px;
 }
 .slate-thing{
-	margin-top: 5px;
+	margin-top: 35px;
 	padding:15px;	
 	font-size: 12px;
 	font-family: Lato, "Lucida Grande", Verdana, "Helvetica Neue", sans-serif;
-	
+
+	border:2px solid #D4D4D4;
+	background: #E5EBEE;
 }
 .slate-thing a{
 	text-decoration:none;
