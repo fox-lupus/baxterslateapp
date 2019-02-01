@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example - Sliding Layers</title>
+	<style>
+		
+		body {
+		}
+		
+		ul {
+			border: solid 1px black;
+			display: inline-block;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			background: #ccc;
+			border-bottom: solid 1px #333;
+			border-top: solid 1px #eee;
+			padding: 0;
+			margin: 0;
+			padding-left: 20px;
+		}
+		
+		li.dropdown .topText:before {
+			content: '> ';
+		}		
+
+		li.dropdown:hover .topText:before {
+			content: 'V ';
+		}
+
+		li.dropdown .topText {
+			background: red;
+		}
+
+		li.dropdown:hover ul {
+			display: block;
+		}
+
+		li ul {
+			display: none;
+		}
+
+		li li {
+			background: #eee;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li>ITEM 1</li>
+		<li class="dropdown"><span class="topText">ITEM DROP DOWN</span>
+			<ul>
+				<li>SUB 1</li>
+				<li>SUB 2</li>
+			</ul>
+		</li>
+		<li>ITEM 1</li>
+		<li>ITEM 1</li>
+	</ul>
+
+
+</body>
+</html>
