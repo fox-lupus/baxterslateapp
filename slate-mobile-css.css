@@ -28,6 +28,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	max-height: 540px;
 	overflow-y: auto;
 }*/
+
 .nav{
 	display: flex;
 	flex-direction: row;
@@ -152,6 +153,19 @@ input:focus, select:focus, textarea:focus, button:focus{
 
 
 
+.movbackground {
+	background: white;
+	margin-top: -28px;
+	height: 800px;
+}
+	
+.moving-background{
+	position: fixed;
+
+	z-index: -2;
+	
+	height: 100px;
+}
 .calendar{
 	padding: 15px 20px;
 	background: white;
