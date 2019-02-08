@@ -25,7 +25,9 @@
 				padding-bottom: 105px;
 				padding-left: 2px;
 			}
-
+			.dropcontainer{
+				position: relative;
+			}
 			.iphoneFrame {
 				background: white;
 				width: 322px;
@@ -39,47 +41,52 @@
 
 
 			/* HEADER */
-			.menuBuffer {
-				padding: 20px;
+			.header {
+				background: black;
+				line-height: 40px;
+				height: 40px;
+				color: white;
 			}
 
-			.menuContainer {
-				
-				border-radius: 25px;
-				border: solid 1px black;
-				overflow: hidden;
-				
+			.dropdown_trigger {
+				background: red;
+				float: right;
+				position: relative;
 			}
 
-			.menuContainer a {
+			.dropdown_trigger:hover .dropdown_container {
 				display: block;
-				padding: 5px 30px;
+			}
+
+			.dropdown_container {
+				display: none;
+				position: absolute;
+				right: 0px;
+				background: blue;
+				width: 200px;
+				font-size: 14px
+			}
+
+			.dropdown_container a {
+				color: white;
+				display: block;
+				padding: 5px 10px;
 				border-top: solid 1px white;
 				text-decoration: none;
 				background: black;
 				color: white;
 			}
 
-			.menuContainer a:hover {
+			.dropdown_container a:hover {
 				background:  #3385ff;
 			}
 
-			.menuContainer a:first-child {
+			.dropdown_container a:first-child {
 				border-top: none;
 			}			
-			.dropdownmenu{
-				display: none;
-			}
-			.dropdownmenuContainer{
-				margin: 0 10px 0 10px;
-			}
-			.dropdownmenuContainer:hover .dropdownmenu{
-				display: block;
-			}
 			.footer img {
 				width: 100%;
 			}
-
 		</style>
 
 	</head>
@@ -87,9 +94,30 @@
 	<body>
 		<div class="iphoneFrame">
 
-			<div class="menuBuffer">
+			<div class="header">
+				
+				<div class="dropdown_trigger">
 
-				<div class="menuContainer">
+					Menu
+					
+					<div class="dropdown_container">
+							
+						<a href="http://baxter.slatepowered.net/dashboard">Slate Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/sections?term=%2Acurrent">Courses</a>
+						
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/demonstrations/student#me">Competency Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all">Task Dashboard</a>
+					
+						<a href="http://baxter.slatepowered.net/people/curtisruel">Profile</a>
+					
+						<a href="http://baxter.slatepowered.net/events">Calendar</a>
+
+					</div>
+				</div>
+
+			</div>
 			
 			<p>Course Sections Directory<p>
 
@@ -121,5 +149,3 @@
 	</body>
 
 </html>
-
-

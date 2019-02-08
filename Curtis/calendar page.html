@@ -1,100 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
+	<head>
+		<title></title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
-
-	<style type="text/css">
-
-	html {
-		background: #ccc;
-		font-family: 'Roboto', sans-serif;
-
-	}
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
-	/* IPHONE FRAME */
-	body {
-		background: url(iphone_bg.png) no-repeat center 20px;
-		background-size: 490px;
-		padding-top: 107px;
-		padding-bottom: 105px;
-		padding-left: 2px;
-	
-	}
-	.iphoneFrame {
-		background: white;
-		width: 322px;
-		height: 572px;
-		margin: 0 auto;
-		margin-bottom: 100px;
+
+		<style type="text/css">
+
+			html {
+				background: #ccc;
+				font-family: 'Roboto', sans-serif;
+
+			}
 
 
-	}
+
+			/* IPHONE FRAME */
+			body {
+				background: url(iphone_bg.png) no-repeat center 20px;
+				background-size: 490px;
+				padding-top: 107px;
+				padding-bottom: 105px;
+				padding-left: 2px;
+			}
+			.dropcontainer{
+				position: relative;
+			}
+			.iphoneFrame {
+				background: white;
+				width: 322px;
+				height: 572px;
+				margin: 0 auto;
+				margin-bottom: 100px;
+				overflow: auto;
+			}
 
 
-	/* HEADER */
-	.header {
-		background: #333333;
-		height: 40px;
-		line-height: 40px;
-		color: white;
-		font-size: 20px;
-		text-align: center;
-	}
 
 
-	/* MAIN CONTENT */
-	.mainContent {
-		height: 492px;
-		overflow-y: auto;
-		padding-left: 15px;
-		padding-right: 15px;
-		background: #eee;
-	}
-	.mainContent p:first-child {
-		margin-top: 0;
-		padding-top: 15px;
-	}
+			/* HEADER */
+			.header {
+				background: black;
+				line-height: 40px;
+				height: 40px;
+				color: white;
+			}
 
-	/* FOOTER */
-	.footer {
-		background: #333333;
-		height: 40px;
-		line-height: 40px;
-		color: white;
-		font-size: 20px;
-		text-align: center;
-	}
-    .footer .search{
-		float:left;	
-		padding: 5px
-    }
-    .footer .search input {
-		
-		display: block;
-		border: none;
-		height: 30px;
-		width: 150px;
-		border-radius: 15px;		
-		padding-left: 10px;
-		background: #aaa;
+			.dropdown_trigger {
+				background: red;
+				float: right;
+				position: relative;
+			}
 
-		color: white;
-		font-size: 15px;
-	}		
+			.dropdown_trigger:hover .dropdown_container {
+				display: block;
+			}
 
-	.footer .menu {
-		float: right;
-		padding-right: 15px;
-	}
+			.dropdown_container {
+				display: none;
+				position: absolute;
+				right: 0px;
+				background: blue;
+				width: 200px;
+				font-size: 14px
+			}
 
-	</style>
-</head>
-<body>
+			.dropdown_container a {
+				color: white;
+				display: block;
+				padding: 5px 10px;
+				border-top: solid 1px white;
+				text-decoration: none;
+				background: black;
+				color: white;
+			}
+
+			.dropdown_container a:hover {
+				background:  #3385ff;
+			}
+
+			.dropdown_container a:first-child {
+				border-top: none;
+			}			
+			.footer img {
+				width: 100%;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="iphoneFrame">
+
+			<div class="header">
+				
+				<div class="dropdown_trigger">
+
+					Menu
+					
+					<div class="dropdown_container">
+							
+						<a href="http://baxter.slatepowered.net/dashboard">Slate Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/sections?term=%2Acurrent">Courses</a>
+						
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/demonstrations/student#me">Competency Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all">Task Dashboard</a>
+					
+						<a href="http://baxter.slatepowered.net/people/curtisruel">Profile</a>
+					
+						<a href="http://baxter.slatepowered.net/events">Calendar</a>
+
+					</div>
+				</div>
+
+			</div>
 
 	<div class="iphoneFrame">
 
@@ -103,21 +126,13 @@
 		</div>
    
 		<div class="mainContent">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque nunc quis ante euismod tempor. Maecenas sed auctor urna. Phasellus nec ipsum mauris. Vivamus fermentum, eros eget accumsan tincidunt, purus metus posuere ante, eget suscipit leo urna at ante. Nulla cursus efficitur neque sit amet viverra. Integer lorem eros, mattis at commodo sed, sagittis sed nulla. Vivamus consectetur feugiat massa quis venenatis.</p>
+			<p>No upcoming events scheduled.</p>
 
-
-			<p>Integer mauris risus, auctor id accumsan et, consequat eget leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a finibus diam. Pellentesque fringilla, nisi non blandit semper, ante orci molestie tortor, eget facilisis justo nisl a felis. Nulla varius mattis metus et posuere. Quisque porta sapien eu lorem interdum, et accumsan ligula scelerisque. Phasellus iaculis semper tempus.</p>
-
-			<p>Aliquam tincidunt faucibus felis sit amet iaculis. Morbi orci elit, accumsan vitae congue suscipit, tempor in neque. Aenean efficitur mauris ac nisi hendrerit fermentum. Nam lacinia viverra ex, id ultricies dolor iaculis aliquet. Praesent porttitor viverra maximus. Vivamus imperdiet consequat turpis ac hendrerit. Vivamus gravida erat velit, in tempus sem volutpat id. Cras non vehicula odio. Nam ac volutpat enim. Donec imperdiet at sapien convallis cursus. Fusce rhoncus sagittis nunc non ornare.</p>
-
-			<p>Nullam lacinia, nibh ac porttitor tincidunt, lorem nunc tempus tellus, non maximus elit justo non nisl. In varius odio id diam bibendum, quis tincidunt magna efficitur. Nulla posuere velit eu lacus vehicula sagittis. Praesent aliquam felis at vulputate hendrerit. Maecenas a tristique risus. Sed aliquet convallis quam ut finibus. Pellentesque imperdiet aliquet dui vestibulum condimentum.</p>
-
-			<p>Aliquam volutpat hendrerit condimentum. Pellentesque hendrerit facilisis gravida. Morbi porta ultricies ante, ut fringilla risus efficitur ut. Nulla metus justo, sagittis nec ornare iaculis, aliquet sit amet risus. Nullam sed porta diam, id suscipit nisl. Sed finibus massa eget eleifend aliquam. Suspendisse sed magna cursus, scelerisque lectus vel, fringilla enim. Fusce diam odio, aliquam quis orci ut, tincidunt finibus purus. Duis sed nulla consectetur, molestie libero a, commodo risus. Phasellus molestie at libero nec mollis. Curabitur dignissim vehicula est, eget efficitur mauris vulputate eu. Sed neque nibh, rhoncus id justo ac, vehicula porttitor elit.</p>   
 		</div>
 
 		<div class="footer">
 			<div class="search"><input type="text" placeholder="Search..." /></div>
-			<div class="menu">MENU</div>
+			<div class="menu"></div>
 		</div>
 
 	</div>
