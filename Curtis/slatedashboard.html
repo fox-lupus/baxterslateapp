@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+
+		<style type="text/css">
+
+			html {
+				background: #ccc;
+				font-family: 'Roboto', sans-serif;
+
+			}
+
+
+
+			/* IPHONE FRAME */
+			body {
+				background: url(iphone_bg.png) no-repeat center 20px;
+				background-size: 490px;
+				padding-top: 107px;
+				padding-bottom: 105px;
+				padding-left: 2px;
+			}
+			.dropcontainer{
+				position: relative;
+			}
+			.iphoneFrame {
+				background: white;
+				width: 322px;
+				height: 572px;
+				margin: 0 auto;
+				margin-bottom: 100px;
+				overflow: auto;
+			}
+
+
+
+
+			/* HEADER */
+			.header {
+				background: black;
+				line-height: 40px;
+				height: 40px;
+				color: white;
+			}
+
+			.dropdown_trigger {
+				background: red;
+				float: right;
+				position: relative;
+			}
+
+			.dropdown_trigger:hover .dropdown_container {
+				display: block;
+			}
+
+			.dropdown_container {
+				display: none;
+				position: absolute;
+				right: 0px;
+				background: blue;
+				width: 200px;
+				font-size: 14px
+			}
+
+			.dropdown_container a {
+				color: white;
+				display: block;
+				padding: 5px 10px;
+				border-top: solid 1px white;
+				text-decoration: none;
+				background: black;
+				color: white;
+			}
+
+			.dropdown_container a:hover {
+				background:  #3385ff;
+			}
+
+			.dropdown_container a:first-child {
+				border-top: none;
+			}			
+			.footer img {
+				width: 100%;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="iphoneFrame">
+
+			<div class="header">
+				
+				<div class="dropdown_trigger">
+
+					Menu
+					
+					<div class="dropdown_container">
+							
+						<a href="http://baxter.slatepowered.net/dashboard">Slate Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/sections?term=%2Acurrent">Courses</a>
+						
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/demonstrations/student#me">Competency Dashboard</a>
+
+						<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all">Task Dashboard</a>
+					
+						<a href="http://baxter.slatepowered.net/people/curtisruel">Profile</a>
+					
+						<a href="http://baxter.slatepowered.net/events">Calendar</a>
+
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="mainContent">
+
+			<p>My Dashboard</p>
+
+			<p>Calendar: No future events scheduled</p>
+
+			<p>Courses:</p>
+
+			<p>Tools:</p>
+
+			<p>Name:</p>
+
+			</div>
+
+			<div class="footer">
+			<div class="search"><input type="text" placeholder="Search..." /></div>
+			<div class="menu"></div>
+			<img src="img/header.jpg">
+		</div>
+ 		<p>Slate is an open-source web platform for schools. Learn more.</p>
+ 	</div>
+</body>
+</html>
