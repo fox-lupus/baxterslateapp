@@ -35,7 +35,6 @@ input:focus, select:focus, textarea:focus, button:focus{
 	justify-content: center;
 	align-items: center;
 
-	padding: 5px;
 	height: 40px;
 
 	background: #333333;
@@ -122,15 +121,16 @@ input:focus, select:focus, textarea:focus, button:focus{
 .search{
 	float: left;
 
-	margin-left: 10px;
+	margin: 5px 0 0 10px;
 }
 .search form input	{
 	border: 1px solid #ccc;
 	border-radius: 15px;
-	padding: 0 18px;
+	padding-top: 0 18px;
 	line-height: 30px;
 	font-size: 16px;
 	width:160px; 
+	margin: 0 0 5px 0;
 }
 
 

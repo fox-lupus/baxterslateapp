@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html>
 	<head>
 		<title></title>
@@ -12,11 +12,7 @@
 			html {
 				background: #ccc;
 				font-family: 'Roboto', sans-serif;
-
 			}
-
-
-
 			/* IPHONE FRAME */
 			body {
 				background: url(iphone_bg.png) no-repeat center 20px;
@@ -44,19 +40,19 @@
 			}
 
 			.menuContainer {
-				
 				border-radius: 25px;
 				border: solid 1px black;
-				overflow: hidden;
-				
+				/*overflow*/
+				position: relative;
 			}
 
 			.menuContainer a {
+
 				display: block;
 				padding: 5px 30px;
 				border-top: solid 1px white;
 				text-decoration: none;
-				background: black;
+				background: gray;
 				color: white;
 			}
 
@@ -67,11 +63,22 @@
 			.menuContainer a:first-child {
 				border-top: none;
 			}			
-
+			.dropdownmenu{
+				display: none;
+				position: absolute;
+				top:20px;
+				width:282px;
+			}
 			.footer img {
 				width: 100%;
 			}
-
+			.menuContainer:hover .dropdownmenu{
+				display: block;
+			}
+			.search {
+				margin:auto;
+				display: inline-block;
+			}
 		</style>
 
 	</head>
@@ -82,29 +89,28 @@
 			<div class="menuBuffer">
 
 				<div class="menuContainer">
-					
-					<a href="http://baxter.slatepowered.net/"
-					<a href="">Home</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all"
-					<a href="">All Tasks</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ADV009-1"
-					<a href="">Advisory</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-STEM100-2"
-					<a href="">Stem Math And Science</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-DES100-4"
-					<a href="">Design</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ENG100-3"
-					<a href="">Society Power And Innvotation</a>
-					<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-SOC100-4"
-					<a href="">Early Civilization</a>
-
+					<span>menu</span>
+						<div class="dropdownmenu">
+							<a href="http://baxter.slatepowered.net/"
+							<a href="">Home</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all"
+							<a href="">All Tasks</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ADV009-1"
+							<a href="">Advisory</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-STEM100-2"
+							<a href="">Stem Math And Science</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-DES100-4"
+							<a href="">Design</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ENG100-3"
+							<a href="">Society Power And Innvotation</a>
+							<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-SOC100-4"
+							<a href="">Early Civilization</a>
+						</div>
 					</div>
-
 			</div>
-
 			<div class="footer">
-				<div class="search"><input type="text" placeholder="Search..." />
 				<img src="img/header.jpg">
+				<div class="search"><input type="text" placeholder="Search..." />
 				</div>
 			</div>
 
