@@ -42,7 +42,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	position: fixed;  
 	top: 0px;
 	top: 0;
-	z-index: 3;
+	z-index: 30;
 	width: 100%;
 	/*border-bottom-right-radius: 2px;
 	border-bottom-left-radius: 2px;*/
@@ -84,6 +84,8 @@ input:focus, select:focus, textarea:focus, button:focus{
 
 	background: #ccc;
 	overflow: hidden;
+
+	z-index: 20;
 }
 
 
