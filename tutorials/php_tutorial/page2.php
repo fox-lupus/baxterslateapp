@@ -1,5 +1,11 @@
-I AM PAGE 2
+<?php include('header.php'); ?>
 
-<br /><br />
 
-<?php include('include.php'); ?>
+
+<div class="body">
+	I AM PAGE 2
+</div>
+
+
+
+<?php include('footer.php'); ?>

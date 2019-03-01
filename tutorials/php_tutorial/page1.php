@@ -1,12 +1,11 @@
-I AM PAGE 1
+<?php include('header.php'); ?>
 
-<br /><br />
 
-<?php 
-	// include('include.php'); 
 
-	for($i = 0; $i < 10; $i++) {
-		echo $i . ' - ';
-	}
+<div class="body">
+	I AM PAGE 1
+</div>
 
-?>
+
+
+<?php include('footer.php'); ?>
