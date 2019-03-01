@@ -101,6 +101,9 @@ html, body{
 	width:160px; 
 	margin: 0 0 5px 0;
 }
+.top {
+	margin-top: 55px;
+}
 </style>
 </head>
 <body>
