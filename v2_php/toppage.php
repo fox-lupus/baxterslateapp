@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="haeder.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="curtistuff.css">
 </head>
