@@ -19,7 +19,7 @@
 	</div>
 	<div class="search">
 		<form>
-			<input type="text" placeholder="search...">
+			<input type="text" placeholder=" search...">
 		</form>
 	</div>
 </div>
