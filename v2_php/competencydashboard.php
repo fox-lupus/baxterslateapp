@@ -1,4 +1,4 @@
-<?php include('mainpage.php'); ?>
+<?php include('mainpage.php'); ?>	
 	
 	<div class="header">
 	
@@ -18,8 +18,15 @@
 
 		<div class="border"></div>	
 
-		<p>Portfolios: EN  PR  GB  AD  EX  BA</p>
-
+		<p>Portfolios:</p>
+	<div class="portfolio-colors">
+		<span style="background:#ff00fb;">EN</span> 
+		<span style="background:#ffa200;">PR</span> 
+		<span style="background:#21d130;">GB</span>
+		<span style="background:#21a5d1;">AD</span>
+		<span style="background:#8b21d1;">EX</span>  
+		<span style="background:#213fd1;">BA</span>    
+	</div>
 		<div class="border"></div>	
 					
 		</div>
