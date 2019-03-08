@@ -1,0 +1,10 @@
+.body-backround{
+	z-index: -1;
+	position: relative;
+	width: 100%; 
+	height: auto;
+}
+.window{
+	background-image: url(1x1-d4d4d49b.png);
+	z-index: 1
+}

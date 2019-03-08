@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="slate-mobile-css.css">
+	<link rel="stylesheet" type="text/css" href="slate-mobile-css.css"> <link rel="stylesheet" type="text/css" href="home.css">
 	<meta name="viewport" content="width=device-width">
 	 <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
 	<style type="text/css">
@@ -10,7 +10,9 @@ html, body{
 		margin: 0px;
 		padding: 0px;
 	}
-
+body{
+	position: absolute;
+}
 .nav{
 	display: flex;
 	flex-direction: row;
