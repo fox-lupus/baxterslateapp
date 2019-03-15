@@ -2,14 +2,14 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="slate-mobile-css.css"> 	
-	<link rel="stylesheet" type="text/css" href="home.css">
-	<link rel="stylesheet" type="text/css" href="dots.css">
+	<link rel="stylesheet" type="text/css" href="css/slate-mobile-css.css"> 	
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/dots.css">
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="header.css">
-	<link rel="stylesheet" type="text/css" href="curtistuff.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/curtistuff.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 
