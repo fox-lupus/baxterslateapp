@@ -6,10 +6,9 @@
 	</div>
 
 	<div class="mainContent">
-		
+	<div>	
 		<div class="portfolios">
 		<div>Portfolios:</div>
-	
 	<div class="portfolio-colors">
 		<div style="background:#ff00fb;">EN</div> 
 		<div style="background:#ffa200;">PR</div> 
@@ -19,7 +18,6 @@
 		<div style="background:#213fd1;">BA</div>
 		<div style="clear: both; float: none"></div>
 	</div>
-
 
 	<div class="standards_container">
 

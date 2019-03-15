@@ -66,6 +66,7 @@ body{
 	width: 400px;
 	border-radius: 7px;
 	overflow: hidden;
+	box-shadow: 2px 3px 4px 1px black;
 }
 
 .standards_container .headline {
