@@ -1,3 +1,7 @@
+body{
+	    font-family: times;
+	    font-family:'Crimson Text', serif;
+}
 .header {
 		background: black;
 		line-height: 40px;
@@ -6,5 +10,14 @@
 }
 .mainContent{
 
+}
+
+.footer {
 	
 }
+.portfolio-colors {
+	padding:10px;
+	color: white;
+}
+
+
