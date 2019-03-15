@@ -17,8 +17,8 @@
 		<p>Select a content area to load demonstrations dashboard</p>
 
 		<div class="border"></div>	
-
-		<p>Portfolios:</p>
+<div>
+		<div>Portfolios:</div>
 	<div class="portfolio-colors">
 		<span style="background:#ff00fb;">EN</span> 
 		<span style="background:#ffa200;">PR</span> 
@@ -27,6 +27,7 @@
 		<span style="background:#8b21d1;">EX</span>  
 		<span style="background:#213fd1;">BA</span>    
 	</div>
+</div>	
 		<div class="border"></div>	
 					
 		</div>
@@ -40,12 +41,3 @@
 			<p>Slate is an open-source web platform for schools. Learn more.</p>
 
 		</div>
-
-
-				
-
-	
-
-
-				
-		
