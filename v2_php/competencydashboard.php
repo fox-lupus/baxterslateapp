@@ -51,8 +51,6 @@
 
 				<div class="footer">
 				<div class="menu"></div>
-
-			<p>Select a content area to load demonstrations dashboard</p>
 			
 			<div class="border"></div>	
 		
