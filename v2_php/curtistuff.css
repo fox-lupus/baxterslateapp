@@ -2,7 +2,7 @@ body{
 	    font-family: times;
 	    font-family:'Crimson Text', serif;
 }
-.header {
+.header{
 		background: black;
 		line-height: 40px;
 		height: 40px;
@@ -10,14 +10,22 @@ body{
 }
 .mainContent{
 
+
+
 }
 
 .footer {
 	
+
+
 }
 .portfolio-colors {
 	padding:10px;
 	color: white;
+	background:#ff00fb;
+	background:#ffa200;
+	background:#21d130;
+	background:#21a5d1;
+	background:#8b21d1;
+	background:#213fd1;
 }
-
-
