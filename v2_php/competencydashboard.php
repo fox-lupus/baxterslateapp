@@ -1,7 +1,7 @@
-<?php include('mainpage.php'); ?>	
+<?php include('header.php'); ?>	
 	
 	<div class="header">
-	
+
 	</div>
 
 	<div class="mainContent">
@@ -10,14 +10,27 @@
 
 		<div class="border"></div>				
 				
-		<p>Rubric Select</p>
+		<p>Rubric Select:</p>
 
 		<div class="border"></div>
-				
-		<p>Select a content area to load demonstrations dashboard</p>
 
-		<div class="border"></div>	
-<div>
+		<p>HOW.1.0 Habits of Work</p>
+
+		<span style="background:#ff00fb;">Working Toward: Entering</span> 
+		
+		<p>Preparedness</p>
+
+		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
+		
+		<p>Engagement</p>
+
+		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
+		
+		<p>Work Completion</p>
+
+		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
+
+<div class="portfolios">
 		<div>Portfolios:</div>
 	<div class="portfolio-colors">
 		<span style="background:#ff00fb;">EN</span> 
@@ -36,8 +49,9 @@
 
 				<div class="footer">
 				<div class="menu"></div>
-				<img src="img/header.jpg">
 
-			<p>Slate is an open-source web platform for schools. Learn more.</p>
-
+			<p>Select a content area to load demonstrations dashboard</p>
+			
+			<div class="border"></div>	
+		
 		</div>
