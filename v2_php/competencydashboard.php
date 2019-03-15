@@ -24,12 +24,14 @@
 			<span style="background:#a6a297;">HOW.1.0 Habits of Work</span>
 			</div>
 			<span style="background:#ff00fb;">Working Toward: Entering</span> 	
-			<div></div>
+			<div>
+			<span style="background:#f5f3f0;"></span>
+			</div>
 			<div></div>
 			<div></div>
 		</div>
 	
-		<span style="background:#f5f3f0;"><!----<p>Preparedness</p>
+		<!----<p>Preparedness</p>
 
 		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
 		
@@ -39,7 +41,7 @@
 		
 		<p>Work Completion</p>
 
-		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>----></span>
+		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>---->
 
 <div class="border"></div>	
 					
