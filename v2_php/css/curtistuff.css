@@ -1,12 +1,12 @@
 body{
-	    font-family: times;
-	    font-family:'Crimson Text', serif;
+    font-family: times;
+    font-family:'Crimson Text', serif;	
 }
 .header {
-		background: black;
-		line-height: 40px;
-		height: 40px;
-		color: white;
+	background: black;
+	line-height: 40px;
+	height: 40px;
+	color: white;
 }
 .mainContent{
 
@@ -18,6 +18,38 @@ body{
 .portfolio-colors {
 	padding:10px;
 	color: white;
+}
+
+.portfolio-colors div {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	margin-right: 8px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+}
+
+
+
+.standards_container {
+	width: 400px;
+}
+
+.standards_container .headline {
+	background:#a6a297;
+	padding-left: 12px;
+}
+
+.standards_container .subhead {
+	background:#ff00fb;
+	padding-left: 12px;
+}
+
+.standards_container .content {
+	background:#f5f3f0;
 }
 
 

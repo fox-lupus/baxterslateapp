@@ -11,25 +11,30 @@
 		<div>Portfolios:</div>
 	
 	<div class="portfolio-colors">
-		<span style="background:#ff00fb;">EN</span> 
-		<span style="background:#ffa200;">PR</span> 
-		<span style="background:#21d130;">GB</span>
-		<span style="background:#21a5d1;">AD</span>
-		<span style="background:#8b21d1;">EX</span>  
-		<span style="background:#213fd1;">BA</span>    
+		<div style="background:#ff00fb;">EN</div> 
+		<div style="background:#ffa200;">PR</div> 
+		<div style="background:#21d130;">GB</div>
+		<div style="background:#21a5d1;">AD</div>
+		<div style="background:#8b21d1;">EX</div>  
+		<div style="background:#213fd1;">BA</div>
+		<div style="clear: both; float: none"></div>
 	</div>
 
-		<div class="Standards">
-			<div>
-			<span style="background:#a6a297;">HOW.1.0 Habits of Work</span>
-			</div>
-			<span style="background:#ff00fb;">Working Toward: Entering</span> 	
-			<div>
-			<span style="background:#f5f3f0;"></span>
-			</div>
-			<div></div>
-			<div></div>
+
+	<div class="standards_container">
+
+		<div class="headline">
+			<span class="courseNum">HOW.1.0</span>
+			<span class="courseName">Habits of Work</span>
 		</div>
+
+		<div class="subhead">Working Toward: Entering</div>
+		
+		<div class="content">
+			banana banana
+		</div>
+
+	</div>
 	
 		<!----<p>Preparedness</p>
 
