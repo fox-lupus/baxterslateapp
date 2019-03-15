@@ -63,22 +63,61 @@ body{
 
 
 .standards_container {
-	width: 300px;
+	width: 400px;
+	border-radius: 7px;
+	overflow: hidden;
 }
 
 .standards_container .headline {
-	background:#a6a297;
+	background:#808080;
 	padding-left: 12px;
 }
 
+.standards_container .headline .courseNum {
+	color: white;
+	font-size: 25px;
+	line-height: 45px;
+	text-shadow: 1px 1px #666;
+}
+
+
+.standards_container .headline .courseName {
+	font-size: 20px;
+	color: #ddd;
+	text-shadow: 1px 1px #666;
+	padding-left: 10px;
+
+}
+
+
 .standards_container .subhead {
-	background:#ff00fb;
+	background: #b30086;
 	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 35px;
+
 }
 
 .standards_container .content {
 	background:#f5f3f0;
-	padding-left: 12px;
+	padding: 20px 12px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	border-bottom: solid 1px #ccc;
+}
+
+.standards_container .content .creditsFrame{
+	padding: 15px 20px 0px;
+}
+
+.standards_container .content .credit {
+	display: inline-block;
+	width: 31%;
+	border: solid 1px #ccc;
+	height: 30px;
 }
 
 

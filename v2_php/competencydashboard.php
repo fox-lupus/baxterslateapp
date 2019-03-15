@@ -32,14 +32,29 @@
 		
 		<div class="content">
 			Preparedness
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
 		</div>
 
 		<div class="content">
 			Engagement
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
 		</div>
 
 		<div class="content">
 			Work Completion
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
 		</div>
 
 <div class="border"></div>	
