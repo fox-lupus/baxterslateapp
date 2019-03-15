@@ -2,13 +2,18 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="slate-mobile-css.css"> <link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="slate-mobile-css.css"> 	
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="dots.css">
 	<meta name="viewport" content="width=device-width">
 	 <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 	<style type="text/css">
 html, body{
 		margin: 0px;
 		padding: 0px;
+		width: 100%;
 	}
 body{
 	position: absolute;
@@ -103,9 +108,6 @@ body{
 	width:160px; 
 	margin: 0 0 5px 0;
 }
-.top {
-	margin-top: 55px;
-}
 </style>
 </head>
 <body>
@@ -125,3 +127,4 @@ body{
 		</form>
 	</div>
 </div>
+

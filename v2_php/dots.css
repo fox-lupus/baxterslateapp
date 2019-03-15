@@ -1,0 +1,22 @@
+.dot-baner{
+	background: url(img/nodes-bg.jpg);
+	height:96px;
+	margin-top: 41px;
+	width: 100%;
+	display:  flex;
+	justify-content: center;
+	line-height: 
+}
+.select-block{
+	font-size: 13px;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.My-Progress{
+	font-size:32px;
+}
+.spaser{
+	margin-top: 39px;
+	text-align: 
+}
