@@ -31,22 +31,16 @@
 		<div class="subhead">Working Toward: Entering</div>
 		
 		<div class="content">
-			banana banana
+			Preparedness
 		</div>
 
-	</div>
-	
-		<!----<p>Preparedness</p>
+		<div class="content">
+			Engagement
+		</div>
 
-		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
-		
-		<p>Engagement</p>
-
-		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>
-		
-		<p>Work Completion</p>
-
-		<p>Box 1</p> 	<p>Box 2</p> 	<p>Box 3</p>---->
+		<div class="content">
+			Work Completion
+		</div>
 
 <div class="border"></div>	
 					

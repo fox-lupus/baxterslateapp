@@ -12,7 +12,35 @@ body{
 
 }
 
+.block{
+
+		    margin-top: 60px;    
+		    margin-bottom: 60px;
+			height: 100px;
+			width: 60px;
+			padding: 100px;
+			background-color: white;
+			border: 20px solid gray;
+			border-radius: 100%;
+			text-align: center;
+			font-family: sans-serif;
+}
+
+.inline {
+            background-color: white;
+            font-size: 40px;
+            font-style: 40px;
+            font-weight: 40px;
+            font-family: 40px;
+            text-decoration: line-through;
+ }
+
 .footer {
+
+
+
+
+
 	
 }
 .portfolio-colors {
@@ -35,7 +63,7 @@ body{
 
 
 .standards_container {
-	width: 400px;
+	width: 300px;
 }
 
 .standards_container .headline {
@@ -50,6 +78,7 @@ body{
 
 .standards_container .content {
 	background:#f5f3f0;
+	padding-left: 12px;
 }
 
 
