@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/slate-mobile-css.css"> 	
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<link rel="stylesheet" type="text/css" href="css/dots.css">
+	<link rel="stylesheet" type="text/css" href="css/slate-mobile-css.css?<?php echo microtime();?>"> 	
+	<link rel="stylesheet" type="text/css" href="css/home.css?<?php echo microtime();?>">
+	<link rel="stylesheet" type="text/css" href="css/dots.css?<?php echo microtime();?>">
 	<meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/curtistuff.css">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>">
+	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto?<?php echo microtime();?>" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css">
 
 
 	<style type="text/css">
@@ -105,11 +107,12 @@ body{
 }
 .search form input	{
 	border: 1px solid #ccc;
-	border-radius: 15px;
+	border-radius: 11px;
 	padding-top: 0 18px;
 	line-height: 30px;
 	font-size: 16px;
-	width:160px; 
+	width:160px;
+	height: 30px; 
 	margin: 0 0 5px 0;
 }
 </style>

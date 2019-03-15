@@ -62,9 +62,6 @@ input:focus, select:focus, textarea:focus, button:focus{
 	background:#335F76;
 
 }
-
-
-
 .menu-text {
 	font-size:27px;
 	text-decoration:none;
@@ -117,9 +114,6 @@ input:focus, select:focus, textarea:focus, button:focus{
 	display: block;
 
 }
-
-
-
 .search{
 	float: left;
 
@@ -133,9 +127,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	font-size: 16px;
 	width:160px; 
 	margin: 0 0 5px 0;
-}*/
-
-
+}
 .background_image {
 	height: 300px;
 	width: 100%;
@@ -143,8 +135,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	position: fixed;
 	z-index: 5;
 	top: 40px;
-	background-repeat: no-repeat;
-	background-position: center;
+    background: url(img/imthebackgound.jpg);
 }
 
 .main_content {
@@ -169,22 +160,22 @@ input:focus, select:focus, textarea:focus, button:focus{
 	height: 100px;
 }
 .calendar{
-	padding: 15px 20px;
+	padding: 25px 20px;
 	background: white;
 	text-align: center;
+	display: inline-block;
 }
 .x{
 	font-size:18px;
-
+	border-top:1px solid #D4D4D4;
 	color:#9494AD; }
 .calendar-text {
-	text-align: left;
-	border-bottom: 1px solid #D4D4D4;
-
+	text-align: unset;
 	width:320px;}
 .calendar-span{
 	font-size:30px;
-	padding-left: 25px;
+	padding-left: unset;
+	padding-right: 35px;
 }
 .slate-thing{
 	margin-top: 35px;
@@ -199,6 +190,13 @@ input:focus, select:focus, textarea:focus, button:focus{
 	text-decoration:none;
 	color:#861B8A;
 }
+/*@media only screen and (max-width: 336px){
+	.container-logo{
+		
+	}
+
+}*/
+
 .container-logo{
 	padding: 15px 15px 25px 15px;
 	
