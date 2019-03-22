@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('otherphp/header.php'); ?>
 	<table  class="directory">
 	  <tr>
 		<th>Code</th>

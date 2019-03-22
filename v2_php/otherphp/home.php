@@ -1,4 +1,4 @@
-<?php include ('header.php');?>
+<?php include ('otherphp/header.php');?>
 <div class="background_image">
 </div>
 <div class="main_content">

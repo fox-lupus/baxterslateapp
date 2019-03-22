@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>	
+<?php include('otherphp/header.php'); ?>	
 <?php include('dots.php'); ?>
 
 	<div class="header">

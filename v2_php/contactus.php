@@ -1,9 +1,9 @@
-<?php include('header.php'); ?>	
-	
-	<div class="header">
-	
-	</div>
+<?php include('otherphp/header.php'); ?>	
 
+	<div class="header">
+
+	</div>
+	
 	<div class="mainContent">
 	<div>
 		<div class ="contactusmainfont">

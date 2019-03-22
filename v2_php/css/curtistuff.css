@@ -9,7 +9,7 @@ body{
 	color: white;
 }
 .mainContent{
-
+	padding-top: 60px;
 }
 
 .block{
@@ -36,10 +36,6 @@ body{
  }
 
 .footer {
-
-
-
-
 
 	
 }
@@ -131,7 +127,6 @@ body{
 }
 .contactusmainfont{
 	color: #333;
-    font-family: Sanchez,Lato,Rockwell,"Rockwell Std",Georgia,serif;
     font-weight: 300;
     line-height: 1;
     margin-block-start: 0.67em;
@@ -167,4 +162,62 @@ body{
     width: 100px;
     height: 50px;
     float: right;
+}
+.slatedashboard{
+	color: #333;
+    font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 25px;
+
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.slatedashboard .pageTitle {
+	font-size: 30px;
+}
+
+.slatedashboard .section {
+    box-sizing: border-box;
+    padding: 5px 0;
+    border-radius: 7px;
+}
+
+.slatedashboard .section .title {
+    padding: 5px 0;
+    font-size: 22px;
+    border-bottom: solid 1px #ccc;
+}
+
+.slatedashboard .section .body {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.slatedashboard .section .iconFrame {
+    padding: 15px 0;
+}
+
+
+.dashboardLink {
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	width: 90px;
+	display: block;
+	float: left;
+	padding: 5px;
+	height: 140px;
+
+}
+
+.dashboardLink:hover {
+	color: blue;
+}
+
+
+.calendarstuff{
+	float: right;
 }
