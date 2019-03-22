@@ -120,5 +120,51 @@ body{
 	border: solid 1px #ccc;
 	height: 30px;
 }
-
-
+.contactustinyfont{
+	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+	margin-top: 0;
+    color: #646464;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.contactusmainfont{
+	color: #333;
+    font-family: Sanchez,Lato,Rockwell,"Rockwell Std",Georgia,serif;
+    font-weight: 300;
+    line-height: 1;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 30px;
+}
+.textInput {
+	padding: 5px;
+	border: solid 1px #ccc;
+	width: 300px;
+}
+.textInput2 {
+	height: 100px;
+	width: 310px;
+}
+.boxcontactus{
+	width: 350px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px gray;
+	box-decoration-break: #e6e2d8;
+}
+.sendbutton{
+	background-color: #31a0da;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(51,51,51,0.2);
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    float: right;
+}
