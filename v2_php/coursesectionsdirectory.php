@@ -1,19 +1,12 @@
-
-<div class="table-div"> 
-	<div> </div>
-	<div> </div>
-	<div> </div>
-	<div> </div>
-	<div> </div>	
-
 <?php include('otherphp/header.php'); ?>
-	<table  class="directory">
-	  <tr>
-		<th>Code</th>
-		<th>Teachers</th>
-		<th>Students</th>
-		<th>Schedule</th>
-	  </tr>
+<div class="directory"> 
+	<div> 
+		<span>Code</span> 
+		<span>Teachers</span> 
+		<span>Students</span> 
+		<span>Schedule</span>
+	</div>
+	<table  class="table">
 	  <tr>
 	    <th>1</th>
 	    <th>2</th> 
