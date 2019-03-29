@@ -30,12 +30,10 @@
 					<div class="select-block">
 						<select class="selection-box">
 							<option value="">Filter</option>	
-							<option value="">1</option>
-							<option value="">2</option>
-							<option value="">3</option>
-							<option value="">4</option>
-							<option value="">5</option>
-							<option value="">6</option>
+							<option value="">Due Tasks</option>
+							<option value="">Revision Tasks</option>
+							<option value="">Submitted Tasks</option>
+							<option value="">Completed Tasks</option>
 					</select>
 				</div>
 		</div>	

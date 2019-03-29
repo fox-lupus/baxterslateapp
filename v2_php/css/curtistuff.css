@@ -35,10 +35,6 @@ body{
             text-decoration: line-through;
  }
 
-.footer {
-
-	
-}
 .portfolio-colors {
 	padding:10px;
 	color: white;
@@ -116,8 +112,6 @@ body{
 	border: solid 1px #ccc;
 	height: 30px;
 }
-
-
 
 .contactustinyfont{
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
