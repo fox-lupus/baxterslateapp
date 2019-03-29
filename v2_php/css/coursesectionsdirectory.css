@@ -7,8 +7,9 @@
 table, th, td {
   border: 1px solid black;
   padding: 0;
-  display: block;
+  display: block;  
 }
-.table-informaion {
-	
+table {
+}
+.table-informaion {	
 }
