@@ -1,41 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="header.css">
-	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="curtistuff.css">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-
-</head>
-<body>
-<div class="nav">
-	<div class="menu ">
-		<a href="" class="menu-text">Menu</a>
-		<div class="dropdown_menu">
-
-		<a href="http://baxter.slatepowered.net/">Home</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all">All Tasks</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ADV009-1">Advisory</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-STEM100-2">Stem Math And Science</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-DES100-4">Design</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-ENG100-3">Society Power And Innvotation</a>
-		<a href="http://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/fall1819-SOC100-4">Early Civilization</a>
-	
+<?php include('otherphp/header.php'); ?>	
+		
+<div class="dot-baner">
+	<div class="spaser">
+		<div class ="contactusmainfont">
+		<span class="My-Tasks">My Tasks</span>
+		<div class="select-block">
+			<span class="Course-Selection">Course Selection</span>
+			<select class="selection-box">	
+				<option value="">All</option>
+				<option value="">1</option>
+				<option value="">2</option>
+				<option value="">3</option>
+				<option value="">4</option>
+				<option value="">5</option>
+				<option value="">6</option>
+			</select>
 		</div>
-	</div>
-	<div class="Search">
-		<form>
-			<input type="text" placeholder="Search...">
-		</form>
-	</div>
+	</div>	
 </div>
-			<div class="footer">
 
-			<div class="menu"></div>
-			<img src="img/header.jpg">
+<div class="mainContent">
 
-			<p>Slate is an open-source web platform for schools. Learn more.</p>
+	<div class="taskdashboard">
 
-	</div>
+		<div class="headline">
+			<span class="courseNum">To-Do List</span>
+			<span class="courseName">Personal</span>
+		</div>
+
+		<span class="contactustinyfont">
+		<div class="subhead">Active Items</div>
+		
+		<div class="content">
+			<div class="creditsFrame">
+				<div class="credit"></div>
+
+</div>
+
+	
+<div class="footer">
+	<div class="menu"></div>
+</div>

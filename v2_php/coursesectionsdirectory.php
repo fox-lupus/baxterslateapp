@@ -1,10 +1,34 @@
-<?php include('header.php'); ?>
+
 <div class="table-div"> 
 	<div> </div>
 	<div> </div>
 	<div> </div>
 	<div> </div>
 	<div> </div>	
+
+<?php include('otherphp/header.php'); ?>
+	<table  class="directory">
+	  <tr>
+		<th>Code</th>
+		<th>Teachers</th>
+		<th>Students</th>
+		<th>Schedule</th>
+	  </tr>
+	  <tr>
+	    <th>1</th>
+	    <th>2</th> 
+	    <th>3</th>
+	    <TH>4</TH>
+	    <th>5</th>
+	  </tr>
+	  <tr>
+	    <th>1</th>
+	    <th>2</th> 
+	    <th>3</th>
+	    <TH>4</TH>
+	    <th>5</th>
+	  </tr>
+	</table>	
 </div>
 
 
@@ -64,4 +88,4 @@
 			<img src="img/header.jpg">
 			<p>Slate is an open-source web platform for schools. Learn more.</p>
 	</div>---->
-<?php include 'footer.php';?>
+<?php include'otherphp/footer.php';?>

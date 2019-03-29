@@ -9,7 +9,7 @@ body{
 	color: white;
 }
 .mainContent{
-
+	padding-top: 60px;
 }
 
 .block{
@@ -37,10 +37,6 @@ body{
 
 .footer {
 
-
-
-
-
 	
 }
 .portfolio-colors {
@@ -62,19 +58,19 @@ body{
 
 
 
-.standards_container {
+.standard_container {
 	width: 400px;
 	border-radius: 7px;
 	overflow: hidden;
 	box-shadow: 2px 3px 4px 1px black;
 }
 
-.standards_container .headline {
+.standard_container .headline {
 	background:#808080;
 	padding-left: 12px;
 }
 
-.standards_container .headline .courseNum {
+.standard_container .headline .courseNum {
 	color: white;
 	font-size: 25px;
 	line-height: 45px;
@@ -82,7 +78,7 @@ body{
 }
 
 
-.standards_container .headline .courseName {
+.standard_container .headline .courseName {
 	font-size: 20px;
 	color: #ddd;
 	text-shadow: 1px 1px #666;
@@ -91,7 +87,7 @@ body{
 }
 
 
-.standards_container .subhead {
+.standard_container .subhead {
 	background: #b30086;
 	padding-left: 12px;
 	color: white;
@@ -102,7 +98,7 @@ body{
 
 }
 
-.standards_container .content {
+.standard_container .content {
 	background:#f5f3f0;
 	padding: 20px 12px;
 	font-family: 'Lato', sans-serif;
@@ -110,11 +106,11 @@ body{
 	border-bottom: solid 1px #ccc;
 }
 
-.standards_container .content .creditsFrame{
+.standard_container .content .creditsFrame{
 	padding: 15px 20px 0px;
 }
 
-.standards_container .content .credit {
+.standard_container .content .credit {
 	display: inline-block;
 	width: 31%;
 	border: solid 1px #ccc;
@@ -122,3 +118,158 @@ body{
 }
 
 
+
+.contactustinyfont{
+	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+	margin-top: 0;
+    color: #646464;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.contactusmainfont{
+	color: #333;
+    font-weight: 300;
+    line-height: 1;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 30px;
+}
+.textInput {
+	padding: 5px;
+	border: solid 1px #ccc;
+	width: 300px;
+}
+.textInput2 {
+	height: 100px;
+	width: 310px;
+}
+.boxcontactus{
+	width: 350px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px gray;
+	box-decoration-break: #e6e2d8;
+}
+.sendbutton{
+	background-color: #31a0da;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(51,51,51,0.2);
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+.slatedashboard{
+	color: #333;
+    font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 25px;
+
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.slatedashboard .pageTitle {
+	font-size: 30px;
+}
+
+.slatedashboard .section {
+    box-sizing: border-box;
+    padding: 5px 0;
+    border-radius: 7px;
+}
+
+.slatedashboard .section .title {
+    padding: 5px 0;
+    font-size: 22px;
+    border-bottom: solid 1px #ccc;
+}
+
+.slatedashboard .section .body {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.slatedashboard .section .iconFrame {
+    padding: 15px 0;
+}
+
+
+.dashboardLink {
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	width: 90px;
+	display: block;
+	float: left;
+	padding: 5px;
+	height: 140px;
+
+}
+
+.dashboardLink:hover {
+	color: blue;
+}
+
+
+.calendarstuff{
+	float: right;
+}
+
+.taskdashboard{
+	width: 400px;
+	border-radius: 7px;
+	overflow: hidden;
+	box-shadow: 2px 3px 4px 1px black;
+}
+
+.taskdashboard .headline{
+	background:#808080;
+	padding-left: 12px;
+}
+.taskdashboard .courseNum{
+	color: white;
+	font-size: 25px;
+	line-height: 45px;
+	text-shadow: 1px 1px #666;
+}
+.taskdashboard .courseName{
+	font-size: 20px;
+	color: #ddd;
+	text-shadow: 1px 1px #666;
+	padding-left: 10px;
+}
+.taskdashboard .subhead{
+	background: #d6d3c9;
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 35px;
+}
+.taskdashboard .content{
+	background: #f5f3f0;
+	padding: 20px 12px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	border-bottom: solid 1px #ccc;
+}
+.taskdashboard .other{
+	padding: 15px 20px 0px;
+}
+.taskdashboard .other2{
+	display: inline-block;
+	width: 31%;
+	border: solid 1px #ccc;
+	height: 30px;
+}
