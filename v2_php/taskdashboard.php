@@ -25,6 +25,21 @@
 
 		<div class="headline">
 			<span class="courseNum">Current Tasks</span>
+				<div class="spaser">
+					<div class ="contactusmainfont">
+					<div class="select-block">
+						<select class="selection-box">
+							<option value="">Filter</option>	
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+							<option value="">4</option>
+							<option value="">5</option>
+							<option value="">6</option>
+					</select>
+				</div>
+		</div>	
+</div>
 
 		</div>
 		<div class="subhead2">
