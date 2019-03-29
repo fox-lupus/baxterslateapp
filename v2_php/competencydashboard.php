@@ -1,12 +1,26 @@
 <?php include('otherphp/header.php'); ?>	
-<?php include('dots.php'); ?>
 
 	<div class="header">
 
 	</div>
 
 	<div class="mainContent">
-	<div>	
+	<div>
+		<div class="dot-baner">
+	<div class="spaser">
+		<span class="My-Progress">My Progress</span>
+		<div class="select-block">
+			<span class="Rubric">Rubric</span>
+			<select class="selection-box">	
+				<option value="">select</option>
+				<option value="">1</option>
+				<option value="">2</option>
+				<option value="">3</option>
+			</select>
+		</div>
+	</div>	
+</div>
+	</div>
 		<div class="portfolios">
 		<div>Portfolios:</div>
 	<div class="portfolio-colors">
@@ -19,7 +33,7 @@
 		<div style="clear: both; float: none"></div>
 	</div>
 
-	<div class="standards_container">
+	<div class="standard_container">
 
 		<div class="headline">
 			<span class="courseNum">HOW.1.0</span>
@@ -55,15 +69,15 @@
 			</div>
 		</div>
 
-<div class="border"></div>	
+		<div class="border"></div>	
 					
-		</div>
+	</div>
 
-			<div>
+	<div>
 
-				<div class="footer">
-				<div class="menu"></div>
-			
-			<div class="border"></div>	
-		
-		</div>
+		<div class="footer">
+		<div class="menu"></div>
+	
+		<div class="border"></div>	
+
+	</div>

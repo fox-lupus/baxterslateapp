@@ -120,7 +120,7 @@ body{
 <body>
 <div class="nav">
 	<div class="menu ">
-		<a href="" class="menu-text">menu</a>
+		<a href="" class="menu-text">Menu</a>
 		<div class="dropdown_menu">
 			<a href="">LINK 1</a>
 			<a href="">LINK 2</a>
