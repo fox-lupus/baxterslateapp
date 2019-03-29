@@ -4,7 +4,7 @@
 		<div class="select-block">
 			<span class="Rubric">Rubric</span>
 			<select class="selection-box">	
-				<option value="">select</option>
+				<option value="">Select</option>
 				<option value="">1</option>
 				<option value="">2</option>
 				<option value="">3</option>
