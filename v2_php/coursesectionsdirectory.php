@@ -1,26 +1,47 @@
 <?php include('otherphp/header.php'); ?>
 <div class="directory"> 
-	<div> 
-		<span>Code</span> 
-		<span>Teachers</span> 
-		<span>Students</span> 
-		<span>Schedule</span>
-	</div>
+	
 	<table  class="table">
-	  <tr>
-	    <th>1</th>
-	    <th>2</th> 
-	    <th>3</th>
-	    <TH>4</TH>
-	    <th>5</th>
-	  </tr>
-	  <tr>
-	    <th>1</th>
-	    <th>2</th> 
-	    <th>3</th>
-	    <TH>4</TH>
-	    <th>5</th>
-	  </tr>
+
+		<tr>
+			<th>Code</th> 
+			<th>Teachers</th> 
+			<th>Students</th> 
+			<th>Schedule</th>
+		</tr>
+
+		<tr>
+			<td class="subhead">Advanced Algebra</td>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>2</td> 
+			<td>3</td>
+			<td>4</td>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>2</td> 
+			<td>3</td>
+			<td>4</td>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>2</td> 
+			<td>3</td>
+			<td>4</td>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>2</td> 
+			<td>3</td>
+			<td>4</td>
+		</tr>
+
 	</table>	
 </div>
 
