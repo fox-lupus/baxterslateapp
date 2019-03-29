@@ -220,15 +220,38 @@ body{
 }
 
 .taskdashboard{
-	width: 700px;
-	overflow: hidden;
-	box-shadow: 2px 3px 4px 1px black;
+	max-width: 1000px;
+	padding: 0 15px;
+	margin: 0px auto;
+	
 }
+
+.taskdashboard .container {
+	width: 45%;
+	box-shadow: 2px 3px 4px 1px black;
+	margin: 40px 0;
+
+}
+
+.taskdashboard .container.left {
+	float: left;
+}
+
+.taskdashboard .container.right {
+	float: right;
+}
+
 
 .taskdashboard .headline{
 	background:#808080;
 	padding-left: 12px;
 }
+
+.taskdashboard .headline .select-block {
+	float: right;
+	margin: 11px 8px;
+}
+
 .taskdashboard .courseNum{
 	color: white;
 	font-size: 25px;
