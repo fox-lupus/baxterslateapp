@@ -81,3 +81,5 @@
 		<div class="border"></div>	
 
 	</div>
+
+<?php include('otherphp/footer.php'); ?>	
