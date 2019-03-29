@@ -24,15 +24,26 @@
 	<div class="taskdashboard">
 
 		<div class="headline">
+			<span class="courseNum">Current Tasks</span>
+
+		</div>
+		<div class="subhead2">
+			<div>No tasks found</div>
+		</div>
+		
+		<div class="headline">
 			<span class="courseNum">To-Do List</span>
 			<span class="courseName">Personal</span>
 		</div>
 
+
 		<span class="contactustinyfont">
 		<div class="subhead">Active Items</div>
-		
+
 		<div class="content">
 			<div class="creditsFrame">
+			<div>New to-do...</div>
+			<div>mm/dd/yyyy
 				<div class="credit"></div>
 
 </div>
@@ -41,3 +52,4 @@
 <div class="footer">
 	<div class="menu"></div>
 </div>
+
