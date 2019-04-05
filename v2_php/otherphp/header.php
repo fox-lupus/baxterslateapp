@@ -20,6 +20,8 @@ html, body{
 		margin: 0px;
 		padding: 0px;
 		width: 100%;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
 	}
 body{
 	position: absolute;

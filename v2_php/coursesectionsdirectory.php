@@ -1,9 +1,11 @@
 <?php include('otherphp/header.php'); ?>
 <div class="container-of-directory">
 	<div class="head-of-page">Course Sections Directory</div>
-	<div class="settings">
-		A
+	<div class="Filter">
+		<h6>Filters</h9>
 
+		<button class="botton-1">Apply Filters</button>
+		<button class="botton-2">Reset Filters</button>
 	</div>
 	<div class="directory"> 
 		
