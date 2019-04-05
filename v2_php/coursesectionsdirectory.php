@@ -1,50 +1,58 @@
 <?php include('otherphp/header.php'); ?>
-<div class="directory"> 
-	
-	<table  class="table">
+<div class="container-of-directory">
+	<div class="head-of-page">Course Sections Directory</div>
+	<div class="Filter">
+		<h6>Filters</h9>
 
-		<tr>
-			<th>Code</th> 
-			<th>Teachers</th> 
-			<th>Students</th> 
-			<th>Schedule</th>
-		</tr>
+		<button class="botton-1">Apply Filters</button>
+		<button class="botton-2">Reset Filters</button>
+	</div>
+	<div class="directory"> 
+		
+		<table>
 
-		<tr>
-			<td class="subhead">Advanced Algebra</td>
-		</tr>
+			<tr>
+				<th>Code</th> 
+				<th>Teachers</th> 
+				<th>Students</th> 
+				<th>Schedule</th>
+			</tr>
 
-		<tr>
-			<td>1</td>
-			<td>2</td> 
-			<td>3</td>
-			<td>4</td>
-		</tr>
+			<tr>
+				<td class="subhead">Advanced Algebra</td>
+			</tr>
 
-		<tr>
-			<td>1</td>
-			<td>2</td> 
-			<td>3</td>
-			<td>4</td>
-		</tr>
+			<tr>
+				<td><a href="">spring1819-MAT200-3</a></td>
+				<td><a>2</a></td> 
+				<td>3</td>
+				<td>4</td>
+			</tr>
 
-		<tr>
-			<td>1</td>
-			<td>2</td> 
-			<td>3</td>
-			<td>4</td>
-		</tr>
+			<tr>
+				<td><a>1</a></td>
+				<td><a>2</a></td> 
+				<td>3</td>
+				<td>4</td>
+			</tr>
 
-		<tr>
-			<td>1</td>
-			<td>2</td> 
-			<td>3</td>
-			<td>4</td>
-		</tr>
+			<tr>
+				<td><a>1</a></td>
+				<td><a>2</a></td> 
+				<td>3</td>
+				<td>4</td>
+			</tr>
 
-	</table>	
+			<tr>
+				<td><a>1</a></td>
+				<td><a>2</a></td> 
+				<td>3</td>
+				<td>4</td>
+			</tr>
+
+		</table>	
+	</div>
 </div>
-
 
 
 
