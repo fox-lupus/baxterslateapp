@@ -229,19 +229,20 @@ body{
 
 .taskdashboard .container {
 	width: 45%;
-	box-shadow: 2px 3px 4px 1px black;
 	margin: 40px 0;
 
 }
 
 .taskdashboard .container.left {
 	float: left;
-	width: 500px; 
+	margin-left: auto; 
+	width: 100%;
 }
 
 .taskdashboard .container.right {
 	float: right;
-	width: 500px;
+	margin-right: auto; 
+	width: 100%;
 }
 
 
