@@ -221,7 +221,7 @@ body{
 }
 
 .taskdashboard{
-	max-width: 1000px;
+	width: 86%;
 	padding: 0 15px;
 	margin: 0px auto;
 	
