@@ -21,7 +21,7 @@
         		</select>
         	</div>
 			<div class="sections-text">	
-				<span>COURSE</span>
+					<span>COURSE</span>
 				<select class="section" name="course">
    		            <option value="">Any</option>
    					<option value="2170">2170</option>
@@ -266,7 +266,7 @@
        			</select>
        		</div>
        		<div class="sections-text">	
-				<span>LOCATION</span>
+					<span>LOCATION</span>
 				<select class="section" name="course">
 	                <option value="">Any</option>
 					<option value="room-209">Room 209</option>

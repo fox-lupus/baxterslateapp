@@ -1,6 +1,7 @@
 .container-of-directory {
 	width: 600px;
 	margin: 0 auto; 
+	background: #d6fbef;
 }
 
 .head-of-page {
@@ -15,7 +16,7 @@
 	border-radius: 3px;
 	background: #EEEEEE;
 	padding: 15px;
-	height: 228px;
+	height: 150px;
 	margin-bottom: 15px;
 	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
 }
@@ -27,10 +28,25 @@
 
 .botton-1, .botton-2 {
 	margin-top: 20px; 
+	margin-left: 10PX; 
 	border: 0px;
 	border-bottom: 1px solid rgba(100,100,100,0.4);
 	font-size: 17px;
 	padding: 2px,5px,2px,5px;
+}
+
+.botton-2:hover {
+	background-color: rgba(255,255,255,0.4)
+}
+
+.botton-1:hover	{
+	background-color: rgba(49, 160, 218, 0.5)
+}
+
+.botton-1 {
+	color: #fff;
+	background-color: #31a0da;
+
 }
 
 .Sections-contiainer {
@@ -40,18 +56,19 @@
 	flex-wrap: wrap;
 }
 
-.botton-1 {
-	color: #fff;
-	background-color: #31a0da;
-}
 
 .section {
 	background-color: #fff;
 	width: 200px;
 	display: inline-block;
+	border: 0px;
 	border-bottom: 1px solid #aaa;
 	margin-right: 15px;
-	border: 0px;
+	
+}
+
+.section:hover {
+	border-bottom: 1px solid #42b0cb;
 }
 
 .sections-text	{
