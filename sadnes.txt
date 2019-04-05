@@ -1,0 +1,49 @@
+!--div class=mainContent
+	
+	pCourse Sections Directoryp
+
+			div class=borderdiv	
+			
+			pFilterp
+
+			div class=borderdiv	
+			
+			pTERMp
+			pComboBoxp
+
+			div class=borderdiv	
+
+			pCOURSEp
+			pComboBoxp
+
+			div class=borderdiv	
+
+			pLOCATIONp
+
+			div class=borderdiv	
+
+			pSCHEDULEp
+			pComboBoxp
+
+			div class=borderdiv	
+
+			pONLY MY SECTIONSp
+			pComboBoxp
+
+			div class=borderdiv	
+
+			pfall1819-MUS102-1 Dustin Levvasseur
+
+			pfall1819-MAT200-1 Jenn Daigle
+
+			pspring1819-SPA350-1 Megan Lawrence
+			
+
+	div
+	div class=iphoneFrame
+		div
+		div class=footer
+			div class=menudiv
+			img src=imgheader.jpg
+			pSlate is an open-source web platform for schools. Learn more.p
+	div----

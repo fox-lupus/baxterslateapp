@@ -18,19 +18,49 @@
 	height: 228px;
 	margin-bottom: 15px;
 	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
-	display: block; 
 }
 
-.Filter button {
+.Filter span {
+	display: block;
+	font-size: 20px;
+}
+
+.botton-1, .botton-2 {
+	margin-top: 20px; 
 	border: 0px;
 	border-bottom: 1px solid rgba(100,100,100,0.4);
 	font-size: 17px;
 	padding: 2px,5px,2px,5px;
 }
 
+.Sections-contiainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .botton-1 {
 	color: #fff;
 	background-color: #31a0da;
+}
+
+.section {
+	background-color: #fff;
+	width: 200px;
+	display: inline-block;
+	border-bottom: 1px solid #aaa;
+	margin-right: 15px;
+	border: 0px;
+}
+
+.sections-text	{
+	margin: 5px 0 0 15px;
+}
+
+.sections-text span {
+	font-size: small;
+	font: Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 }
 
 .directory {
@@ -90,7 +120,3 @@ td a:hover {
 	text-decoration: underline;
 }
 
-h6 {
-	display: block;
-	font-size: 20px;
-}
