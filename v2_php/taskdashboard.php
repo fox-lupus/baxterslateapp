@@ -14,14 +14,14 @@
 				<span class="courseNum">Current Tasks</span>
 
 				<div class="select-block">
+					<div class="menu">
+						<div class="dropdown">
 							<select class="selection-box">
 								<option value="">Filter</option>
-								<option value="">STATUS</option>
 								<option value="">Due Tasks</option>
 								<option value="">Revision Tasks</option>
 								<option value="">Submitted Tasks</option>
 								<option value="">Completed Tasks</option>
-								<option value="">TIMELINE</option>
 								<option value="">Past Due</option>
 								<option value="">Due Today</option>
 								<option value="">Due This Week</option>
@@ -29,6 +29,8 @@
 							</select>
 						</div>
 					</div>
+				</div>
+			</div>
 			
 			<div class="subhead2">
 				<div>No tasks found</div>
@@ -50,7 +52,7 @@
 			<div class="content">
 				<div class="creditsFrame">
 					<div>New to-do...</div>
-					<div>mm/dd/yyyy</div>
+					<span class="textstuff">mm/dd/yyyy</span>
 					<div class="credit"></div>
 				</div>
 			</div>

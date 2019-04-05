@@ -29,13 +29,15 @@
 		<a href="http://baxter.slatepowered.net/events">Calendar</a>
 
 		<a href="http://baxter.slatepowered.net/contact">Contact Us</a>
-
-					
+		
+			</div>
 		</div>
-	</div>
+
 	<div class="Search">
 		<form>
 			<input type="text" placeholder="Search...">
 		</form>
 	</div>
 </div>
+
+		

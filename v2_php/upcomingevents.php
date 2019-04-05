@@ -1,15 +1,11 @@
-<?php include('header.php'); ?>
-	
-	<div class="header">
-	
-	</div>
+<?php include('otherphp/header.php'); ?>
 
-	<div class="mainContent">
-		
-		<p>UPCOMING EVENTS</p>
-		<p>No upcoming events scheduled.</p>
-
-	</div>
+<div class="mainContent">
+		<div class="spaser">
+			<div class="contactusmainfont">
+			<span class="Upcoming-Events">Upcoming Events</span>
+		</div>
+	
 	<div class="iphoneFrame">
 
 		</div>
