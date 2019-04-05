@@ -1,4 +1,5 @@
 <?php include('otherphp/header.php'); ?>
+<?php include('otherphp/top-head.php'); ?>
 <div class="container-of-directory">
 	<div class="head-of-page">Course Sections Directory</div>
 	<div class="Filter">
