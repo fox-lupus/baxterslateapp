@@ -235,14 +235,10 @@ body{
 
 .taskdashboard .container.left {
 	float: left;
-	margin-left: auto; 
-	width: 100%;
 }
 
 .taskdashboard .container.right {
 	float: right;
-	margin-right: auto; 
-	width: 100%;
 }
 
 
