@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto?<?php echo microtime();?>" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css">
+	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css?<?php echo microtime();?>">
 
 
 	<style type="text/css">
