@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php include('otherphp/header.php'); ?>	
+	
 	<title></title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="header.css">

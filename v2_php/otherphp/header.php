@@ -122,15 +122,14 @@ body{
 	<div class="menu ">
 		<a href="" class="menu-text">Menu</a>
 		<div class="dropdown_menu">
-			<a href="">LINK 1</a>
-			<a href="">LINK 2</a>
-			<a href="">LINK 3</a>
-			<a href="">LINK 4</a>
+			<a href="">Courses</a>
+			<a href="">Tools</a>
+			<a href="">Profile</a>
 		</div>
 	</div>
-	<div class="search">
+	<div class="Search">
 		<form>
-			<input type="text" placeholder="search...">
+			<input type="text" placeholder="Search...">
 		</form>
 	</div>
 </div>
