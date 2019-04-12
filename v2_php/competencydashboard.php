@@ -66,4 +66,53 @@
 
 	</div>
 
+	<div class="standard_container">
+
+		<div class="headline">
+			<span class="courseNum">DES.1.0.0</span>
+			<span class="courseName">Design Process</span>
+		</div>
+
+		<div class="subhead">Working Toward: Entering</div>
+		
+		<div class="content">
+			Analyze and optimize
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="content">
+			Develop Solution
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="content">
+			Identify Problems
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="border"></div>	
+					
+	</div>
+
+	<div>
+
+		<div class="footer">
+		<div class="menu"></div>
+	
+		<div class="border"></div>	
+
+	</div>
+
 <?php include('otherphp/footer.php'); ?>	

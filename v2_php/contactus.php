@@ -12,7 +12,7 @@
 		</div>
 <div class="contactustinyfont">
 <div class="boxcontactus">
-<div>
+</div>
 <p>NAME*:</p>
 	<input class="textInput"/> 
 	<p>EMAIL*:</p>
