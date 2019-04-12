@@ -7,7 +7,6 @@
 	<div class="mainContent">
 	<div>
 		<div class ="contactusmainfont">
-		<div class="contactus">
 			<div>Contact Us</div>
 		</div>
 <div class="contactustinyfont">

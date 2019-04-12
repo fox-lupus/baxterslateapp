@@ -47,7 +47,7 @@
 					<span class="courseName">Personal</span>
 			</div>
 
-			<div class="subhead contactustinyfont">Active Items</div>
+			<div class="subhead taskdashboardtinyfont">Active Items</div>
 
 			<div class="content">
 				<div class="creditsFrame">

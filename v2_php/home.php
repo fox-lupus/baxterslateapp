@@ -13,7 +13,7 @@
 
 	<div class="movbackground">	
 	<div class="calendar">
-		<div class="calendar-text"><span class="calendar-span">calendar</span><div class="x"><em>No future events scheduled</em></div></div>
+		<div class="calendar-text"><span class="calendar-span">Calendar</span><div class="x"><em>No future events scheduled</em></div></div>
 		
 	</div>
 <?php include 'footer.php';?>

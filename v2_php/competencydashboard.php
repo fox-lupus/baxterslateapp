@@ -14,7 +14,7 @@
 		<div style="background:#21a5d1;">AD</div>
 		<div style="background:#8b21d1;">EX</div>  
 		<div style="background:#213fd1;">BA</div>
-		<div style="clear: both; float: none"></div>a
+		<div style="clear: both; float: none;"></div>a
 	</div>
 
 	<div class="standard_container">
