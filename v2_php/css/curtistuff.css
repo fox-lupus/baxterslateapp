@@ -167,10 +167,43 @@ body{
     font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 25px;
-    width: 100px;
     margin: 0px auto;
-    max-height: 10px;
+	width: 86%;
+	padding: 0 15px;
+	margin: 0px auto;
+	
 }
+
+
+
+.slatedashboard .container_left {
+	float: left;
+	width: 70%;
+}
+
+.slatedashboard .container_right {
+	float: right;
+	width: 26%;
+}
+
+@media screen and (max-width: 600px) {
+
+	.slatedashboard {
+		width: auto;
+	}
+	
+	.slatedashboard .container_left {
+		float: none;
+		width: 100%;
+	}
+
+	.slatedashboard .container_right {
+		float: none;
+		width: 100%;
+	}
+}
+
+
 
 .slatedashboard .pageTitle {
 	font-size: 30px;
@@ -186,6 +219,8 @@ body{
     padding: 5px 0;
     font-size: 22px;
     border-bottom: solid 1px #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .slatedashboard .section .body {
@@ -197,6 +232,13 @@ body{
     padding: 15px 0;
 }
 
+.slatedashboard .section .default_icon {
+	width: 90px; height: 90px; 
+	background: #31A0DA; 
+	border: solid 1px #31A0DA; border-radius: 25px;
+	margin: 0 auto 10px;
+}
+
 .dashboardLink {
 	font-size: 14px;
 	text-align: center;
@@ -206,6 +248,7 @@ body{
 	display: block;
 	padding: 5px;
 	height: 160px;
+	float: left;
 
 }
 

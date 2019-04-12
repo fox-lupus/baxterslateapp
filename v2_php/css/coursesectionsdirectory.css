@@ -61,15 +61,11 @@
 
 
 .section {
-	background-color: #fff;
-	width: 200px;
-	height: 25px;
-	display: inline-block;
+	background-color: #f5f5f5;
 	border: 0px;
 	border-bottom: 1px solid #aaa;
-	margin-right: 15px;
-	font-size: 15px
-	
+	font-size: 15px;
+	margin-bottom: 20px;
 }
 
 .section:hover {
