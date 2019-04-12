@@ -1,5 +1,6 @@
 .container-of-directory {
-	width: 600px;
+	min-width: 360px;
+	max-width: 700px;
 	margin: 0 auto; 
 	background: #d6fbef;
 }
@@ -16,9 +17,9 @@
 	border-radius: 3px;
 	background: #EEEEEE;
 	padding: 15px;
-	height: 150px;
 	margin-bottom: 15px;
 	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
+	font-size: 15px;
 }
 
 .Filter span {
@@ -31,8 +32,9 @@
 	margin-left: 10PX; 
 	border: 0px;
 	border-bottom: 1px solid rgba(100,100,100,0.4);
+	border-radius: 5px;
 	font-size: 17px;
-	padding: 2px,5px,2px,5px;
+	padding:5px 10px 5px 10px;
 }
 
 .botton-2:hover {
@@ -54,16 +56,19 @@
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 
 .section {
 	background-color: #fff;
 	width: 200px;
+	height: 25px;
 	display: inline-block;
 	border: 0px;
 	border-bottom: 1px solid #aaa;
 	margin-right: 15px;
+	font-size: 15px
 	
 }
 
@@ -72,7 +77,7 @@
 }
 
 .sections-text	{
-	margin: 5px 0 0 15px;
+	margin: 5px 10px 10px 15px;
 }
 
 .sections-text span {
@@ -93,9 +98,9 @@ th, td, tr {
 
 table {
 	border-collapse: collapse;
-	width: 100%;
-	min-width: 500px;
-	max-width: 1000px;
+	width: 100%
+	/*min-width: 360px;
+	max-width: 700px; */
 	margin: 0 auto;
   }
 
