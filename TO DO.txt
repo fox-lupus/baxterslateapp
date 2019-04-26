@@ -1,0 +1,105 @@
+
+
+
+
+
+USER EXPERIENCE
+
+Menu
+
+- Slate Dashboard
+
+- Course Sections
+
+- My Progress
+
+- My Tasks
+
+- Upcoming Events
+
+- Contact Us
+
+
+
+
+DASHBOARD
+
+- Land Here
+
+- COURSES
+	- Nobody uses these pages.
+	- Reformat / consolidate course list. (HTML) - Curtis
+	- Make course list into an accordion (HTML) - Curtis
+	- Add interactivity to accordion (JS) - Milo
+	- Add button to "Browse Catalog" (goes to course sections) (HTML) - Curtis
+
+
+- TOOLS
+	- These links are both live.
+	- Link to Competency Dashboard.
+	- Link to Task Dashboard
+
+
+- Cut Profile Icons
+
+
+--
+
+
+COURSE SECTIONS
+
+- Make table responsive. (Advanced CSS) - Milo
+
+- Make filter work. (JS) - Milo
+
+
+--
+
+
+COMPETENCY DASHBOARD
+
+- Make the rubric filter work. (JS) - Milo
+
+- Add HTML anchors. (HTML) - Curtis
+
+- Show status in each bar. (CSS) - Curtis
+
+
+--
+
+
+TASKS DASHBOARD
+
+- Add tasks & to-dos (HTML / CSS) - Curtis
+
+- Make filter work (JS) - Curtis
+
+
+--
+
+
+UPCOMING EVENTS
+
+- Skip / Postpone
+
+
+--
+
+
+CONTACT US
+
+- Send email (PHP) - Milo
+
+- Validate (JS) - Milo
+
+
+
+
+
+
+
+
+
+
+
+
