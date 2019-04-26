@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Accordion Tutorial</title>
+
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+	<style>
+		.accordion {
+			border: solid 1px #ccc;
+			width: 200px;
+			margin: 100px auto;
+			font-family: sans-serif;
+		}
+
+		.accordion .title {
+			padding: 8px 10px;
+			font-weight: bold;
+			background: #eee;
+			border-top: solid 1px #666;
+			cursor: pointer;
+		}
+
+		.accordion .title:hover {
+			background: #ddd;
+		}
+
+		.accordion .item:first-child .title {
+			border-top: none;
+		}
+
+		.accordion .info  {
+			padding: 10px;
+			font-size: 12px;
+			line-height: 18px;
+			display: none;
+			border-top: dotted 1px #999;
+
+		}
+	</style>
+
+
+	<script>
+
+		// TUTORIAL 
+
+
+		// EXAMPLE FUNCTION - WITH VARIABLE "PASSING"
+		// exampleFunction = function(input){
+		// 	alert(input)
+		// 	return input + 3;
+		// }
+
+		// var newValue = exampleFunction(3);
+		// alert(newValue)
+
+
+		exampleActionFunction = function(f){
+			alert('i am the higher level function');
+			console.log(f);
+			f();
+			alert('i have just called the function that was passed into me.')
+		}
+
+		f = function(){
+			alert('i am function f')
+		}
+		
+
+		exampleActionFunction(f);
+
+
+
+
+
+		// DEFINE A "ROUTINE" OR "FUNCTION"
+		openAccordion = function(){
+			alert('click')
+		}
+
+
+
+		console.log($)
+
+		// $ = function(input){
+		// 	alert('i have called');
+		// 	console.log(input);
+		// }
+
+
+
+		// THIS IS THE FUNCTION WE WANT TO RUN AFTER THE PAGE LOADS
+		init = function(){
+
+
+
+			alert('There are: ' + $('.title').length + ' title elements.');
+
+
+			// SELECT ALL ELEMENTS WITH THE CLASS "TITLE" 
+			// WHEN YOU CLICK THEM, RUN THE ROUTINE "openAccordion"
+
+			var listOfTitleElements = $('.title');
+
+			console.log(listOfTitleElements)
+
+			listOfTitleElements.click(openAccordion)
+
+		}
+
+
+
+		
+		// RUN THE FUNCTION "INIT" WHEN THE PAGE LOADS
+		$(init)
+
+	</script>
+</head>
+<body>
+	<div class="accordion">
+		<div class="item">
+			<div class="title">ITEM 1</div>
+			<div class="info">I AM THE INFO ON ITEM 1. I AM THE INFO ON ITEM 1. I AM THE INFO ON ITEM 1. </div>
+		</div>
+		<div class="item">
+			<div class="title">ITEM 2</div>
+			<div class="info">I AM THE INFO ON ITEM 2. I AM THE INFO ON ITEM 2. I AM THE INFO ON ITEM 2. </div>
+		</div>
+		<div class="item">
+			<div class="title">ITEM 3</div>
+			<div class="info">I AM THE INFO ON ITEM 3. I AM THE INFO ON ITEM 3. I AM THE INFO ON ITEM 3. </div>
+		</div>
+		<div class="item">
+			<div class="title">ITEM 4</div>
+			<div class="info">I AM THE INFO ON ITEM 4. I AM THE INFO ON ITEM 4. I AM THE INFO ON ITEM 4. </div>
+		</div>
+
+
+	</div>
+	
+</body>
+</html>
