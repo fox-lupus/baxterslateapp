@@ -3,7 +3,7 @@
 <div class="mainContent">
 		<div class="spaser">
 			<div class="upcomingeventsmainfont">
-			<span class="Calendar">Calendar</span>
+			<span class="Upcoming-Events">Upcoming Events</span>
 		</div>
 	
 	<div class="iphoneFrame">
