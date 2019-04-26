@@ -1,4 +1,5 @@
 <?php include('otherphp/header.php'); ?>
+<?php include ('otherphp/top-backgound.php'); ?>
 <div class="mainContent">
 		<div class="spaser">
 			<div class="upcomingeventsmainfont">
@@ -16,3 +17,4 @@
 			<p>Slate is an open-source web platform for schools. Learn more.</p>
 
 	</div>
+<?php include ('otherphp/footer.php'); ?>

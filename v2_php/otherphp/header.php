@@ -5,16 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="css/slate-mobile-css.css?<?php echo microtime();?>"> 	
 	<link rel="stylesheet" type="text/css" href="css/home.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/dots.css?<?php echo microtime();?>">
+	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>">
+	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
+	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css?<?php echo microtime();?>">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto?<?php echo microtime();?>" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>">
-	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto?<?php echo microtime();?>" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css?<?php echo microtime();?>">
-
-
 	<style type="text/css">
 html, body{
 		margin: 0px;
@@ -23,6 +21,7 @@ html, body{
 	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale;
  	background: #d6fbef
+ 	z-index:2;
 }
 body{
 	position: absolute;
