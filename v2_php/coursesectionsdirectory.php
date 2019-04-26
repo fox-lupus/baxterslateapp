@@ -362,7 +362,7 @@
        	</div>
 		<button class="botton-1">Apply Filters</button>
 		<button class="botton-2">Reset Filters</button>
-		<button class="botton-3">Browse Catalog</button>
+
 	</div>
 	<div class="directory"> 
 		

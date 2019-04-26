@@ -32,12 +32,18 @@
 				</div>
 			</div>
 			
-			<div class="subhead2">
-				<div>No tasks found</div>
+			<div class="taskdashboard-tasktree-category">
+				<div>Society, Power, And Innovation</div>
 			</div>
-		
-		</div>
 
+			<div class="taskdashboard-tasktree-text">
+				<div>A Boring Paper (Again)</div>
+			
+			<div class="taskdashboard-date">
+				<div>Completed Oct 13, 2018</div>
+		</div>
+	</div>
+</div>
 		<!-- PANEL TWO -->
 		<div class="container right">
 
@@ -58,6 +64,24 @@
 			</div>
 		</div>
 
+		<div class="container right">
+
+			<div class="headline">
+				
+				<span class="courseNum">To-Do List</span>
+					<span class="courseName">Math</span>
+			</div>
+
+			<div class="subhead taskdashboardtinyfont">Active Items</div>
+
+			<div class="content">
+				<div class="creditsFrame">
+					<div>New to-do...</div>
+					<span class="textstuff">mm/dd/yyyy</span>
+					<div class="credit"></div>
+				</div>
+			</div>
+		</div>
 
 		<div style="clear: both"></div>
 

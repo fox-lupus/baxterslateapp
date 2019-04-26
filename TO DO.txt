@@ -91,15 +91,3 @@ CONTACT US
 - Send email (PHP) - Milo
 
 - Validate (JS) - Milo
-
-
-
-
-
-
-
-
-
-
-
-
