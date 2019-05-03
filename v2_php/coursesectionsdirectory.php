@@ -1,5 +1,41 @@
 <?php include('otherphp/header.php'); ?>
-<?php include('otherphp/top-head.php'); ?>
+<?php include('otherphp/top-head.php'); ?>`
+<script id="rendered-js">
+
+	// WHEN THE DOCUMENT LOADS
+	$(document).ready(function () {
+
+		// GO THROUGH EACH ELEMENT WITH THE CLASS NAME "js-table-data"
+		$('.js-table-data').each(function () {
+			table = $(this);
+			tableRow = table.find('tr');
+
+			// go through each <td> element within that table
+			table.find('td').each(function () {
+				tdIndex = $(this).index();
+
+
+				var corresponding_header_element = $(tableRow).find('th').eq(tdIndex);
+
+
+				// if the corresponding header has the attribute "data-label"
+				if (corresponding_header_element.attr('data-label')) {
+
+					// grab that value
+					thText = corresponding_header_element.data('label');
+				}
+
+				// otherwise get the body of that corresponding header
+				else {
+					thText =corresponding_header_element.text();
+				}
+
+				// and use that to se the data-label attribute of the <td> element that we're at
+				$(this).attr('data-label', thText + ':');
+			});
+		});
+	});
+</script>
 <div class="container-of-directory">
 	<div class="head-of-page">Course Sections Directory</div>
 	<div class="Filter">
@@ -326,6 +362,8 @@
        	</div>
 		<button class="botton-1">Apply Filters</button>
 		<button class="botton-2">Reset Filters</button>
+		<button class="botton-2">Browse Catalog</button>
+
 	</div>
 	<div class="directory"> 
 		

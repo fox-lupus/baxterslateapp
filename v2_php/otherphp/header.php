@@ -13,6 +13,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 	<style type="text/css">
 html, body{
 		margin: 0px;
@@ -29,7 +30,7 @@ body{
 .nav{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content:  flex-start;
 	align-items: center;
 
 	height: 40px;
@@ -66,7 +67,7 @@ body{
 }
 .dropdown_menu {
 	position: absolute;
-	width: 140px;
+	width: 180px;
 	top: 41px;
    	box-shadow: 10px 10px 5px grey;
 
@@ -80,7 +81,7 @@ body{
 
 	z-index: 20;
 }
-.dropdown_menu a {
+.menu .dropdown_menu a {
 	padding: 0 20px;
 	font-weight: bold;
 	text-decoration: none;	
@@ -88,45 +89,50 @@ body{
 	border-top: solid 1px #eee;
 	border-bottom: solid 1px #888;
 	color: black;
+	font-size: medium;
 }
-.dropdown_menu a:first-child {
+.menu .dropdown_menu a:first-child {
 	border-top: none;
 }
-.dropdown_menu a:last-child {
+.menu .dropdown_menu a:last-child {
 	border-bottom: none;
 }
-.dropdown_menu a:hover {
+.menu .dropdown_menu a:hover {
 	background: #ddd;
 }
 .menu:hover .dropdown_menu {
 	display: block;
 
 }
-.search{
+.nav .Search{
 	float: left;
 
-	margin: 5px 0 0 10px;
+	margin: 5px 0 5px 10px;
 }
-.search form input	{
+.nav .Search form input{
+	border-radius: 15px;
+
 	border: 1px solid #ccc;
-	border-radius: 11px;
-	padding-top: 0 18px;
+	
+	padding: 0 0 0 8px;
 	line-height: 30px;
 	font-size: 16px;
 	width:160px;
-	height: 30px; 
-	margin: 0 0 5px 0;
+	height: 27px; 
 }
 </style>
 </head>
 <body>
 <div class="nav">
-	<div class="menu ">
+	<div class="menu">
 		<a href="" class="menu-text">Menu</a>
 		<div class="dropdown_menu">
-			<a href="">Courses</a>
-			<a href="">Tools</a>
-			<a href="">Profile</a>
+			<a href="slatedashboard.php">Dashboard</a>
+			<a href="coursesectionsdirectory.php">Course Sections Directory</a>
+			<a href="competencydashboard.php">Competency Dashboard</a>
+			<a href="taskdashboard.php">Task Dashboard</a>
+			<a href="upcomingevents.php">Upcoming Events</a>
+			<a href="contactus.php">Contact Us</a>
 		</div>
 	</div>
 	<div class="Search">

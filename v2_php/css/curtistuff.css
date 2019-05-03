@@ -283,11 +283,13 @@ body{
 .taskdashboard .container {
 	width: 45%;
 	margin: 40px 0;
+	height: 100px;
 
 }
 
 .taskdashboard .container.left {
 	float: left;
+	background-color: #e3e3e3;
 }
 
 .taskdashboard .container.right {
@@ -364,6 +366,34 @@ body{
     letter-spacing: .5px;
     text-transform: uppercase;
 }
+
+.taskdashboard-tasktree-category {
+    border-radius: 0 0.4375em 0 0;
+    color: #949494;
+    font-size: 0.75em;
+    margin-bottom: -0.75em;
+    padding: 0.625em 0.875em 0;
+    text-transform: uppercase;
+}
+
+.taskdashboard-tasktree-text {
+    align-items: center;
+    border-radius: 0 0.25em 0.25em 0;
+    display: flex;
+    line-height: 1.33333;
+    padding: 0.5em 0.625em;
+    transition: border-radius 250ms cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.taskdashboard-date{
+	background-color: #a2dff6;
+	margin-right: 0px;
+}
+
+.taskdashboard-date div {
+	float: right;
+}
+
 .upcomingeventsmainfont{
 	color: #333;
     font-weight: 300;
