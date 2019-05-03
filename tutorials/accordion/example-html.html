@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<style>
+		
+		.accordion {
+			width: 300px;
+			margin: 100px auto;
+			border: solid 1px #ccc;
+			font-family: sans-serif;
+		}
+
+		.accordion .title {
+			padding: 5px;
+			background: #ccc;
+			font-weight: bold;
+			cursor: pointer;
+			border-bottom: solid 1px white;
+		}
+
+		.accordion .body {
+			padding: 5px;
+			font-size: 11px;
+			line-height: 17px;
+			display: none;
+		}
+	</style>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script>
+		
+		$(function(){
+			$('.accordion .title').click(function(){
+				var parent = $(this).parent();
+				var body = $('.body', parent);
+				if(body.css('display') == 'none') body.slideDown(250);
+				else body.slideUp(250);
+			})
+		})
+	</script>
+
+</head>
+<body>
+	
+	<div class="accordion">
+		
+		<div class="item">
+			<div class="title">CLASS NAME</div>
+			<div class="body">I AM THE INFO ABOUT THAT CLASS I AM THE INFO ABOUT THAT CLASSI AM THE INFO ABOUT THAT CLASS I AM THE INFO ABOUT THAT CLASS I AM THE INFO ABOUT THAT CLASS I AM THE INFO ABOUT THAT CLASS I AM THE INFO ABOUT THAT CLASS</div>
+		</div>
+
+		<div class="item">
+			<div class="title">CLASS NAME</div>
+			<div class="body">I AM THE INFO ABOUT THAT CLASS</div>
+		</div>
+
+		<div class="item">
+			<div class="title">CLASS NAME</div>
+			<div class="body">I AM THE INFO ABOUT THAT CLASS</div>
+		</div>
+
+		<div class="item">
+			<div class="title">CLASS NAME</div>
+			<div class="body">I AM THE INFO ABOUT THAT CLASS</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
