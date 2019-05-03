@@ -30,7 +30,20 @@
 				<div class="item">
 					<div class="title">Advisory 9</div>
 					<div class="body">
-						I AM THE INFO ABOUT ADVISORY 9
+						<div>spring1819-ADV009-1</div>
+						<div>TERM	spring1819</div>
+						<div>SCHEDULE	Advisory</div>
+						<div>LOCATION</div>
+						<div>Teacher: John Appleseed</div>
+						<div>Students:</div> 
+						<div>Student 1, Student 2, Student 3</div>
+						<div>Student 4, Student 5, Student 6,</div>
+						<div>Student 7, Student 8, Student 9,</div>
+						<div>Student 10 Student 11, Student 12,</div>
+						<div>Student 13 Student 14, Student 15</div>
+					<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardlink">
+
+						More Information
 					</a>
 				</div>
 
