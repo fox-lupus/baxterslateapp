@@ -29,28 +29,106 @@
 		
 				<div class="item">
 					<div class="title">Courses</div>
-					<div class="body">Advisory 9</div>
-					<div class="body">Flex Friday Project</div>
-					<div class="body">Guitar Lab</div>
-					<div class="body">Pre Calculus</div>
-					<div class="body">Advanced Algebra</div>
-					<div class="body">Wellness I</div>
-					<div class="body">Electronics II</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardlink">
+
+						Advisory 9
+
+					</a>
 				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-FLX900-304" class="dashboardlink">
+
+						Flex Friday Project
+
+					</a>
+				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-SCI250-3" class="dashboardlink">
+
+						Physical Science
+
+					</a>
+				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-MAT200-4" class="dashboardlink">
+
+						Advanced Algebra
+
+					</a>
+				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-COS100-2" class="dashboardlink">
+
+						Intro to Computer Science
+
+					</a>
+				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-ENG202-1" class="dashboardlink">
+
+						Coming Of Age
+
+					</a>
+				</div>
+					<div class="body">
+					<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardlink">
+
+						Spanish III/IV
+
+					</a>
+				</div>
+			</div>
 
 				<div class="item">
 					<div class="title">Tools</div>
-					<div class="body">Competency Dashboard</div>
-					<div class="body">Task Dashboard</div>
+					<div class="body">
+						<a href="competencydashboard.php" class="dashboardlink">
+
+						Competency Dashboard
+
+					</a>
+				</div>
+					<div class="body">
+						<a href="taskdashboard.php" class="dashboardlink">
+
+						Task Dashboard
+
+					</a>
+				</div>
 				
 				</div>
 				
 				<div class="item">
 					<div class="title">Name</div>
-					<div class="body">My Profile</div>
-					<div class="body">Edit Profile</div>
-					<div class="body">My Drafts</div>
-					<div class="body">Log Out</div>
+					<div class="body">
+						<a href="https://baxter.slatepowered.net/people/" class="dashboardlink">
+
+						My Profile
+
+					</a>
+				</div>
+					<div class="body">
+						<a href="https://baxter.slatepowered.net/profile" class="dashboardlink">
+
+						Edit Profile
+
+					</a>
+				</div>
+					<div class="body">
+						<a href="https://baxter.slatepowered.net/drafts" class="dashboardlink">
+
+						My Drafts
+
+					</a>
+				</div>
+					<div class="body">
+						<a href="upcomingevents.php" class="dashboardlink">
+
+						Log Out
+
+					</a>
+				</div>
 
 				</div>
 			</div>
