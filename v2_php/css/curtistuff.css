@@ -433,13 +433,18 @@ body{
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	font-size: 22px;
 	text-align: center;
+	border-radius: 3px;
+
+	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
+
 }
 
 .accordion .title {
 	padding: 5px;
-	background: #f5f5f5;
+	background: rgb(49, 160, 218);
+	color: white;
 	cursor: pointer;
-	border-bottom: solid 1px black;
+	border-bottom: solid 1px white;
 }
 
 .accordion .body {
@@ -447,4 +452,5 @@ body{
 	font-size: 15px;
 	line-height: 25px;
 	display: none;
+	background: rgba(148, 148, 148, 0.08);
 }

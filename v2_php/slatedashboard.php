@@ -28,154 +28,57 @@
 			<div class="accordion">
 		
 				<div class="item">
-					<div class="title">Courses</div>
+					<div class="title">Advisory 9</div>
 					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardlink">
-
-						Advisory 9
-
+						I AM THE INFO ABOUT ADVISORY 9
 					</a>
 				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-FLX900-304" class="dashboardlink">
-
-						Flex Friday Project
-
-					</a>
-				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-SCI250-3" class="dashboardlink">
-
-						Physical Science
-
-					</a>
-				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-MAT200-4" class="dashboardlink">
-
-						Advanced Algebra
-
-					</a>
-				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-COS100-2" class="dashboardlink">
-
-						Intro to Computer Science
-
-					</a>
-				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-ENG202-1" class="dashboardlink">
-
-						Coming Of Age
-
-					</a>
-				</div>
-					<div class="body">
-					<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardlink">
-
-						Spanish III/IV
-
-					</a>
-				</div>
-			</div>
 
 				<div class="item">
-					<div class="title">Tools</div>
+					<div class="title">Flex Friday Project</div>
+					<div class="body">I AM THE INFO ABOUT FLEX FRIDAY</div>
+				</div>
+		
+				<!-- 
 					<div class="body">
-						<a href="competencydashboard.php" class="dashboardlink">
+						<a href="https://baxter.slatepowered.net/sections/spring1819-SCI250-3" class="dashboardlink">
 
-						Competency Dashboard
+							Physical Science
 
-					</a>
-				</div>
-					<div class="body">
-						<a href="taskdashboard.php" class="dashboardlink">
+						</a>
+					</div>
+						<div class="body">
+						<a href="https://baxter.slatepowered.net/sections/spring1819-MAT200-4" class="dashboardlink">
 
-						Task Dashboard
+							Advanced Algebra
 
-					</a>
-				</div>
-				
-				</div>
-				
-				<div class="item">
-					<div class="title">Name</div>
-					<div class="body">
-						<a href="https://baxter.slatepowered.net/people/" class="dashboardlink">
+						</a>
+					</div>
+						<div class="body">
+						<a href="https://baxter.slatepowered.net/sections/spring1819-COS100-2" class="dashboardlink">
 
-						My Profile
+							Intro to Computer Science
 
-					</a>
-				</div>
-					<div class="body">
-						<a href="https://baxter.slatepowered.net/profile" class="dashboardlink">
+						</a>
+					</div>
+						<div class="body">
+						<a href="https://baxter.slatepowered.net/sections/spring1819-ENG202-1" class="dashboardlink">
 
-						Edit Profile
+							Coming Of Age
 
-					</a>
-				</div>
-					<div class="body">
-						<a href="https://baxter.slatepowered.net/drafts" class="dashboardlink">
+						</a>
+					</div>
+						<div class="body">
+						<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardlink">
 
-						My Drafts
+							Spanish III/IV
 
-					</a>
-				</div>
-					<div class="body">
-						<a href="upcomingevents.php" class="dashboardlink">
-
-						Log Out
-
-					</a>
-				</div>
-
-				</div>
-			</div>
-				
-				<!--<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardLink">
-					
-					<div class="default_icon"></div>
-
-					Advisory 9
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-FLX900-304" class="dashboardLink">
-					<div class="default_icon"></div>
-					Flex Friday Project
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-SCI250-3" class="dashboardLink">
-					<div class="default_icon"></div>
-					Physical Science
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-MAT200-4" class="dashboardLink">
-					<div class="default_icon"></div>
-					Advanced Algebra
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-COS100-2" class="dashboardLink">
-					<div class="default_icon"></div>
-					Intro to Computer Science
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-ENG202-1" class="dashboardLink">
-					<div class="default_icon"></div>
-					Coming of Age
-				</a>
-
-				<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardLink">
-					<div class="default_icon"></div>
-					Spanish III/IV
-				</a>
-
-				<div style="clear: both"></div>
-				
-
+						</a>
+					</div> 
+				</div>-->
 			</div>
 		</div>
-
+				
 		<div class="section">
 			<div class="title">Tools</div>
 			<a href ="https://baxter.slatepowered.net/cbl/dashboards/demonstrations/student#me" class="dashboardLink">
@@ -209,7 +112,7 @@
 			<a href ="https://baxter.slatepowered.net/dashboard" class="dashboardLink">
 				<img src="img/5th.png">
 				Log Out
-			</a>-->
+			</a>
 
 			<div style="clear: both"></div>
 
