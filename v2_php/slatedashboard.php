@@ -53,6 +53,7 @@
 					<div class="body">Log Out</div>
 
 				</div>
+			</div>
 				
 				<!--<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardLink">
 					
