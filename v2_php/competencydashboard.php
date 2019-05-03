@@ -69,11 +69,60 @@
 	<div class="standard_container">
 
 		<div class="headline">
+			<span class="courseNum">HUM.2.0.0</span>
+			<span class="courseName">Reading</span>
+		</div>
+
+		<div class="subhead3">Working Toward: Progressing</div>
+		
+		<div class="content">
+			Craft and Structure
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="content">
+			Key Ideas and Details
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="content">
+			Citing Evidence
+			<div class="creditsFrame">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+
+		<div class="border"></div>	
+					
+	</div>
+
+	<div>
+
+		<div class="footer">
+		<div class="menu"></div>
+	
+		<div class="border"></div>	
+
+	</div>
+
+	<div class="standard_container">
+
+		<div class="headline">
 			<span class="courseNum">DES.1.0.0</span>
 			<span class="courseName">Design Process</span>
 		</div>
 
-		<div class="subhead">Working Toward: Entering</div>
+		<div class="subhead2">Working Toward: Graduation Benchmark</div>
 		
 		<div class="content">
 			Analyze and optimize

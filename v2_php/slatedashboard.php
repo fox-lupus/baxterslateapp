@@ -6,12 +6,55 @@
 
 	<div class="container_left">
 
-		<div class="section">
-			<div class="title">Courses</div>
+		<!--<div class="section">
+			<div class="title">Courses</div>-->
 
 			<div class="iconFrame">
+
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+			<script>
+		
+				$(function(){
+					$('.accordion .title').click(function(){
+						var parent = $(this).parent();
+						var body = $('.body', parent);
+						if(body.css('display') == 'none') body.slideDown(250);
+						else body.slideUp(250);
+					})
+				})	
+			</script>
+
+			<div class="accordion">
+		
+				<div class="item">
+					<div class="title">Courses</div>
+					<div class="body">Advisory 9</div>
+					<div class="body">Flex Friday Project</div>
+					<div class="body">Guitar Lab</div>
+					<div class="body">Pre Calculus</div>
+					<div class="body">Advanced Algebra</div>
+					<div class="body">Wellness I</div>
+					<div class="body">Electronics II</div>
+				</div>
+
+				<div class="item">
+					<div class="title">Tools</div>
+					<div class="body">Competency Dashboard</div>
+					<div class="body">Task Dashboard</div>
 				
-				<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardLink">
+				</div>
+				
+				<div class="item">
+					<div class="title">Name</div>
+					<div class="body">My Profile</div>
+					<div class="body">Edit Profile</div>
+					<div class="body">My Drafts</div>
+					<div class="body">Log Out</div>
+
+				</div>
+				
+				<!--<a href="https://baxter.slatepowered.net/sections/spring1819-ADV009-1" class="dashboardLink">
 					
 					<div class="default_icon"></div>
 
@@ -87,7 +130,7 @@
 			<a href ="https://baxter.slatepowered.net/dashboard" class="dashboardLink">
 				<img src="img/5th.png">
 				Log Out
-			</a>
+			</a>-->
 
 			<div style="clear: both"></div>
 
@@ -100,7 +143,8 @@
 		<div class="section">
 			<div class="title">Calendar</div>
 			<div class="body">No future events scheduled</div>
+			<a href="coursesectionsdirectory.php">Browse Catalog</a>	
 		</div>
-	</div>
+	</div>	
 
 </div>

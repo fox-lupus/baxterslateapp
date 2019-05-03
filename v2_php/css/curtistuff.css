@@ -103,6 +103,25 @@ body{
 
 }
 
+.standard_container .subhead2 {
+	background: #38a719;
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.standard_container .subhead3 {
+	background: #ff7d00;
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 35px;
+}
 .standard_container .content {
 	background:#f5f3f0;
 	padding: 20px 12px;
@@ -405,4 +424,26 @@ body{
     font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 30px;
+}
+
+.accordion {
+	width: 500px;
+	margin: 10px;
+	border: solid 1px #ccc;
+	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+	font-size: 22px;
+}
+
+.accordion .title {
+	padding: 5px;
+	background: #f5f5f5;
+	cursor: pointer;
+	border-bottom: solid 1px black;
+}
+
+.accordion .body {
+	padding: 5px;
+	font-size: 15px;
+	line-height: 25px;
+	display: none;
 }
