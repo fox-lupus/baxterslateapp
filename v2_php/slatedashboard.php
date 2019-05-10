@@ -88,6 +88,7 @@
 					    More Information
 				    </a>
 			    </div>
+			</div>
 
 			    <div class="item">
 					<div class="title">Advanced Algebra</div>
