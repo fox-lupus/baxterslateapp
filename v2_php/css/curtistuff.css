@@ -217,7 +217,7 @@ body{
 	width: 26%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 
 	.slatedashboard {
 		width: auto;
