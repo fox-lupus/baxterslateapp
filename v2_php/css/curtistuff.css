@@ -403,6 +403,7 @@ body{
     line-height: 1.33333;
     padding: 0.5em 0.625em;
     transition: border-radius 250ms cubic-bezier(0.075,0.82,0.165,1);
+    height: 15px;
 }
 
 .taskdashboard-date{

@@ -14,8 +14,7 @@
 				<span class="courseNum">Current Tasks</span>
 
 				<div class="select-block">
-					<div class="menu">
-						<div class="dropdown">
+					
 							<select class="selection-box">
 								<option value="">Filter</option>
 								<option value="">Due Tasks</option>
@@ -26,12 +25,11 @@
 								<option value="">Due Today</option>
 								<option value="">Due This Week</option>
 								<option value="">Due Next Week</option>
+								<option value="">View All</option>
 							</select>
 						</div>
 					</div>
-				</div>
-			</div>
-			
+				
 			<div>
 				<div class="taskdashboard-tasktree-category">
 					<div>Society, Power, And Innovation</div>
