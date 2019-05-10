@@ -17,6 +17,20 @@
 		<div style="clear: both; float: none;"></div>a
 	</div>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!--<script>
+		
+		$(function(){
+			$('.accordion .title').click(function(){
+					var parent = $(this).parent();
+					var body = $('.body', parent);
+					if(body.css('display') == 'none') body.slideDown(250);
+					else body.slideUp(250);
+				})
+			})	
+	</script>-->
+
 	<div class="standard_container">
 
 		<div class="headline">
