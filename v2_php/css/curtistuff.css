@@ -35,6 +35,40 @@ body{
             font-family: 40px;
             text-decoration: line-through;
  }
+
+
+
+/* DEFINE COLORS */
+
+
+.portfolios .en {
+	background: #b30086;
+}
+
+.portfolios .pr {
+	background: #38a719;
+
+}
+
+.portfolios .gb {
+	background: #ff7d00;
+}
+
+.portfolios .ad {
+
+}
+
+.portfolios .ex {
+
+}
+
+.portfolios .ba {
+
+}
+
+
+
+
 .portfolio-colors .container_left {
 	float: left;
 	width: 70%;
@@ -94,7 +128,6 @@ body{
 
 
 .standard_container .subhead {
-	background: #b30086;
 	padding-left: 12px;
 	color: white;
 	text-shadow: 1px 1px #666;
@@ -104,25 +137,7 @@ body{
 
 }
 
-.standard_container .subhead2 {
-	background: #38a719;
-	padding-left: 12px;
-	color: white;
-	text-shadow: 1px 1px #666;
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
-	line-height: 35px;
-}
 
-.standard_container .subhead3 {
-	background: #ff7d00;
-	padding-left: 12px;
-	color: white;
-	text-shadow: 1px 1px #666;
-	font-family: 'Lato', sans-serif;
-	font-size: 14px;
-	line-height: 35px;
-}
 .standard_container .content {
 	background:#f5f3f0;
 	padding: 20px 12px;
@@ -140,7 +155,15 @@ body{
 	width: 31%;
 	border: solid 1px #ccc;
 	height: 30px;
+	vertical-align: top;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+    text-shadow: 1px 1px #555;
+    font-weight: bold;
 }
+
+
 
 .contactustinyfont{
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
