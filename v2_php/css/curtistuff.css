@@ -414,7 +414,18 @@ body{
 .taskdashboard-date div {
 	float: right;
 }
-
+.taskdashboard-item{
+	height: 30px;
+	width: 200px;
+	background-color: white;
+	color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+}
+.taskdashboard-item2{
+	background-color: #d1effb;
+}
 .upcomingeventsmainfont{
 	color: #333;
     font-weight: 300;
