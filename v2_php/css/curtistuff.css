@@ -42,31 +42,29 @@ body{
 
 
 .portfolios .en {
-	background: #b30086;
+	background: #d94181;
 }
 
 .portfolios .pr {
-	background: #38a719;
+	background: #ff7d00;
 
 }
 
 .portfolios .gb {
-	background: #ff7d00;
+	background: #38a719;
 }
 
 .portfolios .ad {
-
+	background: #008cc1;
 }
 
 .portfolios .ex {
-
+	background: #6320ca;
 }
 
 .portfolios .ba {
-
+	background: #0040ff;
 }
-
-
 
 
 .portfolio-colors .container_left {

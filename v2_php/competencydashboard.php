@@ -30,26 +30,27 @@
 				Preparedness
 				<div class="creditsFrame">
 					<div class="credit en">EN</div>
-					<div class="credit pr">PR</div>
-					<div class="credit"></div>
+					<div class="credit en">EN</div>
+					<div class="credit pr">PR</div><img src="img/checkmarken.png">
+
 				</div>
 			</div>
 
 			<div class="content">
 				Engagement
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit en">EN</div>
+					<div class="credit pr">PR</div>
+					<div class="credit pr">PR</div><img src="img/checkmarken.png">
 				</div>
 			</div>
 
 			<div class="content">
 				Work Completion
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit en">EN</div>
+					<div class="credit en">EN</div>
+					<div class="credit en">EN</div><img src="img/checkmarken.png">
 				</div>
 			</div>
 
@@ -67,27 +68,27 @@
 			<div class="content">
 				Craft and Structure
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit pr">PR</div>
+					<div class="credit pr">PR</div>
+					<div class="credit pr">PR</div><img src="img/checkmarkpr.png">
 				</div>
 			</div>
 
 			<div class="content">
 				Key Ideas and Details
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit en">EN</div>
+					<div class="credit pr">PR</div>
+					<div class="credit pr">PR</div><img src="img/checkmarken.png">
 				</div>
 			</div>
 
 			<div class="content">
 				Citing Evidence
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit pr">PR</div>
+					<div class="credit gb">GB</div>
+					<div class="credit gb">GB</div><img src="img/checkmarkpr.png">
 				</div>
 			</div>
 
@@ -106,27 +107,27 @@
 			<div class="content">
 				Analyze and optimize
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit gb">GB</div>
+					<div class="credit gb">GB</div>
+					<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
 				</div>
 			</div>
 
 			<div class="content">
 				Develop Solution
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit pr">PR</div>
+					<div class="credit gb">GB</div>
+					<div class="credit gb">GB</div><img src="img/checkmarkpr.png">
 				</div>
 			</div>
 
 			<div class="content">
 				Identify Problems
 				<div class="creditsFrame">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
+					<div class="credit gb">GB</div>
+					<div class="credit pr">PR</div>
+					<div class="credit pr">PR</div><img src="img/checkmarkpr.png">
 				</div>
 			</div>
 
