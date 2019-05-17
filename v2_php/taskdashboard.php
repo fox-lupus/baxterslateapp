@@ -28,16 +28,27 @@
 							</select>
 						</div>
 					</div>
-		
-				<div class="taskdashboard-nub"></div>
 				
-				<div class="taskdashboard-category">Society, Power, And Innovation</div>
+				
+				<div class="taskdashboard-flexct">
+					
+					<div class="taskdashboard-nub"></div>
 
-				<div class="taskdashboard-title">A Boring Paper (Again)</div>
+					<div class="taskdashboard-data">
+				
+						<div class="taskdashboard-category">Society, Power, And Innovation</div>
 
-				<div class="taskdashboard-date">May 13, 2019</div>
+						<div class="taskdashboard-text">
 
-				<div class="taskdashboard-status">Completed</div>
+							<div class="taskdashboard-title">A Boring Paper (Again)</div>
+
+							<div class="taskdashboard-date">May 13, 2019</div>
+
+							<div class="taskdashboard-status">Completed</div>
+						</div>
+					</div>
+				</div>
+
 
 				<div class="taskdashboard-nub2"></div>
 

@@ -578,6 +578,16 @@ body{
     font-weight: 400;
     font-family: Lato;
 }
+.taskdashboard-flexct{
+	position: relative;
+	align-items: stretch;
+    display: flex;
+}
+.taskdashboard-item{
+	margin-top: 0.75em;
+	margin: 0;
+	display: list-item;
+}
 .upcomingeventsmainfont{
 	color: #333;
     font-weight: 300;
