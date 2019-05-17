@@ -324,7 +324,7 @@ body{
 .taskdashboard .container {
 	width: 45%;
 	margin: 40px 0;
-	height: 280px;
+	height: 335px;
 
 }
 
@@ -426,6 +426,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
+    height: 50px;
 }
 .taskdashboard-nub2{
 	background-color: #b2d681;
@@ -436,6 +437,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
+    height: 50px;
 }
 .taskdashboard-nub3{
 	background-color: #f17a62;
@@ -446,6 +448,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
+    height: 50px;
 }
 .taskdashboard-category{
 	border-radius: 0 0.4375em 0 0;
@@ -454,6 +457,9 @@ body{
     margin-bottom: -0.75em;
     padding: 0.625em 0.875em 0;
     text-transform: uppercase;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .taskdashboard-title{
 	flex: 1;
@@ -462,6 +468,8 @@ body{
 	color: #333;
     font-size: 16px;
     font-family: Lato;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .taskdashboard-status{
 	background-color: #a2dff6;
@@ -554,6 +562,21 @@ body{
     font-weight: 400;
     font-family: Lato;
     line-height: 1.5;
+    height: 30px;
+}
+
+.taskdashboard-text{
+	align-items: center;
+    border-radius: 0 0.25em 0.25em 0;
+    display: flex;
+    line-height: 1.33333;
+    padding: 0.5em 0.625em;
+    transition: border-radius 250ms 
+    cubic-bezier(0.075,0.82,0.165,1);
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
 }
 .upcomingeventsmainfont{
 	color: #333;

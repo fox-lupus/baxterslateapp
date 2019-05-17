@@ -28,11 +28,9 @@
 							</select>
 						</div>
 					</div>
-
-				<div class="taskdashboard-data"></div>
 		
 				<div class="taskdashboard-nub"></div>
-
+				
 				<div class="taskdashboard-category">Society, Power, And Innovation</div>
 
 				<div class="taskdashboard-title">A Boring Paper (Again)</div>
@@ -40,8 +38,6 @@
 				<div class="taskdashboard-date">May 13, 2019</div>
 
 				<div class="taskdashboard-status">Completed</div>
-
-				<div class="taskdashboard-data"></div>
 
 				<div class="taskdashboard-nub2"></div>
 
@@ -53,8 +49,6 @@
 
 				<div class="taskdashboard-status2">Due</div>
 
-				<div class="taskdashboard-data"></div>
-
 				<div class="taskdashboard-nub3"></div>
 
 				<div class="taskdashboard-category">Intro To Design</div>
@@ -64,8 +58,6 @@
 				<div class="taskdashboard-date3">Oct 27, 2018</div>
 
 				<div class="taskdashboard-status3">Due</div>
-
-				<div class="taskdashboard-data"></div>
 
 				<div class="taskdashboard-nub3"></div>
 
@@ -77,8 +69,6 @@
 
 				<div class="taskdashboard-status3">Submitted</div>
 
-				<div class="taskdashboard-data"></div>
-
 				<div class="taskdashboard-nub"></div>
 
 				<div class="taskdashboard-category">Advanced Algebra</div>
@@ -86,8 +76,6 @@
 				<div class="taskdashboard-title">Math Problems</div>
 
 				<div class="taskdashboard-status">Completed</div>
-
-				<div class="taskdashboard-data"></div>
 
 				<div class="taskdashboard-nub3"></div>
 
