@@ -648,3 +648,88 @@ body{
 	background: rgba(148, 148, 148, 0.08);
 }
 
+.row2 {
+	border: solid 1px #ccc;
+	border-left: solid 41px #8bd7f4;
+	height: 75px;
+	padding: 0 0 0 15px;
+}
+
+.row2 .assignment {
+	float: left;
+}
+
+.row2 .status {
+	float: right;
+	color: black;
+}
+.row2 .currentStatus {
+	background-color: #a2dff6;
+	line-height: 25px;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.row2 .date {
+	background-color: #d1effb;
+	line-height: 25px;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.row {
+	border: solid 1px #ccc;
+	height: 75px;
+	font-family: sans-serif;
+}
+
+			.row .nub {
+				background: red;
+
+				height: 75px;
+				width: 40px;
+
+
+				float: left;
+			}
+
+			.row .text { 
+				float: left;
+				height: 75px;
+			}
+
+			.row .class {
+				padding: 4px;
+				color: #555;
+				font-size: 11px;
+			}
+
+			.row .assignment {
+				padding: 4px;
+				color: black;
+				font-size: 14px;
+			}
+
+			.row .status {
+				float: right;
+				height: 75px;
+
+			}
+
+			.row .currentStatus {
+				background: blue;
+				height: 25px;
+				line-height: 25px;
+				
+				float: left;
+				margin: 25px;
+			}
+
+			.row .date {
+				background: blue;
+				height: 25px;
+				line-height: 25px;
+				margin: 25px 0;
+				
+				float: left;	
+			}
