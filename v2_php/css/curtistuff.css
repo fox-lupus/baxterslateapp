@@ -324,7 +324,7 @@ body{
 .taskdashboard .container {
 	width: 45%;
 	margin: 40px 0;
-	height: 100px;
+	height: 280px;
 
 }
 
@@ -426,7 +426,26 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
-    float: left;
+}
+.taskdashboard-nub2{
+	background-color: #b2d681;
+	align-items: center;
+    border-radius: 0.25em 0 0 0.25em;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: center;
+    width: 1em;
+}
+.taskdashboard-nub3{
+	background-color: #f17a62;
+	align-items: center;
+    border-radius: 0.25em 0 0 0.25em;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: center;
+    width: 1em;
 }
 .taskdashboard-category{
 	border-radius: 0 0.4375em 0 0;
@@ -458,6 +477,34 @@ body{
     font-weight: 400;
     float: right;
 }
+.taskdashboard-status2{
+	background-color: #bedc94;
+	border-radius: 0.25em 0 0 0.25em;
+    margin-left: 1em;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    font-weight: 400;
+    float: right;
+}
+.taskdashboard-status3{
+	background-color: #f38e79;
+	border-radius: 0.25em 0 0 0.25em;
+    margin-left: 1em;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    font-weight: 400;
+    float: right;
+}
 .taskdashboard-date{
 	background-color: #d1effb;
 	border-radius: 0 0.25em 0.25em 0;
@@ -470,6 +517,43 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     float: right;
+}
+.taskdashboard-date2{
+	background-color: #d5e9ba;
+	border-radius: 0 0.25em 0.25em 0;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    float: right;
+}
+.taskdashboard-date3{
+	background-color: #f7b5a8;
+	border-radius: 0 0.25em 0.25em 0;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    float: right;
+}
+.taskdashboard-data{
+	background-color: white;
+    cursor: pointer;
+    flex: 1;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 1.5;
 }
 .upcomingeventsmainfont{
 	color: #333;
