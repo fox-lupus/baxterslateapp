@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+
+
+		<style>
+			
+			.container {
+				width: 400px;
+				margin: 0px auto;
+			}
+
+			.row {
+				border: solid 1px #ccc;
+				height: 75px;
+				font-family: sans-serif;
+			}
+
+			.row .nub {
+				background: red;
+
+				height: 75px;
+				width: 40px;
+
+
+				float: left;
+			}
+
+			.row .text { 
+				float: left;
+				height: 75px;
+			}
+
+			.row .class {
+				padding: 4px;
+				color: #555;
+				font-size: 11px;
+			}
+
+			.row .assignment {
+				padding: 4px;
+				color: black;
+				font-size: 14px;
+			}
+
+			.row .status {
+				float: right;
+				height: 75px;
+
+			}
+
+			.row .currentStatus {
+				background: blue;
+				height: 25px;
+				line-height: 25px;
+				
+				float: left;
+				margin: 25px;
+			}
+
+			.row .date {
+				background: blue;
+				height: 25px;
+				line-height: 25px;
+				margin: 25px 0;
+				
+				float: left;	
+			}
+
+
+
+			.row2 {
+				border: solid 1px #ccc;
+				border-left: solid 41px blue;
+
+				height: 75px;
+				padding: 0 0 0 15px;
+			}
+
+			.row2 .assignment {
+				float: left;
+			}
+
+			.row2 .status {
+				float: right;
+				color: white;
+			}
+			.row2 .currentStatus {
+				background: blue;
+				line-height: 25px;
+				display: inline-block;
+				padding: 0 5px;
+			}
+
+			.row2 .date {
+				background: green;
+				line-height: 25px;
+				display: inline-block;
+				padding: 0 5px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="container">
+		
+			<div class="row">
+				
+				<div class="nub"></div>
+
+				<div class="text">
+					<div class="class">MATH</div>
+					<div class="assignment">PROBLEM SET #2</div>
+				</div>
+
+				<div class="status">
+					<div class="currentStatus">COMPLETED</div>
+					<div class="date">May 15</div>
+				</div>
+
+			</div>
+
+			<div class="row2">
+				
+				<div class="class">MATH</div>
+
+				<div class="text">
+					
+					<div class="assignment">PROBLEM SET #2</div>
+
+					<div class="status">
+						<span class="currentStatus">COMPLETED</span>
+						<span class="date">May 15</span>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
