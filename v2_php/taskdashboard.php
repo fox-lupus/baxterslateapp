@@ -5,7 +5,6 @@
 
 	<div class="taskdashboard">
 
-
 		<!-- PANEL ONE -->
 		<div class="container left">
 
@@ -29,19 +28,17 @@
 							</select>
 						</div>
 					</div>
-				
-			<div>
-				<div class="taskdashboard-tasktree-category">
-					<div>Society, Power, And Innovation</div>
-				</div>
+		
+				<div class="taskdashboard-nub"></div>
 
-				<div class="taskdashboard-tasktree-text">
-					<div>A Boring Paper (Again)</div>
-				</div>
-				<div class="taskdashboard-date">
-					<div>Completed Oct 13, 2018</div>
-		</div>
-	</div>
+				<div class="taskdashboard-category">Society, Power, And Innovation</div>
+
+				<div class="taskdashboard-title">A Boring Paper (Again)</div>
+
+				<div class="taskdashboard-date">Oct 13, 2018</div>
+
+				<div class="taskdashboard-status">Completed</div>
+		
 </div>
 			
 		<!-- PANEL TWO -->

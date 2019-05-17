@@ -408,33 +408,6 @@ body{
     text-transform: uppercase;
 }
 
-.taskdashboard-tasktree-category {
-    border-radius: 0 0.4375em 0 0;
-    color: #949494;
-    font-size: 0.75em;
-    margin-bottom: -0.75em;
-    padding: 0.625em 0.875em 0;
-    text-transform: uppercase;
-}
-
-.taskdashboard-tasktree-text {
-    align-items: center;
-    border-radius: 0 0.25em 0.25em 0;
-    display: flex;
-    line-height: 1.33333;
-    padding: 0.5em 0.625em;
-    transition: border-radius 250ms cubic-bezier(0.075,0.82,0.165,1);
-    height: 15px;
-}
-
-.taskdashboard-date{
-	background-color: #a2dff6;
-	margin-right: 0px;
-}
-
-.taskdashboard-date div {
-	float: right;
-}
 .taskdashboard-item{
 	height: 30px;
 	width: 200px;
@@ -444,7 +417,60 @@ body{
     font-weight: 400;
     font-family: Lato;
 }
-
+.taskdashboard-nub{
+	background-color: #8bd7f4;
+	align-items: center;
+    border-radius: 0.25em 0 0 0.25em;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: center;
+    width: 1em;
+    float: left;
+}
+.taskdashboard-category{
+	border-radius: 0 0.4375em 0 0;
+    color: #949494;
+    font-size: 0.75em;
+    margin-bottom: -0.75em;
+    padding: 0.625em 0.875em 0;
+    text-transform: uppercase;
+}
+.taskdashboard-title{
+	flex: 1;
+	display: block;
+	line-height: 1.33333;
+	color: #333;
+    font-size: 16px;
+    font-family: Lato;
+}
+.taskdashboard-status{
+	background-color: #a2dff6;
+	border-radius: 0.25em 0 0 0.25em;
+    margin-left: 1em;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    font-weight: 400;
+    float: right;
+}
+.taskdashboard-date{
+	background-color: #d1effb;
+	border-radius: 0 0.25em 0.25em 0;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    float: right;
+}
 .upcomingeventsmainfont{
 	color: #333;
     font-weight: 300;
