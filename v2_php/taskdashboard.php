@@ -28,7 +28,7 @@
 							</select>
 						</div>
 					</div>
-<!-- 
+
 					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub"></div>
@@ -43,28 +43,23 @@
 							<div class="taskdashboard-status">Completed</div>	
 						</div>
 					</div>
-				 -->
-					<div class="row">
+				
+					<div class="tashdashboard-row">
 					
-						<div class="nub2"></div>
+						<div class="taskdashboard-nub2"></div>
 
-						<div class="body">
+						<div class="text">
+							<div class="taskdashboard-category">Guitar Lab</div>
+							<div class="taskdashboard-title">Guitar Lessons 101</div>
+						</div>
 
-							<div class="category">Guitar Lab</div>
-
-
-							<div class="text">
-								<div class="title">Guitar Lessons 101</div>
-							</div>
-
-							<div class="status">
-								<div class="date2">Feb 24, 2019</div>
-								<div class="status2">Completed</div>
-							</div>
+						<div class="taskdashboard-statussetup">
+							<div class="taskdashboard-date2">Feb 24, 2019</div>
+							<div class="taskdashboard-status2">Completed</div>
 						</div>
 					</div>
 		
-				<!-- 	<div class="tashdashboard-row">
+					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub3"></div>
 
@@ -121,7 +116,7 @@
 							<div class="taskdashboard-status3">Revised</div>
 							<div class="taskdashboard-date3">Dec 14, 2018</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 
 
