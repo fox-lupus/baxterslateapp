@@ -57,30 +57,28 @@
 							<div class="taskdashboard-date2">Feb 24, 2019</div>
 							<div class="taskdashboard-status2">Completed</div>
 						</div>
-						</div>
 					</div>
-					<!--
+		
 					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub3"></div>
 
-						<div class="taskdashboard-text">
+						<div class="text">
 							<div class="taskdashboard-category">Intro To Design</div>
 							<div class="taskdashboard-title">Make The Worst Presentation</div>
 						</div>
 
 						<div class="taskdashboard-statussetup">
-							<div class="taskdashboard-status2">Due</div>
-							<div class="taskdashboard-date2">Oct 27, 2018</div>
-						</div>
+							<div class="taskdashboard-status3">Due</div>
+							<div class="taskdashboard-date3">Oct 27, 2018</div>
 						</div>
 					</div>
-
+				
 					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub3"></div>
 
-						<div class="taskdashboard-text">
+						<div class="text">
 							<div class="taskdashboard-category">Physical Science</div>
 							<div class="taskdashboard-title">Kites Lab</div>
 						</div>
@@ -89,14 +87,13 @@
 							<div class="taskdashboard-status3">Submitted</div>
 							<div class="taskdashboard-date3">Apr 09, 2019</div>
 						</div>
-						</div>
 					</div>
 
 					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub"></div>
 
-						<div class="taskdashboard-text">
+						<div class="text">
 							<div class="taskdashboard-category">Wellness</div>
 							<div class="taskdashboard-title">Presentation</div>
 						</div>
@@ -104,14 +101,13 @@
 						<div class="taskdashboard-statussetup">
 							<div class="taskdashboard-status">Completed</div>
 						</div>
-						</div>
 					</div>
 
 					<div class="tashdashboard-row">
 					
 						<div class="taskdashboard-nub3"></div>
 
-						<div class="taskdashboard-text">
+						<div class="text">
 							<div class="taskdashboard-category">Spanish II</div>
 							<div class="taskdashboard-title">Telenova</div>
 						</div>
@@ -120,8 +116,8 @@
 							<div class="taskdashboard-status3">Revised</div>
 							<div class="taskdashboard-date3">Dec 14, 2018</div>
 						</div>
-						</div>
-					</div>-->
+					</div>
+				</div>
 
 
 		

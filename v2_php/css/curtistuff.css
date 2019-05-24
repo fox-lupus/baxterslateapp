@@ -161,8 +161,6 @@ body{
     font-weight: bold;
 }
 
-
-
 .contactustinyfont{
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
     text-rendering: optimizeLegibility;
@@ -324,17 +322,17 @@ body{
 .taskdashboard .container {
 	width: 45%;
 	margin: 40px 0;
-	height: 335px;
-
 }
 
 .taskdashboard .container.left {
 	float: left;
 	background-color: #e3e3e3;
+	height: 335px;
 }
 
 .taskdashboard .container.right {
 	float: right;
+	height: 150px;
 }
 
 
@@ -426,7 +424,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
-    height: 50px;
+    height: 40px;
     float: left;
 }
 .taskdashboard-nub2{
@@ -438,7 +436,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
-    height: 50px;
+    height: 40px;
     float: left;
 }
 .taskdashboard-nub3{
@@ -450,7 +448,7 @@ body{
     font-weight: bold;
     justify-content: center;
     width: 1em;
-    height: 50px;
+    height: 40px;
     float: left;
 }
 .taskdashboard-container{
@@ -480,7 +478,7 @@ body{
 }
 .taskdashboard-statussetup{
 	float: right;
-	height: 75px;
+	height: 20px;
 }
 .taskdashboard-status{
 	background-color: #a2dff6;
@@ -495,8 +493,6 @@ body{
     font-family: Lato;
     font-weight: 400;
     float: left;
-    height: 25px;
-    margin: 25px;
 }
 .taskdashboard-status2{
 	background-color: #bedc94;
@@ -510,7 +506,7 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     font-weight: 400;
-    float: right;
+    float: left;
 }
 .taskdashboard-status3{
 	background-color: #f38e79;
@@ -524,7 +520,7 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     font-weight: 400;
-    float: right;
+    float: left;
 }
 .taskdashboard-date{
 	background-color: #d1effb;
@@ -538,8 +534,6 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     float: right;
-    height: 25px;
-    margin: 25px;
 }
 .taskdashboard-date2{
 	background-color: #d5e9ba;
@@ -647,89 +641,3 @@ body{
 	display: none;
 	background: rgba(148, 148, 148, 0.08);
 }
-
-.row2 {
-	border: solid 1px #ccc;
-	border-left: solid 41px #8bd7f4;
-	height: 75px;
-	padding: 0 0 0 15px;
-}
-
-.row2 .assignment {
-	float: left;
-}
-
-.row2 .status {
-	float: right;
-	color: black;
-}
-.row2 .currentStatus {
-	background-color: #a2dff6;
-	line-height: 25px;
-	display: inline-block;
-	padding: 0 5px;
-}
-
-.row2 .date {
-	background-color: #d1effb;
-	line-height: 25px;
-	display: inline-block;
-	padding: 0 5px;
-}
-
-.row {
-	border: solid 1px #ccc;
-	height: 75px;
-	font-family: sans-serif;
-}
-
-			.row .nub {
-				background: red;
-
-				height: 75px;
-				width: 40px;
-
-
-				float: left;
-			}
-
-			.row .text { 
-				float: left;
-				height: 75px;
-			}
-
-			.row .class {
-				padding: 4px;
-				color: #555;
-				font-size: 11px;
-			}
-
-			.row .assignment {
-				padding: 4px;
-				color: black;
-				font-size: 14px;
-			}
-
-			.row .status {
-				float: right;
-				height: 75px;
-
-			}
-
-			.row .currentStatus {
-				background: blue;
-				height: 25px;
-				line-height: 25px;
-				
-				float: left;
-				margin: 25px;
-			}
-
-			.row .date {
-				background: blue;
-				height: 25px;
-				line-height: 25px;
-				margin: 25px 0;
-				
-				float: left;	
-			}
