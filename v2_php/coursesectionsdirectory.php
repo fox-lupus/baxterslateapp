@@ -1,41 +1,26 @@
 <?php include('otherphp/header.php'); ?>
 <?php include('otherphp/top-head.php'); ?>`
-<script id="rendered-js">
+<style type="text/css">
+	@media only screen and (max-width: 1600px) {
 
-	// WHEN THE DOCUMENT LOADS
-	$(document).ready(function () {
+	.special_table tr td:before {
+			content: attr(data-label);
 
-		// GO THROUGH EACH ELEMENT WITH THE CLASS NAME "js-table-data"
-		$('.js-table-data').each(function () {
-			table = $(this);
-			tableRow = table.find('tr');
+			display: table-cell;
+			text-align: right;
+		}
+		.special_table tr th {
+			display: none;
+		}
+		.special_table tr td {
+				display: table-row;
+		}
+		.special_table tr {
+			display: block;
+		}
+	}
 
-			// go through each <td> element within that table
-			table.find('td').each(function () {
-				tdIndex = $(this).index();
-
-
-				var corresponding_header_element = $(tableRow).find('th').eq(tdIndex);
-
-
-				// if the corresponding header has the attribute "data-label"
-				if (corresponding_header_element.attr('data-label')) {
-
-					// grab that value
-					thText = corresponding_header_element.data('label');
-				}
-
-				// otherwise get the body of that corresponding header
-				else {
-					thText =corresponding_header_element.text();
-				}
-
-				// and use that to se the data-label attribute of the <td> element that we're at
-				$(this).attr('data-label', thText + ':');
-			});
-		});
-	});
-</script>
+</style>
 <div class="container-of-directory">
 	<div class="head-of-page">Course Sections Directory</div>
 	<div class="Filter">
@@ -366,7 +351,7 @@
 	</div>
 	<div class="directory"> 
 		
-		<table class=".js-table-data">
+		<table class="special_table">
 
 			<tr>
 				<th>Code</th> 
@@ -411,12 +396,4 @@
 	</div>
 </div>
 
-
-
-
-
-
-
-
-	
 <?php include'otherphp/footer.php';?>

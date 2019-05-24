@@ -13,7 +13,34 @@
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
-	<style type="text/css">
+	<script id="rendered-js">
+
+			// WHEN THE DOCUMENT LOADS
+			$(document).ready(function () {
+
+				// GO THROUGH EACH ELEMENT WITH THE CLASS NAME "js-table-data"
+				$('.special_table').each(function () {
+					table = $(this);
+
+					// GET THE LIST OF HEADERS
+					var first_row = $(table).find('th');
+
+
+
+					// go through each <td> element within that table
+					table.find('td').each(function () {
+						tdIndex = $(this).index();
+
+						thText = first_row.eq(tdIndex).text();
+						
+						// and use that to se the data-label attribute of the <td> element that we're at
+						$(this).attr('data-label', thText + ':');
+					});
+				});
+			});
+		//# sourceURL=pen.js
+	</script>
+<style type="text/css">
 html, body{
 		margin: 0px;
 		padding: 0px;
@@ -124,7 +151,7 @@ body{
 <body>
 <div class="nav">
 	<div class="menu">
-		<a href="" class="menu-text">Menu</a>
+		<span class="menu-text">Menu</span>
 		<div class="dropdown_menu">
 			<a href="slatedashboard.php">Dashboard</a>
 			<a href="coursesectionsdirectory.php">Course Sections Directory</a>
