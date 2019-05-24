@@ -5,18 +5,21 @@
 
 	<div class="portfolios">
 
-		<div>Portfolios:</div>
+		<div class="portfolio-border">
+			
+			<div>Portfolios:</div>
 
-		<div class="portfolio-colors">
-			<div class="en">EN</div> 
-			<div class="pr">PR</div> 
-			<div class="gb">GB</div>
-			<div class="ad">AD</div>
-			<div class="ex">EX</div>  
-			<div class="ba">BA</div>
-			<div style="clear: both; float: none;"></div>a
+			<div class="portfolio-colors">
+				<div class="en portfolio">EN</div> 
+				<div class="pr portfolio">PR</div> 
+				<div class="gb portfolio">GB</div>
+				<div class="ad portfolio">AD</div>
+				<div class="ex portfolio">EX</div>  
+				<div class="ba portfolio">BA</div>
+				<div style="clear: both; float: right; margin-right: 25px;"></div>a
+			</div>
 		</div>
-
+		
 		<div class="standard_container">
 
 			<div class="headline">

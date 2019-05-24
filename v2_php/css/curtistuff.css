@@ -40,27 +40,36 @@ body{
 
 .portfolios .en {
 	background: #d94181;
+	border-radius: 3px;
 }
 
 .portfolios .pr {
 	background: #ff7d00;
-
+	border-radius: 3px;
 }
 
 .portfolios .gb {
 	background: #38a719;
+	border-radius: 3px;
 }
 
 .portfolios .ad {
 	background: #008cc1;
+	border-radius: 3px;
 }
 
 .portfolios .ex {
 	background: #6320ca;
+	border-radius: 3px;
 }
 
 .portfolios .ba {
 	background: #0040ff;
+	border-radius: 3px;
+}
+
+.portfolio-border{
+	
 }
 
 .portfolio-colors .container_left {
