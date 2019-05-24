@@ -22,22 +22,23 @@
 		//	- and returns the new value.
 		// 	- Add some HTML to the page and make this function load AFTER the HTML loads.
 		
+		 AlertsNumber = function () {
 
-		 addNumber = function () {
+		 	AlertValue = 1;
 
-		 	number = 10;
+		 	AlertValue = AlertValue + 10;
 
-		 	alert(number + 10)
-
-		 	number = number + 7;
-
-		 	return number;
+		 	alert(AlertValue);
+		 	
+		 	return AlertValue;
 		 }
 
 
-		 $(addNumber);
-		 
-	</script>
+			document.onload = function () {
+		 	$(AlertsNumber)
+		}
+
+ 	</script>
 </head>
 <body>
 	<h1>I AM THE HEAD </h1>
