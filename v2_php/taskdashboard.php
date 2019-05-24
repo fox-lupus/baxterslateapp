@@ -37,7 +37,7 @@
 							<div class="taskdashboard-category">Society, Power, And Innovation</div>
 							<div class="taskdashboard-title">A Boring Paper (Again)</div>
 						</div>
-
+						
 						<div class="taskdashboard-statussetup">
 							<div class="taskdashboard-date">May 13, 2019</div>	
 							<div class="taskdashboard-status">Completed</div>	
