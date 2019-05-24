@@ -132,14 +132,12 @@ input:focus, select:focus, textarea:focus, button:focus{
 	height: 300px;
 	width: 100%;
 	background-size: fit;
-	position: fixed;
 	z-index: 5;
 	top: 40px;
     background: url(img/imthebackgound.jpg);
 }
 
 .main_content {
-	padding-top: 340px;
 	position: relative;
 	z-index: 5;
 }

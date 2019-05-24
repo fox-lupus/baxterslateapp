@@ -5,7 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slate-mobile-css.css?<?php echo microtime();?>"> 	
 	<link rel="stylesheet" type="text/css" href="css/home.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/dots.css?<?php echo microtime();?>">
-	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css?<?php echo microtime();?>">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">

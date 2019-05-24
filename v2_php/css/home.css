@@ -6,7 +6,7 @@
 .window{
 	background-image: url(img/1x1-d4d4d49b.png);
 	height:120px;
-	z-index: 1;
-	overflow-y: hidden;
+	z-index: 0;
+	/*overflow-y: hidden;*/
 	background-color:red ;
 }	
