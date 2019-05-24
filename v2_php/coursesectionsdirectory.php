@@ -366,7 +366,7 @@
 	</div>
 	<div class="directory"> 
 		
-		<table>
+		<table class=".js-table-data">
 
 			<tr>
 				<th>Code</th> 
