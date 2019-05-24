@@ -492,7 +492,6 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     font-weight: 400;
-    float: left;
 }
 .taskdashboard-status2{
 	background-color: #bedc94;
@@ -506,7 +505,6 @@ body{
     line-height: 1.33333;
     font-family: Lato;
     font-weight: 400;
-    float: left;
 }
 .taskdashboard-status3{
 	background-color: #f38e79;
@@ -574,21 +572,6 @@ body{
     height: 30px;
 }
 
-.taskdashboard-text{
-	align-items: center;
-    border-radius: 0 0.25em 0.25em 0;
-    display: flex;
-    line-height: 1.33333;
-    padding: 0.5em 0.625em;
-    transition: border-radius 250ms 
-    cubic-bezier(0.075,0.82,0.165,1);
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: Lato;
-    float: left;
-}
-
 .taskdashboard-row{
 	border: solid 1px #ccc;
 	height: 75px;
@@ -622,7 +605,7 @@ body{
 	text-align: center;
 	border-radius: 3px;
 
-	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
+	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2)
 
 }
 
