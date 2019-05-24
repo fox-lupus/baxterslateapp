@@ -6,20 +6,47 @@
 	<meta charset="UTF-8">
 	
 	<title>CodePen - Mobile-Friendly Table</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 	<style>
-		/*@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+		@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+
+		body {
+			font-family: "Montserrat", sans-serif;
+			font-weight: 500;
+			line-height: 1.35;
+		}
+
+
+
+		/* MOBILE: WINDOWS UP TO 767px WIDE */
 
 		@media screen and (max-width: 767px) {
+
+			td:before {
+				content: attr(data-label);
+
+
+
+
+				display: table-cell;
+				font-weight: bold;
+				padding: 0.2em 0.6em 0.2em 0;
+				text-align: right;
+			}
+
+
 			thead {
 				display: none;
 			}
 
 			tr {
 				display: block;
-				position: relative;
 				padding: 1.2em 0;
+				border-bottom: solid 1px #ccc;
 			}
 			tr:first-of-type {
 				border-top: 1px solid #ccc;
@@ -28,45 +55,20 @@
 			td {
 				display: table-row;
 			}
-			td:before {
-				content: attr(data-label);
-				display: table-cell;
-				font-weight: bold;
-				padding: 0.2em 0.6em 0.2em 0;
-				text-align: right;
-			}
-			td:last-child:after {
-				content: "";
-				position: absolute;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				border-bottom: 1px solid #ccc;
-			}
+			
+			
 		}
 
-		body {
-			padding: 5%;
-			font-family: "Montserrat", sans-serif;
-			font-weight: 500;
-			line-height: 1.35;
-		}
+		
+		/* DESKTOP: WINDOWS OVER 768px WIDE */
 
-		h1, h2 {
-			font-size: 1.8em;
-			margin-bottom: 0.8em;
-		}
-
-		table {
-			margin-bottom: 2em;
-			text-align: left;
-		}
 
 		@media screen and (min-width: 768px) {
-			body {
-				padding: 2.5em;
-			}
 
+			table {
+				border-collapse: collapse;
+			}
+	
 			td, th {
 				padding: 0.4em 0.6em;
 				vertical-align: top;
@@ -77,53 +79,16 @@
 				background: #e1e1e1;
 				font-weight: bold;
 			}
-		}*/
+		}
 
 	</style>
 
 
-	<style>
-		body { margin: 100px; }
-		td { border: solid 1px #ccc; padding: 4px; }
-		h3 { font-weight: bold; margin-top: 50px; }
-
-
-	</style>
 	
 </head>
 
 <body translate="no">
-	<!-- <h1>Responsive Table</h1>
-	<table class='js-table-data'>
-		<thead>
-			<tr>
-				<th>Company</th>
-				<th>Location</th>
-				<th data-label='Desc'>Description</th>
-			</tr>
-		</thead>
-		<tr>
-			<td>Acme Company, LLC</td>
-			<td>Denver, CO</td>
-			<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus obcaecati quibusdam.</td>
-		</tr>
-		<tr>
-			<td>Simple Corp</td>
-			<td>Austin, TX</td>
-			<td>Mollitia veritatis commodi deleniti provident quasi neque illum ipsa consequatur ullam facere, quidem minus nesciunt maxime architecto.</td>
-		</tr>
-		<tr>
-			<td>ABC Generic Company</td>
-			<td>Seattle, WA</td>
-			<td>Nihil officia natus voluptas, at quasi impedit animi enim doloremque architecto.</td>
-		</tr>
-	</table>
 	
-
-
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
--->
-
 
 	<script id="rendered-js">
 
@@ -131,30 +96,20 @@
 		$(document).ready(function () {
 
 			// GO THROUGH EACH ELEMENT WITH THE CLASS NAME "js-table-data"
-			$('.js-table-data').each(function () {
+			$('.special_table').each(function () {
 				table = $(this);
-				tableRow = table.find('tr');
+
+				// GET THE LIST OF HEADERS
+				var first_row = $(table).find('th');
+
+
 
 				// go through each <td> element within that table
 				table.find('td').each(function () {
 					tdIndex = $(this).index();
 
-
-					var corresponding_header_element = $(tableRow).find('th').eq(tdIndex);
-
-
-					// if the corresponding header has the attribute "data-label"
-					if (corresponding_header_element.attr('data-label')) {
-
-						// grab that value
-						thText = corresponding_header_element.data('label');
-					}
-
-					// otherwise get the body of that corresponding header
-					else {
-						thText =corresponding_header_element.text();
-					}
-
+					thText = first_row.eq(tdIndex).text();
+					
 					// and use that to se the data-label attribute of the <td> element that we're at
 					$(this).attr('data-label', thText + ':');
 				});
@@ -165,46 +120,19 @@
  
 
 
-	<!-- NORMAL -->
-	<h3>NORMAL</h3>
-	<table>
-		<tr style="font-weight: bold">
-			<td>HEADER 1</td>
-			<td>HEADER 2</td>
-		</tr>
-		<tr>
-			<td>VALUE 1</td>
-			<td>VALUE 2</td>
-		</tr>
-		<tr>
-			<td>VALUE 1</td>
-			<td>VALUE 2</td>
-		</tr>
-		<tr>
-			<td>VALUE 1</td>
-			<td>VALUE 2</td>
-		</tr>
-	</table>
-
-
-
-
-
-
-
 
 	<!-- NORMAL -->
-	<h3>RE-WORK</h3>
+	<h3>RESPONSIVE TABLE</h3>
 	<table class="special_table">
 		<thead>
 			<tr style="font-weight: bold">
-				<td>HEADER 1</td>
-				<td>HEADER 2</td>
+				<th>HEADER 1</th>
+				<th>HEADER 2</th>
 			</tr>
 		</thead>
 		<tr>
-			<td data-label='HIDDEN HEADER 1'>VALUE 1</td>
-			<td data-label='HIDDEN HEADER 2'>VALUE 2</td>
+			<td>VALUE 1</td>
+			<td>VALUE 2</td>
 		</tr>
 		<tr>
 			<td>VALUE 1</td>
@@ -216,78 +144,30 @@
 		</tr>
 	</table>
 
+
+
+	<!-- EXAMPLE -->
 	<style>
-		.special_table {
+		.example:before {
+			height: 10px;
+			width: 10px;
+			background: red;
 			display: block;
-		}	
-
-		.special_table thead {
-			display: none;
+			content: ' ';
 		}
-
-		.special_table tr {
-			display: block;
-			border: solid 1px #ccc; padding: 10px; margin: 20px;
-		}	
-
-		.special_table td {
-			display: table-row;
-		}
-
-		.special_table td::before {
-			content: attr(data-label);
-			display: table-cell;
-			font-weight: bold;
-		}
-
-
-		
 	</style>
 
+	<div class="example" >BODY</div>
 
 
 
-	<!-- MOBILE -->
-	<h3>MOBILE</h3>
-	<div style="border: solid 1px #ccc; padding: 10px; margin: 20px;">
-		<table>
-			<tr>
-				<td style="font-weight: bold">HEADER 1</td>
-				<td>VALUE 1</td>
-			</tr>
-			<tr>
-				<td style="font-weight: bold">HEADER 2</td>
-				<td>VALUE 2</td>
-			</tr>
-		</table>
-	</div>
+	<style>
+		.example2:before {
+			content: attr(data-label);
+		}
+	</style>
 
-	<div style="border: solid 1px #ccc; padding: 10px; margin: 20px;">
-		<table>
-			<tr>
-				<td style="font-weight: bold">HEADER 1</td>
-				<td>VALUE 1</td>
-			</tr>
-			<tr>
-				<td style="font-weight: bold">HEADER 2</td>
-				<td>VALUE 2</td>
-			</tr>
-		</table>
-	</div>
-
-	<div style="border: solid 1px #ccc; padding: 10px; margin: 20px;">
-		<table>
-			<tr>
-				<td style="font-weight: bold">HEADER 1</td>
-				<td>VALUE 1</td>
-			</tr>
-			<tr>
-				<td style="font-weight: bold">HEADER 2</td>
-				<td>VALUE 2</td>
-			</tr>
-		</table>
-	</div>
-
+	<div class="example2" data-label="test">ELEMENT 2</div>
 
 
 
