@@ -1,4 +1,4 @@
-S<div class="background_image">
+<div class="background_image">
 </div>
 <div class="main_content">
 	<div class="container-logo">

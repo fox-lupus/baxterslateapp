@@ -60,7 +60,7 @@ body{
 
 }
 .menu-text {
-	font-size:27px;
+	font-size:20px;
 	text-decoration:none;
 	color:#fff;
 }
