@@ -14,7 +14,7 @@
 
 				<div class="select-block">
 					
-							<select class="selection-box">
+							<select class="selection-box2">
 								<option value="">Filter</option>
 								<option value="">Due Tasks</option>
 								<option value="">Revision Tasks</option>
