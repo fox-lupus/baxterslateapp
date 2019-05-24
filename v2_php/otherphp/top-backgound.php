@@ -1,6 +1,4 @@
-<?php include ('otherphp/header.php');?>
-<div class="background_image">
-</div>
+<div class="background_image"></div>
 <div class="main_content">
 	<div class="container-logo">
 		<div class="logo">
@@ -10,4 +8,3 @@
 		</div>
 	</div>	
 </div>	
-<?php include 'footer.php';?>
