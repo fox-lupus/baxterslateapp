@@ -5,7 +5,7 @@
 
 	.special_table tr td:before {
 			content: attr(data-label);
-
+			
 			display: table-cell;
 			text-align: right;
 			font-weight: bold;
