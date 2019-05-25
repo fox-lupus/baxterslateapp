@@ -8,15 +8,32 @@
 
 			display: table-cell;
 			text-align: right;
+			font-weight: bold;
 		}
 		.special_table tr th {
 			display: none;
 		}
 		.special_table tr td {
-				display: table-row;
+			display: table-row;
 		}
 		.special_table tr {
-			display: block;
+			display: inline-block;
+			border-top: 1px gray solid;
+			border-bottom: 1px gray solid;
+			margin-top:10px; 
+		}
+		.special_table tr:first-of-type {
+			border-top: 1px solid #ccc;
+		}
+		.special_table {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.special_table tr .subhead{
+			display: none
+		}
+		tr:nth-child(odd) {
+		background:none;
 		}
 	}
 
@@ -352,47 +369,1929 @@
 	<div class="directory"> 
 		
 		<table class="special_table">
-
-			<tr>
-				<th>Code</th> 
-				<th>Teachers</th> 
-				<th>Students</th> 
-				<th>Schedule</th>
-			</tr>
-
-			<tr>
-				<td class="subhead">Advanced Algebra</td>
-			</tr>
-
-			<tr>
-				<td><a href="">spring1819-MAT200-3</a></td>
-				<td><a>2</a></td> 
-				<td>3</td>
-				<td>4</td>
-			</tr>
-
-			<tr>
-				<td><a>1</a></td>
-				<td><a>2</a></td> 
-				<td>3</td>
-				<td>4</td>
-			</tr>
-
-			<tr>
-				<td><a>1</a></td>
-				<td><a>2</a></td> 
-				<td>3</td>
-				<td>4</td>
-			</tr>
-
-			<tr>
-				<td><a>1</a></td>
-				<td><a>2</a></td> 
-				<td>3</td>
-				<td>4</td>
-			</tr>
-
-		</table>	
+			<thead>
+	            <tr>
+	                <th scope="col">Code</th>
+	                <th scope="col">Teachers</th>
+	                <th scope="col">Students</th>
+	                <th scope="col">Location</th>
+	                <th scope="col">Schedule</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+        
+            <tr>
+                <th colspan="5">
+                    Advanced Algebra</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT200-3">spring1819-MAT200-3</a></td>
+                    <td><a href="/people/gyock" title="Gretchen Yock&thinsp;(Teacher)" ><span class="name ">Gretchen Yock</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT200-4">spring1819-MAT200-4</a></td>
+                    <td><a href="/people/juliakosowsky" title="Julia Kosowsky&thinsp;(Teacher)" ><span class="name ">Julia Kosowsky</span></a></td>
+                    <td>25</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT200-5">spring1819-MAT200-5</a></td>
+                    <td><a href="/people/juliakosowsky" title="Julia Kosowsky&thinsp;(Teacher)" ><span class="name ">Julia Kosowsky</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT200-6">spring1819-MAT200-6</a></td>
+                    <td><a href="/people/gyock" title="Gretchen Yock&thinsp;(Teacher)" ><span class="name ">Gretchen Yock</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advanced Chemistry Lab</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI401-1">spring1819-SCI401-1</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advanced Engineering</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPE500-1">spring1819-EPE500-1</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advanced Public Speaking</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG453-1">spring1819-ENG453-1</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advisory 10</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-1">spring1819-ADV010-1</a></td>
+                    <td><a href="/people/awaters" title="Alex Waters&thinsp;(Teacher)" ><span class="name ">Alex Waters</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-2">spring1819-ADV010-2</a></td>
+                    <td><a href="/people/msullivan" title="Molly Sullivan&thinsp;(Teacher)" ><span class="name ">Molly Sullivan</span></a></td>
+                    <td>12</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-3">spring1819-ADV010-3</a></td>
+                    <td><a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-4">spring1819-ADV010-4</a></td>
+                    <td></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-5">spring1819-ADV010-5</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/eli" title="Enyue Li&thinsp;(Teacher)" ><span class="name ">Enyue Li</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-6">spring1819-ADV010-6</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-7">spring1819-ADV010-7</a></td>
+                    <td><a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV010-8">spring1819-ADV010-8</a></td>
+                    <td><a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advisory 11</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-1">spring1819-ADV011-1</a></td>
+                    <td><a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-2">spring1819-ADV011-2</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-3">spring1819-ADV011-3</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-4">spring1819-ADV011-4</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-5">spring1819-ADV011-5</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV011-6">spring1819-ADV011-6</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advisory 12</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-1">spring1819-ADV012-1</a></td>
+                    <td><a href="/people/gyock" title="Gretchen Yock&thinsp;(Teacher)" ><span class="name ">Gretchen Yock</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-2">spring1819-ADV012-2</a></td>
+                    <td><a href="/people/avickerson" title="Amanda Vickerson&thinsp;(Teacher)" ><span class="name ">Amanda Vickerson</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-3">spring1819-ADV012-3</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-4">spring1819-ADV012-4</a></td>
+                    <td><a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a>, <a href="/people/bolson" title="Brian Olson&thinsp;(Teacher)" ><span class="name ">Brian Olson</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-5">spring1819-ADV012-5</a></td>
+                    <td><a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV012-6">spring1819-ADV012-6</a></td>
+                    <td></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Advisory 9</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-1">spring1819-ADV009-1</a></td>
+                    <td><a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-2">spring1819-ADV009-2</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-3">spring1819-ADV009-3</a></td>
+                    <td><a href="/people/juliakosowsky" title="Julia Kosowsky&thinsp;(Teacher)" ><span class="name ">Julia Kosowsky</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-4">spring1819-ADV009-4</a></td>
+                    <td><a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-5">spring1819-ADV009-5</a></td>
+                    <td><a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-6">spring1819-ADV009-6</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ADV009-7">spring1819-ADV009-7</a></td>
+                    <td><a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>Advisory</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+American Studies</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC200-4">spring1819-SOC200-4</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC200-5">spring1819-SOC200-5</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Animation</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART303-1">spring1819-ART303-1</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>12</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Art History</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC451-1">spring1819-SOC451-1</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+BASE</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-BAS400-2">spring1819-BAS400-2</a></td>
+                    <td></td>
+                    <td>3</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+CAD &amp; Geometry</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPE200-1">spring1819-EPE200-1</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Calculus 1</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT501-1">spring1819-MAT501-1</a></td>
+                    <td><a href="/people/gyock" title="Gretchen Yock&thinsp;(Teacher)" ><span class="name ">Gretchen Yock</span></a></td>
+                    <td>8</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+CAM (Computer Aided Machining)</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES302-1">spring1819-DES302-1</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a></td>
+                    <td>10</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Coming of Age</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG202-1">spring1819-ENG202-1</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG202-2">spring1819-ENG202-2</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG202-3">spring1819-ENG202-3</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Design Thinking</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES105-1">spring1819-DES105-1</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES105-2">spring1819-DES105-2</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Designing Statistical Studies</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT330-4">spring1819-MAT330-4</a></td>
+                    <td><a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT330-5">spring1819-MAT330-5</a></td>
+                    <td><a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>21</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT330-6">spring1819-MAT330-6</a></td>
+                    <td><a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Differential Equations</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM500-2">spring1819-EPM500-2</a></td>
+                    <td><a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a></td>
+                    <td>9</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Digital Org and Communication</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-HUM125-1">spring1819-HUM125-1</a></td>
+                    <td><a href="/people/msullivan" title="Molly Sullivan&thinsp;(Teacher)" ><span class="name ">Molly Sullivan</span></a></td>
+                    <td>8</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Digital Storytelling</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG250-2">spring1819-ENG250-2</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Drawing II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART301-1">spring1819-ART301-1</a></td>
+                    <td><a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Dystopia/Utopia</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG301-1">spring1819-ENG301-1</a></td>
+                    <td><a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>12</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG301-2">spring1819-ENG301-2</a></td>
+                    <td><a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Early Civilization</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC100-5">spring1819-SOC100-5</a></td>
+                    <td><a href="/people/awaters" title="Alex Waters&thinsp;(Teacher)" ><span class="name ">Alex Waters</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC100-6">spring1819-SOC100-6</a></td>
+                    <td><a href="/people/awaters" title="Alex Waters&thinsp;(Teacher)" ><span class="name ">Alex Waters</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Electronics I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ELE100-1">spring1819-ELE100-1</a></td>
+                    <td><a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ELE100-2">spring1819-ELE100-2</a></td>
+                    <td><a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Engineering II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPE400-1">spring1819-EPE400-1</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>21</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPE400-2">spring1819-EPE400-2</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>8</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Advanced Algebra</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM200-1">spring1819-EPM200-1</a></td>
+                    <td><a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Advanced Precalculus</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM350-1">spring1819-EPM350-1</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Biology</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS250-1">spring1819-EPS250-1</a></td>
+                    <td><a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS250-2">spring1819-EPS250-2</a></td>
+                    <td><a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Calculus</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM400-1">spring1819-EPM400-1</a></td>
+                    <td><a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a></td>
+                    <td>9</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Calculus-based Physics</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS450-1">spring1819-EPS450-1</a></td>
+                    <td><a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Computer Science II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPC300-1">spring1819-EPC300-1</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a></td>
+                    <td>6</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Global Perspectives</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPH300-1">spring1819-EPH300-1</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Intermediate Algebra</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM150-1">spring1819-EPM150-1</a></td>
+                    <td><a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Multivariate Calculus</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM450-1">spring1819-EPM450-1</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Physics</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS400-1">spring1819-EPS400-1</a></td>
+                    <td><a href="/people/tdeangelis" title="Tyler DeAngelis&thinsp;(Teacher)" ><span class="name ">Tyler DeAngelis</span></a></td>
+                    <td>10</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Precalculus</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPM300-1">spring1819-EPM300-1</a></td>
+                    <td><a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+EP Writing Intensive/EarthSci</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS102-1">spring1819-EPS102-1</a></td>
+                    <td><a href="/people/juliakosowsky" title="Julia Kosowsky&thinsp;(Teacher)" ><span class="name ">Julia Kosowsky</span></a></td>
+                    <td>23</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-EPS102-2">spring1819-EPS102-2</a></td>
+                    <td><a href="/people/juliakosowsky" title="Julia Kosowsky&thinsp;(Teacher)" ><span class="name ">Julia Kosowsky</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Flex Friday Project</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-101">spring1819-FLX900-101</a></td>
+                    <td></td>
+                    <td>34</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-191">spring1819-FLX900-191</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>2</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-201">spring1819-FLX900-201</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a>, <a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>4</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-202">spring1819-FLX900-202</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a>, <a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>0</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-251">spring1819-FLX900-251</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-252">spring1819-FLX900-252</a></td>
+                    <td><a href="/people/jamory" title="Jon Amory&thinsp;(Teacher)" ><span class="name ">Jon Amory</span></a></td>
+                    <td>5</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-301">spring1819-FLX900-301</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a>, <a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-302">spring1819-FLX900-302</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a>, <a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-303">spring1819-FLX900-303</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a>, <a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-304">spring1819-FLX900-304</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a>, <a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-351">spring1819-FLX900-351</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>27</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-352">spring1819-FLX900-352</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>0</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-353">spring1819-FLX900-353</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>34</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-354">spring1819-FLX900-354</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>0</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-355">spring1819-FLX900-355</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-356">spring1819-FLX900-356</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/agalvin" title="Alaina Galvin&thinsp;(Teacher)" ><span class="name ">Alaina Galvin</span></a>, <a href="/people/alukas" title="Alan Lukas&thinsp;(Teacher)" ><span class="name ">Alan Lukas</span></a>, <a href="/people/pmoxhay" title="Peter Moxhay&thinsp;(Teacher)" ><span class="name ">Peter Moxhay</span></a>, <a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-401">spring1819-FLX900-401</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>17</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-451">spring1819-FLX900-451</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a>, <a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a>, <a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>39</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-452">spring1819-FLX900-452</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a>, <a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a>, <a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-453">spring1819-FLX900-453</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a>, <a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a>, <a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>41</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-501">spring1819-FLX900-501</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a>, <a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a>, <a href="/people/bolson" title="Brian Olson&thinsp;(Teacher)" ><span class="name ">Brian Olson</span></a>, <a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-502">spring1819-FLX900-502</a></td>
+                    <td><a href="/people/korr" title="Kelly Orr&thinsp;(Teacher)" ><span class="name ">Kelly Orr</span></a>, <a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a>, <a href="/people/bolson" title="Brian Olson&thinsp;(Teacher)" ><span class="name ">Brian Olson</span></a>, <a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-503">spring1819-FLX900-503</a></td>
+                    <td><a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a>, <a href="/people/bolson" title="Brian Olson&thinsp;(Teacher)" ><span class="name ">Brian Olson</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-701">spring1819-FLX900-701</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a>, <a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>34</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-702">spring1819-FLX900-702</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a>, <a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>0</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLX900-703">spring1819-FLX900-703</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a>, <a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>AM Session</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Focus Learning Lab</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLL100-3">spring1819-FLL100-3</a></td>
+                    <td><a href="/people/bolson" title="Brian Olson&thinsp;(Teacher)" ><span class="name ">Brian Olson</span></a></td>
+                    <td>3</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FLL100-4">spring1819-FLL100-4</a></td>
+                    <td></td>
+                    <td>6</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Forensics</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI402-2">spring1819-SCI402-2</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Forest,Wetland,&amp;MarineEcology</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI301-4">spring1819-SCI301-4</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI301-5">spring1819-SCI301-5</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+French I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FRE100-1">spring1819-FRE100-1</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FRE100-2">spring1819-FRE100-2</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+French II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FRE200-1">spring1819-FRE200-1</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FRE200-2">spring1819-FRE200-2</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>9</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+French III/IV</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-FRE350-1">spring1819-FRE350-1</a></td>
+                    <td><a href="/people/jguerette" title="Jordan Guerette&thinsp;(Teacher)" ><span class="name ">Jordan Guerette</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Functional Analysis</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT300-3">spring1819-MAT300-3</a></td>
+                    <td><a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/rmorrow" title="Rachael Morrow&thinsp;(Teacher)" ><span class="name ">Rachael Morrow</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>21</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT300-6">spring1819-MAT300-6</a></td>
+                    <td><a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/rmorrow" title="Rachael Morrow&thinsp;(Teacher)" ><span class="name ">Rachael Morrow</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT300-7">spring1819-MAT300-7</a></td>
+                    <td><a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/rmorrow" title="Rachael Morrow&thinsp;(Teacher)" ><span class="name ">Rachael Morrow</span></a>, <a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Global Perspectives</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC300-2">spring1819-SOC300-2</a></td>
+                    <td><a href="/people/awaters" title="Alex Waters&thinsp;(Teacher)" ><span class="name ">Alex Waters</span></a></td>
+                    <td>23</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC300-3">spring1819-SOC300-3</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC300-4">spring1819-SOC300-4</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a>, <a href="/people/awaters" title="Alex Waters&thinsp;(Teacher)" ><span class="name ">Alex Waters</span></a></td>
+                    <td>21</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC300-5">spring1819-SOC300-5</a></td>
+                    <td><a href="/people/agilman" title="Adam Gilman&thinsp;(Teacher)" ><span class="name ">Adam Gilman</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Graphic Design I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-034">COURSE_SECTION-034</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>1</td>
+                    <td>Room 226 (Art)</td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Graphic Design II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART302-1">spring1819-ART302-1</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>4</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Guitar Lab</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MUS103-1">spring1819-MUS103-1</a></td>
+                    <td><a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>9</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Illustration</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART204-1">spring1819-ART204-1</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Immunology</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI302-2">spring1819-SCI302-2</a></td>
+                    <td><a href="/people/tdeangelis" title="Tyler DeAngelis&thinsp;(Teacher)" ><span class="name ">Tyler DeAngelis</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI302-3">spring1819-SCI302-3</a></td>
+                    <td><a href="/people/tdeangelis" title="Tyler DeAngelis&thinsp;(Teacher)" ><span class="name ">Tyler DeAngelis</span></a></td>
+                    <td>13</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Independent Study</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-031">COURSE_SECTION-031</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-032">COURSE_SECTION-032</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-033">COURSE_SECTION-033</a></td>
+                    <td><a href="/people/asample" title="Allison Sample&thinsp;(Teacher)" ><span class="name ">Allison Sample</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-035">COURSE_SECTION-035</a></td>
+                    <td><a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a></td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/COURSE_SECTION-036">COURSE_SECTION-036</a></td>
+                    <td><a href="/people/mbarnes" title="Matthew Barnes&thinsp;(Teacher)" ><span class="name ">Matthew Barnes</span></a></td>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Intermediate Algebra</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT150-2">spring1819-MAT150-2</a></td>
+                    <td><a href="/people/jdaigle" title="Jenn Daigle&thinsp;(Teacher)" ><span class="name ">Jenn Daigle</span></a>, <a href="/people/avickerson" title="Amanda Vickerson&thinsp;(Teacher)" ><span class="name ">Amanda Vickerson</span></a></td>
+                    <td>9</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Intro to Computer Science</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-COS100-2">spring1819-COS100-2</a></td>
+                    <td><a href="/people/prawson" title="Pamela Rawson&thinsp;(Administrator)" ><span class="name ">Pamela Rawson</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Introduction to GIS</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-GIS100-3">spring1819-GIS100-3</a></td>
+                    <td><a href="/people/tdeangelis" title="Tyler DeAngelis&thinsp;(Teacher)" ><span class="name ">Tyler DeAngelis</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Life Science</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI200-2">spring1819-SCI200-2</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a></td>
+                    <td>21</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI200-3">spring1819-SCI200-3</a></td>
+                    <td><a href="/people/sfeldman" title="Sam Feldman&thinsp;(Teacher)" ><span class="name ">Sam Feldman</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Luthiery</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES301-1">spring1819-DES301-1</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a></td>
+                    <td>7</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Mandarin I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAN100-1">spring1819-MAN100-1</a></td>
+                    <td><a href="/people/eli" title="Enyue Li&thinsp;(Teacher)" ><span class="name ">Enyue Li</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAN100-2">spring1819-MAN100-2</a></td>
+                    <td><a href="/people/eli" title="Enyue Li&thinsp;(Teacher)" ><span class="name ">Enyue Li</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Mandarin II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAN200-1">spring1819-MAN200-1</a></td>
+                    <td><a href="/people/eli" title="Enyue Li&thinsp;(Teacher)" ><span class="name ">Enyue Li</span></a></td>
+                    <td>25</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Mandarin III</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAN300-1">spring1819-MAN300-1</a></td>
+                    <td><a href="/people/eli" title="Enyue Li&thinsp;(Teacher)" ><span class="name ">Enyue Li</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Math Reasoning</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/MAT125-001">MAT125-001</a></td>
+                    <td><a href="/people/avickerson" title="Amanda Vickerson&thinsp;(Teacher)" ><span class="name ">Amanda Vickerson</span></a></td>
+                    <td>3</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT125-1">spring1819-MAT125-1</a></td>
+                    <td><a href="/people/avickerson" title="Amanda Vickerson&thinsp;(Teacher)" ><span class="name ">Amanda Vickerson</span></a></td>
+                    <td>4</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Model UN</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SOC353-1">spring1819-SOC353-1</a></td>
+                    <td><a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>41</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Multicultural Lit</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG302-1">spring1819-ENG302-1</a></td>
+                    <td><a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG302-2">spring1819-ENG302-2</a></td>
+                    <td><a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Music Comp &amp; Tech</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MUS104-1">spring1819-MUS104-1</a></td>
+                    <td><a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Nuclear Chemistry &amp; EMagnetism</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI352-1">spring1819-SCI352-1</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Oceanography</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI353-1">spring1819-SCI353-1</a></td>
+                    <td><a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI353-2">spring1819-SCI353-2</a></td>
+                    <td><a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>23</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Physical Science</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI250-3">spring1819-SCI250-3</a></td>
+                    <td><a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SCI250-4">spring1819-SCI250-4</a></td>
+                    <td><a href="/people/jdoughty" title="Jonathan Doughty&thinsp;(Teacher)" ><span class="name ">Jonathan Doughty</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Precalculus (Functions)</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-MAT401-2">spring1819-MAT401-2</a></td>
+                    <td><a href="/people/gyock" title="Gretchen Yock&thinsp;(Teacher)" ><span class="name ">Gretchen Yock</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Printmaking</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART304-1">spring1819-ART304-1</a></td>
+                    <td><a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ART304-2">spring1819-ART304-2</a></td>
+                    <td><a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Programming I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-COS200-1">spring1819-COS200-1</a></td>
+                    <td><a href="/people/hlarsson" title="Halsted Larsson&thinsp;(Administrator)" ><span class="name ">Halsted Larsson</span></a></td>
+                    <td>8</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Science, Tech, &amp; Ethics</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG401-3">spring1819-ENG401-3</a></td>
+                    <td><a href="/people/rturkewitz" title="Rebecca Turkewitz&thinsp;(Teacher)" ><span class="name ">Rebecca Turkewitz</span></a></td>
+                    <td>14</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Short Stories</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG300-1">spring1819-ENG300-1</a></td>
+                    <td><a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG300-2">spring1819-ENG300-2</a></td>
+                    <td><a href="/people/kvirmalo" title="Katelyn Virmalo&thinsp;(Teacher)" ><span class="name ">Katelyn Virmalo</span></a></td>
+                    <td>10</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Society, Power, and Innovation</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-ENG100-6">spring1819-ENG100-6</a></td>
+                    <td><a href="/people/blucy" title="Breanne Lucy&thinsp;(Teacher)" ><span class="name ">Breanne Lucy</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Spanish I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SPA100-1">spring1819-SPA100-1</a></td>
+                    <td><a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a>, <a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a></td>
+                    <td>24</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Spanish II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SPA200-2">spring1819-SPA200-2</a></td>
+                    <td><a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Spanish III/IV</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SPA350-1">spring1819-SPA350-1</a></td>
+                    <td><a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SPA350-2">spring1819-SPA350-2</a></td>
+                    <td><a href="/people/mlawrence" title="Megan Lawrence&thinsp;(Teacher)" ><span class="name ">Megan Lawrence</span></a></td>
+                    <td>11</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Summit</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SUM500-21">spring1819-SUM500-21</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SUM500-22">spring1819-SUM500-22</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>12</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SUM500-23">spring1819-SUM500-23</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SUM500-24">spring1819-SUM500-24</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>D</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-SUM500-25">spring1819-SUM500-25</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a>, <a href="/people/dlevasseur" title="Dustin Levasseur&thinsp;(Teacher)" ><span class="name ">Dustin Levasseur</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Theatre: Performance</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-THE201-1">spring1819-THE201-1</a></td>
+                    <td><a href="/people/drawson" title="David Rawson&thinsp;(Teacher)" ><span class="name ">David Rawson</span></a></td>
+                    <td>10</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Wellness I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-WEL100-2">spring1819-WEL100-2</a></td>
+                    <td><a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a></td>
+                    <td>22</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-WEL100-4">spring1819-WEL100-4</a></td>
+                    <td><a href="/people/emarcus" title="Erica Marcus&thinsp;(Teacher)" ><span class="name ">Erica Marcus</span></a></td>
+                    <td>19</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Wellness II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-WEL200-2">spring1819-WEL200-2</a></td>
+                    <td><a href="/people/sbuhlman" title="Sarah Buhlman&thinsp;(Teacher)" ><span class="name ">Sarah Buhlman</span></a></td>
+                    <td>23</td>
+                    <td></td>
+                    <td>E</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Woodworking</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES201-2">spring1819-DES201-2</a></td>
+                    <td><a href="/people/dconnor" title="David Connor&thinsp;(Teacher)" ><span class="name ">David Connor</span></a></td>
+                    <td>16</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-DES201-3">spring1819-DES201-3</a></td>
+                    <td><a href="/people/sstutzman" title="Sunny Stutzman&thinsp;(Teacher)" ><span class="name ">Sunny Stutzman</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>B</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Yoga and Mindfulness I</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-WEL205-2">spring1819-WEL205-2</a></td>
+                    <td><a href="/people/emarcus" title="Erica Marcus&thinsp;(Teacher)" ><span class="name ">Erica Marcus</span></a></td>
+                    <td>15</td>
+                    <td></td>
+                    <td>C</td>
+                </tr>
+            
+        
+            <tr>
+                <th colspan="5">
+Yoga and Mindfulness II</th>
+            </tr>
+            
+                <tr>
+                    <td><a href="/sections/spring1819-WEL305-1">spring1819-WEL305-1</a></td>
+                    <td><a href="/people/emarcus" title="Erica Marcus&thinsp;(Teacher)" ><span class="name ">Erica Marcus</span></a></td>
+                    <td>18</td>
+                    <td></td>
+                    <td>A</td>
+                </tr>    
+        </tbody>
+    </table>
 	</div>
 </div>
 

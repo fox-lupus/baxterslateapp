@@ -16,7 +16,6 @@
 	border-radius: 3px;
 	background: #EEEEEE;
 	padding: 15px;
-	margin-bottom: 15px;
 	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
 	font-size: 15px;
 }
@@ -95,6 +94,7 @@ table {
 	border-collapse: collapse;
 	width: 100%;
 	margin: auto;
+	line-height: 15px
   }
 
 th, td {
