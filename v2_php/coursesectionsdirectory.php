@@ -1,7 +1,7 @@
 <?php include('otherphp/header.php'); ?>
 <?php include('otherphp/top-head.php'); ?>`
 <style type="text/css">
-	@media only screen and (max-width: 1600px) {
+	@media only screen and (max-width: 420px) {
 
 	.special_table tr td:before {
 			content: attr(data-label);
