@@ -73,13 +73,12 @@ body{
 }
 
 .portfolio-colors .container_left {
-	float: left;
 	width: 70%;
 }
 
 .portfolio-colors .container_right {
-	float: right;
 	width: 26%;
+	margin-bottom: 10px;
 }
 
 .portfolio-colors {
