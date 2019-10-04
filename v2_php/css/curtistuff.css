@@ -35,9 +35,15 @@ body{
             font-family: 40px;
             text-decoration: line-through;
  }
-
+/*Grading System Index (No evidence, enterning, progressing, graduation benchmark, advancing, excelling, beyond assessment)*/
 /* DEFINE COLORS */
-
+.ne, .en, .pr, .gb, .ad, .ex, .ba{
+border: solid 1px #020202;
+}
+.portfolios .ne{ 
+	background: #9da39e;
+	border-radius: 3px;
+}
 .portfolios .en {
 	background: #d94181;
 	border-radius: 3px;
@@ -148,12 +154,14 @@ body{
 
 }
 
+
 .standard_container .content {
 	background:#f5f3f0;
 	padding: 20px 12px;
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 	border-bottom: solid 1px #ccc;
+	
 }
 
 .standard_container .content .creditsFrame{
@@ -171,6 +179,7 @@ body{
 	color: white;
     text-shadow: 1px 1px #555;
     font-weight: bold;
+    border: solid 1px #020202;
 }
  .modge-podge {
  	padding-top: 60px; 
