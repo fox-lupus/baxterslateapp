@@ -1,6 +1,9 @@
 <?php include('otherphp/header.php'); ?>	
 <?php include('otherphp/dots.php'); ?>
-	
+<script type="text/javascript">
+	let portfolios = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
+
+</script>
 <div class="mainContent">
 
 	<div class="portfolios">
