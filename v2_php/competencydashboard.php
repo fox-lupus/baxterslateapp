@@ -36,7 +36,7 @@
 				Preparedness
 				<div class="creditsFrame">
 					<div class="credit en">EN</div>
-					<div class="credit en">EN</div>
+					<div class="credit ne"></div>
 					<div class="credit pr">PR</div><img src="img/checkmarken.png">
 
 				</div>
