@@ -1,5 +1,33 @@
 <?php include('otherphp/header.php'); ?>
-<?php include('otherphp/top-head.php'); ?>`
+<?php include('otherphp/top-head.php'); ?>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script id="rendered-js">
+
+			// WHEN THE DOCUMENT LOADS
+			$(document).ready(function () {
+
+				// GO THROUGH EACH ELEMENT WITH THE CLASS NAME "js-table-data"
+				$('.special_table').each(function () {
+					table = $(this);
+
+					// GET THE LIST OF HEADERS
+					var first_row = $(table).find('th');
+
+
+
+					// go through each <td> element within that table
+					table.find('td').each(function () {
+						tdIndex = $(this).index();
+
+						thText = first_row.eq(tdIndex).text();
+						
+						// and use that to se the data-label attribute of the <td> element that we're at
+						$(this).attr('data-label', thText + ':');
+					});
+				});
+			});
+		//# sourceURL=pen.js
+	</script>
 <style type="text/css">
 	@media only screen and (max-width: 420px) {
 
@@ -36,7 +64,7 @@
 		background:none;
 		}
 	}
-
+/*allow the table to collapse into its form mobile*/
 </style>
 <div class="container-of-directory">
 	<div class="head-of-page">Course Sections Directory</div>

@@ -3,50 +3,15 @@ body, html{
 	padding:0px;
 }
 html {
-/*	background: #ccc;
-*/	min-height: 100%;
-
-
-
-    /*font-family: 'EB Garamond', serif;
-*/
-    font-family: 'Zilla Slab', serif;
-
-
-
+min-height: 100%;
+font-family: 'Zilla Slab', serif;
 }
+
+
+
 input:focus, select:focus, textarea:focus, button:focus{
     outline: none;
-}
-
-/*.phoneFrame {
-	max-width: 450px;
-	margin: 100px auto;
-	border-left: solid 1px #aaa;
-	border-right: solid 1px #aaa;
-	background: white;
-	max-height: 540px;
-	overflow-y: auto;
-}*/
-/*
-.nav{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-
-	height: 40px;
-
-	background: #333333;
-
-	position: fixed;  
-	top: 0px;
-	top: 0;
-	z-index: 30;
-	width: 100%;
-	/*border-bottom-right-radius: 2px;
-	border-bottom-left-radius: 2px;*/
-}
+} /*make it so outline dosen't show up around the searchbar */
 .menu {
 	line-height: 38px;
 	padding-left: 10px;
@@ -56,12 +21,13 @@ input:focus, select:focus, textarea:focus, button:focus{
 	margin-right: 35px;
 	margin-left: 10px;
 	position: relative;
-}
+} /*spacing and alinment */
+
 .menu:hover{
 	border-radius: 10px;
 	background:#335F76;
-
 }
+ 
 .menu-text {
 	font-size:27px;
 	text-decoration:none;
@@ -83,7 +49,8 @@ input:focus, select:focus, textarea:focus, button:focus{
 	overflow: hidden;
 
 	z-index: 20;
-}
+} /*drop down menu and sizing*/
+
 
 
 
@@ -96,7 +63,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	border-top: solid 1px #eee;
 	border-bottom: solid 1px #888;
 	color: black;
-}
+} /*sizing, text decoration*/
 
 .dropdown_menu a:first-child {
 	border-top: none;
@@ -107,18 +74,18 @@ input:focus, select:focus, textarea:focus, button:focus{
 .dropdown_menu a:hover {
 	background: #ddd;
 }
-
-
+/*make line not show up at bottom and top */
 
 .menu:hover .dropdown_menu {
 	display: block;
-
 }
+
 .search{
 	float: left;
 
 	margin: 5px 0 0 10px;
-}
+} /*sizing, floating*/
+
 .search form input	{
 	border: 1px solid #ccc;
 	border-radius: 15px;
@@ -127,7 +94,8 @@ input:focus, select:focus, textarea:focus, button:focus{
 	font-size: 16px;
 	width:160px; 
 	margin: 0 0 5px 0;
-}
+}/*sizing, lining up to the rest of the NAV*/
+
 .background_image {
 	height: 300px;
 	width: 100%;
@@ -135,14 +103,13 @@ input:focus, select:focus, textarea:focus, button:focus{
 	z-index: 5;
 	top: 40px;
     background: url(img/imthebackgound.jpg);
-}
+}/*make the backgrond show up berund the rest of the page */
+
 
 .main_content {
 	position: relative;
 	z-index: 5;
-}
-
-
+} /*make  */
 
 .movbackground {
 	background: white;
@@ -188,12 +155,7 @@ input:focus, select:focus, textarea:focus, button:focus{
 	text-decoration:none;
 	color:#861B8A;
 }
-/*@media only screen and (max-width: 336px){
-	.container-logo{
-		
-	}
 
-}*/
 
 .container-logo{
 	padding: 15px 15px 25px 15px;
