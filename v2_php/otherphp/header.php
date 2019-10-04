@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">	
 </head>
-<body>
+<body>	
 <div class="nav">
 	<div class="menu">
 		<span class="menu-text">Menu</span>
