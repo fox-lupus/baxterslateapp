@@ -104,7 +104,7 @@
 		<div class="standard_container">
 
 			<div class="headline">
-				<span class="courseNum">DES.1.0.0</span>
+				<span class="courseNum">DES 1.0.0</span>
 				<span class="courseName">Design Process</span>
 			</div>
 
@@ -134,6 +134,54 @@
 					<div class="credit gb">GB</div>
 					<div class="credit pr">PR</div>
 					<div class="credit pr">PR</div><img src="img/checkmarkpr.png">
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="standard_container">
+
+			<div class="headline">
+				<span class="courseNum">SCI.4.0.0</span>
+				<span class="courseName">Climate Change</span>
+			</div>
+
+			<div class="subhead ad">Working Toward: Advancing</div>
+			
+			<div class="content">
+				CC Science & Engineering Practices
+				<div class="creditsFrame">
+					<div class="credit ad">AD</div>
+					<div class="credit ad">AD</div>
+					<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
+				</div>
+			</div>
+
+			<div class="content">
+				CC Crosscutting Concepts
+				<div class="creditsFrame">
+					<div class="credit ad">AD</div>
+					<div class="credit ad">AD</div>
+					<div class="credit ad">AD</div><img src="img/checkmarkgb.png">
+				</div>
+			</div>
+
+			<div class="content">
+				Cycles Core Concepts
+				<div class="creditsFrame">
+					<div class="credit ad">AD</div>
+					<div class="credit gb">GB</div>
+					<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
+				</div>
+			</div>
+
+			<div class="content">
+				Systems Core Concepts
+				<div class="creditsFrame">
+					<div class="credit ad">AD</div>
+					<div class="credit gb">GB</div>
+					<div class="credit ad">AD</div><img src="img/checkmarkgb.png">
 				</div>
 			</div>
 
