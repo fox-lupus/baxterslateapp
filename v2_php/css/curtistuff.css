@@ -246,12 +246,12 @@ border: solid 1px #020202;
 }
 
 .slatedashboard .container_left {
-	float: left;
 	width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 
 .slatedashboard .container_right {
-	float: right;
 	width: 26%;
 }
 
@@ -264,6 +264,8 @@ border: solid 1px #020202;
 	.slatedashboard .container_left {
 		float: none;
 		width: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.slatedashboard .container_right {
@@ -317,8 +319,8 @@ border: solid 1px #020202;
 	display: block;
 	padding: 5px;
 	height: 160px;
-	float: left;
-
+	display: flex;
+	flex-direction: column;
 }
 
 .dashboardLink:hover {
