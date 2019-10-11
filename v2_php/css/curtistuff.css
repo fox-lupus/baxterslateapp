@@ -245,16 +245,16 @@ border: solid 1px #020202;
 	
 }
 
-.slatedashboard .container_left {
-	width: 70%;
-	display: flex;
-	flex-direction: column;
-}
-
 .slatedashboard .container_right {
+	width: 70%;
 	width: 26%;
 }
 
+.container.right, .container.left {
+    display: flex;
+	flex-direction: column;
+	border: 1px solid ;
+}
 @media screen and (max-width: 400px) {
 
 	.slatedashboard {
@@ -352,7 +352,7 @@ border: solid 1px #020202;
 
 .taskdashboard .container.right {
 	float: right;
-	height: 150px;
+	/*height: 150px;*/
 }
 
 
@@ -435,8 +435,7 @@ border: solid 1px #020202;
     font-weight: 400;
     font-family: Lato;
 }
-.taskdashboard-nub{
-	background-color: #8bd7f4;
+.taskdashboard-nub3,.taskdashboard-nub2,.taskdashboard-nub {
 	align-items: center;
     border-radius: 0.25em 0 0 0.25em;
     display: flex;
@@ -446,30 +445,18 @@ border: solid 1px #020202;
     width: 1em;
     height: 40px;
     float: left;
+}
+.taskdashboard-nub{
+	background-color: #8bd7f4;
+
 }
 .taskdashboard-nub2{
 	background-color: #b2d681;
-	align-items: center;
-    border-radius: 0.25em 0 0 0.25em;
-    display: flex;
-    font-size: 1.5em;
-    font-weight: bold;
-    justify-content: center;
-    width: 1em;
-    height: 40px;
-    float: left;
+
 }
 .taskdashboard-nub3{
 	background-color: #f17a62;
-	align-items: center;
-    border-radius: 0.25em 0 0 0.25em;
-    display: flex;
-    font-size: 1.5em;
-    font-weight: bold;
-    justify-content: center;
-    width: 1em;
-    height: 40px;
-    float: left;
+
 }
 .taskdashboard-container{
 	width: 400px;
@@ -487,19 +474,19 @@ border: solid 1px #020202;
     margin-right: 20px;
 }
 .taskdashboard-title{
-	flex: 1;
-	display: block;
+	/*flex: 1;*/
+	display: inline-block;
 	line-height: 1.33333;
 	color: #333;
     font-size: 16px;
     font-family: Lato;
-    margin-left: 30px;
-    margin-right: 30px;
+    /*margin-left: 30px;
+    margin-right: 30px;*/
 }
-.taskdashboard-statussetup{
+/*.taskdashboard-statussetup{
 	float: right;
 	height: 10px;
-}
+}*/
 .taskdashboard-status{
 	background-color: #a2dff6;
 	border-radius: 0.25em 0 0 0.25em;
