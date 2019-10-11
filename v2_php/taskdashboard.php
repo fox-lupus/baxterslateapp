@@ -65,9 +65,9 @@
 
 						<div class="text">
 							<div class="taskdashboard-category">Intro To Design</div>
-							<div class="taskdashboard-title">Make The Worst Presentation</div>
-							<div class="taskdashboard-status3">Due</div>
 							<div class="taskdashboard-date3">Oct 27, 2018</div>
+							<div class="taskdashboard-status3">Due</div>
+							<div class="taskdashboard-title">Make The Worst Presentation</div>
 						</div>
 					</div>
 				
@@ -78,8 +78,8 @@
 						<div class="text">
 							<div class="taskdashboard-category">Physical Science</div>
 							<div class="taskdashboard-title">Kites Lab</div>
-							<div class="taskdashboard-status3">Submitted</div>
 							<div class="taskdashboard-date3">Apr 09, 2019</div>
+							<div class="taskdashboard-status3">Submitted</div>
 						</div>
 					</div>
 
@@ -101,8 +101,8 @@
 						<div class="text">
 							<div class="taskdashboard-category">Spanish II</div>
 							<div class="taskdashboard-title">Telenova</div>
-							<div class="taskdashboard-status3">Revised</div>
 							<div class="taskdashboard-date3">Dec 14, 2018</div>
+							<div class="taskdashboard-status3">Revised</div>
 						</div>
 					</div>
 				</div>
