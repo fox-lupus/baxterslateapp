@@ -35,7 +35,7 @@ body{
             font-family: 40px;
             text-decoration: line-through;
  }
-/*Grading System Index (No evidence, enterning, progressing, graduation benchmark, advancing, excelling, beyond assessment)*/
+/*Grading System Index (No Evidence, Entering, Progressing, Graduation Benchmark, Advancing, Excelling, Beyond Assessment)*/
 /* DEFINE COLORS */
 .ne, .en, .pr, .gb, .ad, .ex, .ba{
 border: solid 1px #020202;

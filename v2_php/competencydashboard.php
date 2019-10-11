@@ -163,7 +163,7 @@
 				<div class="creditsFrame">
 					<div class="credit ad">AD</div>
 					<div class="credit ad">AD</div>
-					<div class="credit ad">AD</div><img src="img/checkmarkgb.png">
+					<div class="credit ad">AD</div><img src="img/checkmarkad.png">
 				</div>
 			</div>
 
@@ -180,8 +180,8 @@
 				Systems Core Concepts
 				<div class="creditsFrame">
 					<div class="credit ad">AD</div>
-					<div class="credit gb">GB</div>
-					<div class="credit ad">AD</div><img src="img/checkmarkgb.png">
+					<div class="credit ad">AD</div>
+					<div class="credit ad">AD</div><img src="img/checkmarkad.png">
 				</div>
 			</div>
 
