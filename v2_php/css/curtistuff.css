@@ -239,7 +239,7 @@ border: solid 1px #020202;
     text-rendering: optimizeLegibility;
     font-size: 25px;
     margin: 0px auto;
-	width: 86%;
+	width: 30%;
 	padding: 0 15px;
 	margin: 0px auto;
 	
@@ -247,7 +247,7 @@ border: solid 1px #020202;
 
 .slatedashboard .container_right {
 	width: 70%;
-	width: 26%;
+	width: 100%;
 }
 
 .container.right, .container.left {
