@@ -10,7 +10,7 @@ html, body{
 body{
 	position: absolute;
 }
-.bottombackground: {
+.bottombackground {
 	background: #000000;
 	height: 30vw;
 	width: 100%;
