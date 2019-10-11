@@ -79,7 +79,7 @@ border: solid 1px #020202;
 }
 
 .portfolio-colors .container_left {
-	width: 70%;
+	width: 90vh;
 }
 
 .portfolio-colors .container_right {
@@ -253,7 +253,11 @@ border: solid 1px #020202;
 .container.right, .container.left {
     display: flex;
 	flex-direction: column;
-	border: 1px solid ;
+	border: 1px solid #333333;
+	border-radius: 5px;	
+	-webkit-box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
+	-moz-box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
+	box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
 }
 @media screen and (max-width: 400px) {
 
@@ -263,7 +267,7 @@ border: solid 1px #020202;
 	
 	.slatedashboard .container_left {
 		float: none;
-		width: 100%;
+		width: 100vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -332,26 +336,36 @@ border: solid 1px #020202;
 	float: right;
 }
 
+
 .taskdashboard{
-	width: 86%;
-	padding: 0 15px;
+	width: 80%;
+	/*padding: 0 15px;*/
 	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap
 	
+}
+@media screen and (max-width: 500px){
+.taskdashboard{
+	width: 100%;	
+}
 }
 
 .taskdashboard .container {
-	width: 45%;
-	margin: 40px 0;
+	width: 60vh;
+	margin-right: 30px;
 }
 
 .taskdashboard .container.left {
-	float: left;
+	/*float: left;*/
 	background-color: #e3e3e3;
-	height: 335px;
+	height: 100%
+
 }
 
 .taskdashboard .container.right {
-	float: right;
+	/*float: right;*/
 	/*height: 150px;*/
 }
 
