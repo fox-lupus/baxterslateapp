@@ -24,16 +24,16 @@
 		</svg>
 	</div>
 	<div class="flexbox-container">
-		
 		<div class="Search" id="search-bar">
-			<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="bitmap">
-	    		<path fill="white" d="M32.6 28.6C34.7 25.6 36 22 36 18 36 8 28 0 18 0S0 8 0 18c0 9.9 8 18 18 18 4 0 7.6-1.3 10.6-3.4L44 
-	    		48l4-4-15.4-15.4zM4 18c0-7.7 6.3-14 14-14s14 6.3 14 14-6.3 14-14 14S4 25.7 4 18z"/>
-			</svg>
 			<form>
 				<input type="text" placeholder="Search">
 			</form>
 		</div>
+		<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="bitmap">
+	    		<path fill="white" d="M32.6 28.6C34.7 25.6 36 22 36 18 36 8 28 0 18 0S0 8 0 18c0 9.9 8 18 18 18 4 0 7.6-1.3 
+	    		10.6-3.4L44 
+	    		48l4-4-15.4-15.4zM4 18c0-7.7 6.3-14 14-14s14 6.3 14 14-6.3 14-14 14S4 25.7 4 18z"/>
+		</svg>
 		<div class="menu">
 			<span class="menu-text">Menu</span>
 			<div class="dropdown_menu">
