@@ -2,13 +2,20 @@
 <?php include('otherphp/dots.php'); ?>
 <script type="text/javascript">
 	lets = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
-	document.querySelectorAll("ne")
-	document.querySelectorAll("en")
-	document.querySelectorAll("pr")
-	document.querySelectorAll("gb")
-	document.querySelectorAll("ad")
-	document.querySelectorAll("ex")
-	document.querySelectorAll("ba")
+	document.querySelectorAll("ne");
+	document.querySelectorAll("en");
+	document.querySelectorAll("pr");
+	document.querySelectorAll("gb");
+	document.querySelectorAll("ad");
+	document.querySelectorAll("ex");
+	document.querySelectorAll("ba");
+	console.log(document.querySelectorAll("ne")); 
+	console.log(document.querySelectorAll("en")); 
+	console.log(document.querySelectorAll("pr")); 
+	console.log(document.querySelectorAll("gb")); 
+	console.log(document.querySelectorAll("ad")); 
+	console.log(document.querySelectorAll("ex")); 
+	console.log(document.querySelectorAll("ba")); 
 </script>
 <div class="mainContent">
 
