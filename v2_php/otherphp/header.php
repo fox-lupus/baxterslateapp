@@ -32,7 +32,7 @@
 		<div class="menu">
 			<span class="menu-text">Menu</span>
 			<div class="dropdown_menu">
-				<a href="slatedashboard.php">Dashboard</a>
+				<a href="slatedashboard.php">Slate Dashboard</a>
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
 				<a href="competencydashboard.php">Competency Dashboard</a>
 				<a href="taskdashboard.php">Task Dashboard</a>
