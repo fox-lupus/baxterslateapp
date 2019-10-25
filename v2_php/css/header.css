@@ -48,7 +48,7 @@ body{
  }
 
  .nav .flexbox-container img{
- 	/*display: none;*/
+ 	display: none;
  }
  .nav .Search{
  	display: none;
@@ -57,10 +57,11 @@ body{
  	display: none;
  }
 }
-.nav .flexbox-container img{
-	height: 27px;
-	transform: rotate(35deg);
-	margin-left:4px;
+.bitmap{
+	height: 25px;
+	position: absolute;
+	/*transform: rotate(35deg);
+	margin-left:4px;*/
 }
 .slate-logo {
 	display: inline-block;
@@ -68,6 +69,32 @@ body{
 	z-index: 31; 
 }
 
+.nav .Search{
+	display: inline-block;	
+}
+.nav .Search form input{
+	/*border-radius: 1px;
+	border: 1px solid #ccc;*/
+
+	border: none;
+	
+	padding: 0 0 0 28px;
+	line-height: 30px;
+	font-size: 16px;
+	width:57px;
+	height: 25px; 
+	transition: width 0.3s;
+	/*color: white;*/
+	/*transition-timing-function: cubic-bezier(0.4,0.8,0.2,0.5) ;*/
+	box-shadow: none;
+	background: #565656;
+}
+
+.nav .Search form input:focus{
+	width: 160px;
+	color: black;
+	border-bottom: 1px solid #08a;
+}
 
 .menu {
 	line-height: 38px;
@@ -75,10 +102,9 @@ body{
 	padding-right: 10px;
 	position: relative;
 }
-.menu:hover{
+.menu:hover {
 	border-radius: 10px;
 	background:#335F76;
-
 }
 .menu-text {
 	font-size:20px;
@@ -127,29 +153,6 @@ body{
 }
 .menu:hover .dropdown_menu {
 	display: block;
-}
-
-.nav .Search{
-	display: inline-block;	
-}
-.nav .Search form input{
-	border-radius: 20px;
-
-	border: 1px solid #ccc;
-	
-	padding: 0 0 0 8px;
-	line-height: 30px;
-	font-size: 16px;
-	width:75px;
-	height: 25px; 
-	transition: width 0.3s;
-	color: white;
-	transition-timing-function: cubic-bezier(0.4,0.8,0.2,0.5) ;
-}
-
-.nav .Search form input:focus{
-	width: 160px;
-	color: black;
 }
 
 .calendar{
