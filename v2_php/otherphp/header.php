@@ -30,7 +30,7 @@
 			</form>
 		</div>
 		<div class="menu">
-			<span class="menu-text">menu</span>
+			<span class="menu-text">Menu</span>
 			<div class="dropdown_menu">
 				<a href="slatedashboard.php">Dashboard</a>
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
