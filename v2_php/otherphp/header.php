@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/curtistuff.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/coursesectionsdirectory.css?<?php echo microtime();?>">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text?<?php echo microtime();?>" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto?<?php echo microtime();?>" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto<?php echo microtime();?>" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">	
@@ -29,6 +29,7 @@
 				<input type="text" placeholder="Search...">
 			</form>
 		</div>
+		<img src="img/bitmap.png">
 		<div class="menu">
 			<span class="menu-text">menu</span>
 			<div class="dropdown_menu">
