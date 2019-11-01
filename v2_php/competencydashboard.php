@@ -32,12 +32,10 @@
 				<div class="ad">AD</div>
 				<div class="ex">EX</div>  
 				<div class="ba">BA</div>
-
-
+					</div>
 				<div style="clear: both; float: right; margin-right: 25px;"></div>
 			</div>
-		</div>
-		
+		</div>	
 		<div class="standard_container">
 
 			<div class="headline">
