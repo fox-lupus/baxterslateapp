@@ -120,6 +120,44 @@ border: solid 1px #020202;
 
 }
 
+.ne, .en, .pr, .gb, .ad, .ex, .ba{
+border: solid 1px #020202;
+}
+
+.standard_container .ne{ 
+	background: #9da39e;
+	border-radius: 3px;
+}
+.standard_container .en {
+	background: #d94181;
+	border-radius: 3px;
+}
+
+.standard_container .pr {
+	background: #ff7d00;
+	border-radius: 3px;
+}
+
+.standard_container .gb {
+	background: #38a719;
+	border-radius: 3px;
+}
+
+.standard_container .ad {
+	background: #008cc1;
+	border-radius: 3px;
+}
+
+.standard_container .ex {
+	background: #6320ca;
+	border-radius: 3px;
+}
+
+.standard_container .ba {
+	background: #0040ff;
+	border-radius: 3px;
+}
+
 .standard_container .headline {
 	background:#808080;
 	padding-left: 12px;
