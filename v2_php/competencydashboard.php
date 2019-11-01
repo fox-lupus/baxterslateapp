@@ -1,19 +1,31 @@
 <?php include('otherphp/header.php'); ?>	
 <?php include('otherphp/dots.php'); ?>
 <script type="text/javascript">
-	lets = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
+	let = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
+	
 	document.querySelectorAll("credit ne");
 	document.querySelectorAll("credit en");
 	document.querySelectorAll("credit pr");
 	document.querySelectorAll("credit gb");
 	document.querySelectorAll("credit ad");
+
 /*  document.querySelectorAll(".credit .ex");
 	document.querySelectorAll(".credit .ba");*/
+
+	document.querySelectorAll("credit ex");
+	document.querySelectorAll("credit ba");
+
+function callcredit(content, creditsFrame) {
+
+	return credit("ne","en","pr","gb","ad","ex","ba");
+}
+
 	console.log(document.querySelectorAll("credit ne")); 
 	console.log(document.querySelectorAll("credit en")); 
 	console.log(document.querySelectorAll("credit pr")); 
 	console.log(document.querySelectorAll("credit gb")); 
 	console.log(document.querySelectorAll("credit ad")); 
+
  /*	console.log(document.querySelectorAll(".credit .ex")); 
 	console.log(document.querySelectorAll(".credit .ba")); */
 </script>
@@ -45,7 +57,6 @@
   	background: #333;
 	}
 	.creditsframe{
-
 	}
 </style>
 <div class="mainContent">
