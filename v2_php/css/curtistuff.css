@@ -361,6 +361,7 @@ border: solid 1px #020202;
 	height: 160px;
 	display: flex;
 	flex-direction: column;
+	float: left;
 }
 
 .dashboardLink:hover {
