@@ -56,6 +56,17 @@ body{
  .nav .slate-logo {
  	display: none;
  }
+  .Searc-moblie {
+ 	display: block;
+ }
+}
+@media screen and (min-width: 600px){
+ 	.Searc-moblie {
+ 		display: none;
+	}
+	.nav .Search{
+ 		display: inline-block;
+ 	}
 }
 .bitmap{
 	height: 20px;
@@ -73,7 +84,7 @@ body{
 }
 
 .nav .Search{
-	display: inline-block;	
+	/*display: inline-block;	*/
 }
 .nav .Search form input{
 	border-radius: 2px;/*
@@ -229,24 +240,24 @@ display: inline-block;
 	font-family: 'Crimson Text', serif;
 }
 .Searc-moblie{
-	
+ /*display: none	*/
 }
 .Searc-moblie form input{
-	border-radius: 6px;/*
+	border-radius: 2px;/*
 	border: 1px solid #;*/
 
 	border: none;
 	
-	/*padding: 0 0px 1px 5px;*/
+	padding: 0 0px 1px 5px;
 	line-height: 30px;
 	font-size: 16px;
-	width:50px;
+	width:57px;
 	height: 24px; 
 	transition: width 100ms;
 	/*color: white;*/
 	/*transition-timing-function: cubic-bezier(0.4,0.8,0.2,0.5) ;*/
 	box-shadow: none;
-	background: #565656;
+	background: #efefef;
 }
 
 /*footer.css*/

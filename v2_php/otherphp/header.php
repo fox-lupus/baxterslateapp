@@ -26,7 +26,7 @@
 		<div class="flexbox-container">
 				<div class="Searc-moblie">
 			<form>
-				<input type="text" placeholder="Search...">
+				<input type="text" placeholder="Search">
 			</form>
 		</div>
 		<div class="Search" id="search-bar">
