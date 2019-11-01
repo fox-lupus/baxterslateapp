@@ -13,7 +13,7 @@
 
 function callcredit(content, creditsFrame) {
 
-	return credit("ne","en","pr","gb","ad","ex","ba")
+	return credit("ne","en","pr","gb","ad","ex","ba");
 }
 	console.log(document.querySelectorAll("credit ne")); 
 	console.log(document.querySelectorAll("credit en")); 
