@@ -38,38 +38,39 @@ body{
 /*Grading System Index (No Evidence, Entering, Progressing, Graduation Benchmark, Advancing, Excelling, Beyond Assessment)*/
 /* DEFINE COLORS */
 .ne, .en, .pr, .gb, .ad, .ex, .ba{
-border: solid 1px #020202;
+	border: solid 1px #020202;
 }
-.slategrades .ne{ 
+
+.ne { 
 	background: #9da39e;
 	border-radius: 3px;
 }
-.slategrades .en {
+.en {
 	background: #d94181;
 	border-radius: 3px;
 }
 
-.slategrades .pr {
+.pr {
 	background: #ff7d00;
 	border-radius: 3px;
 }
 
-.slategrades .gb {
+.gb {
 	background: #38a719;
 	border-radius: 3px;
 }
 
-.slategrades .ad {
+.ad {
 	background: #008cc1;
 	border-radius: 3px;
 }
 
-.slategrades .ex {
+.ex {
 	background: #6320ca;
 	border-radius: 3px;
 }
 
-.slategrades .ba {
+.ba {
 	background: #0040ff;
 	border-radius: 3px;
 }
