@@ -3,60 +3,101 @@
 <script type="text/javascript">
 	let = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
 	
-	document.querySelectorAll("credit ne");
-	document.querySelectorAll("credit en");
-	document.querySelectorAll("credit pr");
-	document.querySelectorAll("credit gb");
-	document.querySelectorAll("credit ad");
+	document.querySelectorAll("creditne");
+	document.querySelectorAll("crediten");
+	document.querySelectorAll("creditpr");
+	document.querySelectorAll("creditgb");
+	document.querySelectorAll("creditad");
 
-/*  document.querySelectorAll(".credit .ex");
-	document.querySelectorAll(".credit .ba");*/
+/*  document.querySelectorAll(".credit.ex");
+	document.querySelectorAll(".credit.ba");*/
 
-	document.querySelectorAll("credit ex");
-	document.querySelectorAll("credit ba");
+	document.querySelectorAll("creditex");
+	document.querySelectorAll("creditba");
 
-function callcredit(content, creditsFrame) {
+function callcredit(content, creditframe) {
 
 	return credit("ne","en","pr","gb","ad","ex","ba");
 }
 
-	console.log(document.querySelectorAll("credit ne")); 
-	console.log(document.querySelectorAll("credit en")); 
-	console.log(document.querySelectorAll("credit pr")); 
-	console.log(document.querySelectorAll("credit gb")); 
-	console.log(document.querySelectorAll("credit ad")); 
+	console.log(document.querySelectorAll("creditne")); 
+	console.log(document.querySelectorAll("crediten")); 
+	console.log(document.querySelectorAll("creditpr")); 
+	console.log(document.querySelectorAll("creditgb")); 
+	console.log(document.querySelectorAll("creditad")); 
 
- /*	console.log(document.querySelectorAll(".credit .ex")); 
-	console.log(document.querySelectorAll(".credit .ba")); */
+ /*	console.log(document.querySelectorAll(".credit.ex")); 
+	console.log(document.querySelectorAll(".credit.ba")); */
 </script>
 <style type="text/css">
 	.standard_container{
 		width: 500px;
-		display: grid;
-		grid-template-columns:30px 100px 10px 100px 10px 100px 30px;
- 		grid-template-rows: 40px 20px repeat(3, 60px) ;
+		display: inline-grid;
+		grid-template-columns: 250px 250px	/*30px 100px 10px 100px 10px 100px 30px*/;
+ 		grid-template-rows:50px 35px	/* 50px 35px repeat(3, 60px) */;
 /* 		grid-column-gap: 5px;
 		grid-row-gap: 5px;
 	 	grid-template-areas: 
 	    	"headline headline headline"
 	    	"subhead subhead subhead"
-	    	"credit . credit";*/
- 		margin-bottom: 100px;
+	    	"credit. credit";
+ 		margin-bottom: 100px;*/
+
+ 		background: #ddd
+ 		-webkit-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
+		-moz-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
+		box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
+
 	}
 	.headline{
 	grid-column-start: 1;
-  	grid-column-end: 8;
+  	grid-column-end: 3;
   	grid-row-start: 1;
   	grid-row-end: 1;
+
+  	background: #888;
+
+  	border-radius: 8px 8px 0 0;
 	}
 	.subhead{
 	grid-column-start: 1;
-  	grid-column-end: 8;
+  	grid-column-end: 3;
   	grid-row-start: 2;
   	grid-row-end: 2;
-  	background: #333;
+  	/*background: #c55;*/
+  	background: linear-gradient( #c44 , #b33  );
 	}
-	.creditsframe{
+	}
+	.creditaline {
+		display: inline-block;
+	}
+	.creditframe{
+		height: 50px;
+		width: 500px;
+
+		padding: 5px 0 5px 0;
+
+		border-top: solid 2px #ccc;
+
+		display: flex;
+		flex-direction: row;
+
+	}
+	.credit{
+		width: 25%;
+		height: 35px;
+
+		background: #a55;
+
+		margin:auto;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #000;
+		border-radius: 3px;
+	}
+	.credit:last-child{
+		padding: 0 0 0 5px;
 	}
 </style>
 <div class="mainContent">
@@ -77,29 +118,29 @@ function callcredit(content, creditsFrame) {
 			<div style="clear: both; float: right; margin-right: 25px;"></div>
 		</div>
 	</div>	-->
-		<div class="standard_container">
-			<div class="headline">
-				<span>headline</span>
-			</div>
-			<div class="subhead">
-			</div>
-			<div class="creditsFrame">
-				<div class="credit "></div>
-				<div class="credit "></div>
-				<div class="credit "></div>
-			</div>
-			<div class="creditsFrame">
-				<div class="credit "></div>
-				<div class="credit "></div>
-				<div class="credit "></div>
-			</div>
-			<div class="creditsFrame">
-				<div class="credit "></div>
-				<div class="credit "></div>
-				<div class="credit "></div>
-			</div>
-
+	<div class="standard_container">
+		<div class="headline">
+			<span>headline</span>
 		</div>
+		<div class="subhead"></div>
+		<div class="creditaline">
+			<div class="creditframe">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+			<div class="creditframe">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+			<div class="creditframe">
+				<div class="credit"></div>
+				<div class="credit"></div>
+				<div class="credit"></div>
+			</div>
+		</div>
+	</div>	
 
 	<!-- <div class="standard_container">
 
@@ -112,29 +153,29 @@ function callcredit(content, creditsFrame) {
 		
 		<div class="content">
 			Preparedness
-			<div class="creditsFrame">
-				<div class="credit en">EN</div>
-				<div class="credit ne">NE</div>
-				<div class="credit pr">PR</div><img src="img/checkmarken.png">
+			<div class="creditframe">
+				<div class="crediten">EN</div>
+				<div class="creditne">NE</div>
+				<div class="creditpr">PR</div><img src="img/checkmarken.png">
 
 			</div>
 		</div>
 
 		<div class="content">
 			Engagement
-			<div class="creditsFrame">
-				<div class="credit en">EN</div>
-				<div class="credit pr">PR</div>
-				<div class="credit pr">PR</div><img src="img/checkmarken.png">
+			<div class="creditframe">
+				<div class="crediten">EN</div>
+				<div class="creditpr">PR</div>
+				<div class="creditpr">PR</div><img src="img/checkmarken.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Work Completion
-			<div class="creditsFrame">
-				<div class="credit en">EN</div>
-				<div class="credit en">EN</div>
-				<div class="credit en">EN</div><img src="img/checkmarken.png">
+			<div class="creditframe">
+				<div class="crediten">EN</div>
+				<div class="crediten">EN</div>
+				<div class="crediten">EN</div><img src="img/checkmarken.png">
 			</div>
 		</div>
 
@@ -151,28 +192,28 @@ function callcredit(content, creditsFrame) {
 		
 		<div class="content">
 			Craft and Structure
-			<div class="creditsFrame">
-				<div class="credit pr">PR</div>
-				<div class="credit pr">PR</div>
-				<div class="credit pr">PR</div><img src="img/checkmarkpr.png">
+			<div class="creditframe">
+				<div class="creditpr">PR</div>
+				<div class="creditpr">PR</div>
+				<div class="creditpr">PR</div><img src="img/checkmarkpr.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Key Ideas and Details
-			<div class="creditsFrame">
-				<div class="credit en">EN</div>
-				<div class="credit pr">PR</div>
-				<div class="credit pr">PR</div><img src="img/checkmarken.png">
+			<div class="creditframe">
+				<div class="crediten">EN</div>
+				<div class="creditpr">PR</div>
+				<div class="creditpr">PR</div><img src="img/checkmarken.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Citing Evidence
-			<div class="creditsFrame">
-				<div class="credit pr">PR</div>
-				<div class="credit gb">GB</div>
-				<div class="credit gb">GB</div><img src="img/checkmarkpr.png">
+			<div class="creditframe">
+				<div class="creditpr">PR</div>
+				<div class="creditgb">GB</div>
+				<div class="creditgb">GB</div><img src="img/checkmarkpr.png">
 			</div>
 		</div>
 
@@ -190,28 +231,28 @@ function callcredit(content, creditsFrame) {
 		
 		<div class="content">
 			Analyze and optimize
-			<div class="creditsFrame">
-				<div class="credit gb">GB</div>
-				<div class="credit gb">GB</div>
-				<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
+			<div class="creditframe">
+				<div class="creditgb">GB</div>
+				<div class="creditgb">GB</div>
+				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Develop Solution
-			<div class="creditsFrame">
-				<div class="credit pr">PR</div>
-				<div class="credit gb">GB</div>
-				<div class="credit gb">GB</div><img src="img/checkmarkpr.png">
+			<div class="creditframe">
+				<div class="creditpr">PR</div>
+				<div class="creditgb">GB</div>
+				<div class="creditgb">GB</div><img src="img/checkmarkpr.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Identify Problems
-			<div class="creditsFrame">
-				<div class="credit gb">GB</div>
-				<div class="credit pr">PR</div>
-				<div class="credit pr">PR</div><img src="img/checkmarkpr.png">
+			<div class="creditframe">
+				<div class="creditgb">GB</div>
+				<div class="creditpr">PR</div>
+				<div class="creditpr">PR</div><img src="img/checkmarkpr.png">
 			</div>
 		</div>
 
@@ -229,37 +270,37 @@ function callcredit(content, creditsFrame) {
 		
 		<div class="content">
 			CC Science & Engineering Practices
-			<div class="creditsFrame">
-				<div class="credit ad">AD</div>
-				<div class="credit ad">AD</div>
-				<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
+			<div class="creditframe">
+				<div class="creditad">AD</div>
+				<div class="creditad">AD</div>
+				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
 			</div>
 		</div>
 
 		<div class="content">
 			CC Crosscutting Concepts
-			<div class="creditsFrame">
-				<div class="credit ad">AD</div>
-				<div class="credit ad">AD</div>
-				<div class="credit ad">AD</div><img src="img/checkmarkad.png">
+			<div class="creditframe">
+				<div class="creditad">AD</div>
+				<div class="creditad">AD</div>
+				<div class="creditad">AD</div><img src="img/checkmarkad.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Cycles Core Concepts
-			<div class="creditsFrame">
-				<div class="credit ad">AD</div>
-				<div class="credit gb">GB</div>
-				<div class="credit gb">GB</div><img src="img/checkmarkgb.png">
+			<div class="creditframe">
+				<div class="creditad">AD</div>
+				<div class="creditgb">GB</div>
+				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
 			</div>
 		</div>
 
 		<div class="content">
 			Systems Core Concepts
-			<div class="creditsFrame">
-				<div class="credit ad">AD</div>
-				<div class="credit ad">AD</div>
-				<div class="credit ad">AD</div><img src="img/checkmarkad.png">
+			<div class="creditframe">
+				<div class="creditad">AD</div>
+				<div class="creditad">AD</div>
+				<div class="creditad">AD</div><img src="img/checkmarkad.png">
 			</div>
 		</div>
 
