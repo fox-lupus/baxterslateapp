@@ -488,7 +488,7 @@ border: solid 1px #020202;
     font-weight: 400;
     font-family: Lato;
 }
-.taskdashboard-nub3,.taskdashboard-nub2,.taskdashboard-nub {
+.taskdashboard-nub4,.taskdashboard-nub3,.taskdashboard-nub2,.taskdashboard-nub {
 	align-items: center;
     border-radius: 0.25em 0 0 0.25em;
     display: flex;
@@ -510,6 +510,9 @@ border: solid 1px #020202;
 .taskdashboard-nub3{
 	background-color: #f17a62;
 
+}
+.taskdashboard-nub4{
+	background-color: #fbf372;
 }
 .taskdashboard-container{
 	width: 400px;
@@ -582,6 +585,20 @@ border: solid 1px #020202;
     font-weight: 400;
     float: right;
 }
+.taskdashboard-status4{
+	background-color: #fbf372;
+	border-radius: 0.25em 0 0 0.25em;
+    margin-left: 1em;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    font-weight: 400;
+    float: right;
+}
 .taskdashboard-date{
 	background-color: #d1effb;
 	border-radius: 0 0.25em 0.25em 0;
@@ -610,6 +627,19 @@ border: solid 1px #020202;
 }
 .taskdashboard-date3{
 	background-color: #f7b5a8;
+	border-radius: 0 0.25em 0.25em 0;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 0.8125em;
+    justify-content: center;
+    padding: 0.125em 0.5em;
+    line-height: 1.33333;
+    font-family: Lato;
+    float: right;
+}
+.taskdashboard-date4{
+	background-color: #fcf58b;
 	border-radius: 0 0.25em 0.25em 0;
     font-weight: bold;
     align-items: center;

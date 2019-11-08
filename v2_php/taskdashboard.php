@@ -35,7 +35,7 @@
 
 						<div class="text">
 							<div class="taskdashboard-category">Society, Power, And Innovation</div>
-							<div class="taskdashboard-title">A Boring Paper (Again)</div>
+							<div class="taskdashboard-title">Personal Narrative</div>
 							<div class="taskdashboard-date">May 13, 2019</div>	
 							<div class="taskdashboard-status">Completed</div>
 						</div>
@@ -105,6 +105,18 @@
 							<div class="taskdashboard-status3">Revised</div>
 						</div>
 					</div>
+
+					<div class="tashdashboard-row">
+					
+						<div class="taskdashboard-nub4"></div>
+
+						<div class="text">
+							<div class="taskdashboard-category">Functional Analysis</div>
+							<div class="taskdashboard-title">Math Quiz</div>
+							<div class="taskdashboard-date4">Nov 15, 2019</div>
+							<div class="taskdashboard-status4">Revision</div>
+						</div>
+					</div>
 				</div>
 
 
@@ -131,7 +143,7 @@
 			<div class="headline">
 				
 				<span class="courseNum">To-Do List</span>
-					<span class="courseName">Math</span>
+					<span class="courseName">Flex Friday Project</span>
 			</div>
 
 			<div class="subhead taskdashboardtinyfont">Active Items</div>
@@ -145,7 +157,7 @@
 			</div>
 		
 
-			<div class="headline">
+			<!--<div class="headline">
 				
 				<span class="courseNum">To-Do List</span>
 					<span class="courseName">Humanities</span>
@@ -190,7 +202,7 @@
 					<div>New to-do...</div>
 					<span class="textstuff">mm/dd/yyyy</span>
 					<div class="credit"></div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 
