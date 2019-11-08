@@ -221,42 +221,45 @@
 				
 		<div class="section">
 			<div class="title">Tools</div>
-			<a href ="https://baxter.slatepowered.net/cbl/dashboards/demonstrations/student#me" class="dashboardLink">
+			<div class="row">
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
 				<img src="img/2nd.png">
-				Competency Dashboard
-			</a>
-			<a href ="https://baxter.slatepowered.net/cbl/dashboards/tasks/student#me/all" class="dashboardLink">
+				<span>Competency Dashboard</span>
+	
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
 				<img src="img/2nd.png">
-				Task Dashboard
-			</a>
+				<span>Task Dashboard</span>
+			</div>
 
 			<div style="clear: both"></div>
 
 			<div class="body"></div>
-		</div>
+			</div>
 
 		<div class="section">
 			<div class="title">Name</div>
-			<a href ="https://baxter.slatepowered.net/people/curtisruel" class="dashboardLink">
+			<div class="row">
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-user"></use>
 				<img src="img/3rd.png">
-				My Profile
+				<span>My Profile</span>
 			</a>
-			<a href ="https://baxter.slatepowered.net/profile" class="dashboardLink">
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-gearhead"></use>
 				<img src="img/4th.png">
-				Edit Profile
+				<span>Edit Profile</span>
 			</a>
-			<a href ="https://baxter.slatepowered.net/drafts" class="dashboardLink">
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-writing"></use>
 				<img src="img/5th.png">
-				My Drafts
+				<span>My Drafts</span>
 			</a>
-			<a href ="https://baxter.slatepowered.net/dashboard" class="dashboardLink">
-				<img src="img/5th.png">
-				Log Out
+			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-logout"></use>
+				<img src="img/6th.png">
+				<span>Log Out</span>
 			</a>
 
 			<div style="clear: both"></div>
 
 			<div class="body"></div>
+			</div>
 			
 		</div>
 	</div>
