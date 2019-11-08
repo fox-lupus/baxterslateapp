@@ -89,26 +89,6 @@ body{
 	color: white;
 }
 
-.container1 {
-  flex-direction: row | row-reverse | column | column-reverse;
-}
-
-.container2 {
-  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
-}
-
-.container3 {
-  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
-}
-
-.item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-}
-
-.item2 {
-  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-}
-
 .portfolio-colors div {
 	width: 30px;
 	height: 30px;
@@ -258,7 +238,8 @@ border: solid 1px #020202;
     font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 30px;
-    margin-bottom:20px; 
+    margin-bottom: 20px; 
+    margin: 20px;
 }
 .textInput {
 	padding: 5px;
@@ -298,6 +279,8 @@ border: solid 1px #020202;
 	width: 30%;
 	padding: 0 15px;
 	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
 	
 }
 
@@ -338,6 +321,10 @@ border: solid 1px #020202;
 
 .slatedashboard .pageTitle {
 	font-size: 30px;
+	margin: 50px;
+	border-bottom: solid 1px #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .slatedashboard .section {
@@ -353,6 +340,7 @@ border: solid 1px #020202;
     border-bottom: solid 1px #ccc;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
 }
 
 .slatedashboard .section .body {
