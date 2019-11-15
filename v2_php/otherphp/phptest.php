@@ -1,3 +1,7 @@
-<?php include('header.php'); ?>
-<?php include('top-menu.php'); ?>
-<?php include('footer.php');?>
+<?php include('otherphp/header.php'); ?>
+
+<div class="sad">
+	<img src="img/header.jpg">
+</div>
+
+<?php include('otherphp/footer.php');?>

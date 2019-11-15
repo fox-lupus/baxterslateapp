@@ -2,12 +2,15 @@
 	max-width: 800px;
 	margin: 0 auto; 
 	background: #d6fbef;
+	box-shadow: 10px 4px 7px 0px rgba(0,0,0,0.1);
+	border: solid #9E9E9E 1px;
 }
 
 .head-of-page {
 	border-bottom: 1px solid #D4D4D4;
 	margin-bottom: 20px;
 	margin-top: 50px;
+	margin-left: 5px;
 	font-size:1.5em; 
 	font-family: Sanchez,Lato,Rockwell,"Rockwell Std",Georgia,serif;
 }
