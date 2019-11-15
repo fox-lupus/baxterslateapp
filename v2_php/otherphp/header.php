@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>"> 	
+	<title></title>	
 	<!--<link rel="stylesheet" type="text/css" href="css/slate-mobile-css?<?php echo microtime();?>"> -->
 	<link rel="stylesheet" type="text/css" href="css/home.css?<?php echo microtime();?>">
 	<link rel="stylesheet" type="text/css" href="css/dots.css?<?php echo microtime();?>">
@@ -13,6 +12,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="css/header.css?<?php echo microtime();?>"> 
 </head>
 <body>	
 <div class="nav">

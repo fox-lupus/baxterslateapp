@@ -50,13 +50,13 @@ function callcredit(content, creditframe) {
 		margin-top: 20px;
 
 	}
-	.headline{
+	.headline {
 	grid-column-start: 1;
   	grid-column-end: 3;
   	grid-row-start: 1;
   	grid-row-end: 1;
 
-  	background: #D1D1D1;
+  	background-color: #b3b3b3;
 
   	border-radius: 8px 8px 0 0;
 	}
@@ -67,6 +67,7 @@ function callcredit(content, creditframe) {
   	grid-row-end: 2;
   	/*background: #c55;*/
   	background: linear-gradient( #c44 , #b33  );
+  	background-color: #b3b3b3;
 	}
 	}
 	.creditaline {
@@ -86,7 +87,7 @@ function callcredit(content, creditframe) {
 		width: 25%;
 		height: 35px;
 
-		background: #a55;
+		background: #b66;
 
 		margin:auto;
 		margin-top: 0px;
@@ -94,7 +95,7 @@ function callcredit(content, creditframe) {
 
 		padding: 0px 5px 0 0;
 
-		border: solid 1px #000;
+		border: solid 1px #444;
 		border-radius: 3px;
 	}
 	.credit:last-child{
