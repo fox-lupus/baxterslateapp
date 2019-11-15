@@ -3,8 +3,8 @@
 <div class="mainContent slatedashboard">
 
 	<div class="pageTitle">My Dashboard</div>
-	<div class="section">
-	<div class="title">Courses</div>
+	<div class="section1">
+	<div class="title1">Courses</div>
 	</div>
 	<div class="container_left">
 
@@ -238,43 +238,44 @@
 
 			<div class="body"></div>
 			</div>
+	
 
 		<div class="section">
 			<div class="title">Name</div>
 			<div class="row">
 				<div class="row2">
 				<img src="img/3rd.png">
-					<div class="normalfont">My Profile</div>
+					<div class="normalfont2">My Profile</div>
 				</div>
 				<div class="row2">
 					<img src="img/4th.png">
-					<div class="normalfont">Edit Profile</div>
+					<div class="normalfont2">Edit Profile</div>
 				</div>
 				<div class="row2">
 					<img src="img/5th.png">
-					<div class="normalfont">My Drafts</div>
+					<div class="normalfont2">My Drafts</div>
 				</div>
 				<div class="row2">
 					<img src="img/6th.png">
-					<div class="normalfont">Log Out</div>
+					<div class="normalfont2">Log Out</div>
 				</div>
 			</div>
-
 			<div style="clear: both"></div>
 
 			<div class="body"></div>
 			</div>
-			
 		</div>
-
 
 	<div class="container_right">
-		<div class="section">
-			<div class="title">Calendar</div>
-			<div class="body">No future events scheduled</div>
-			<a href="coursesectionsdirectory.php">Browse Catalog</a>	
+		<div>
+		<div class="section2">
+			<div class="title2">Calendar</div>
+			<div class="body2">No future events scheduled</div>
+			<div class="slatedashboard2">
+			<a href="coursesectionsdirectory.php">Browse Catalog</a></div>
 		</div>
-	</div>	
+	</div>
+</div>	
 
 </div>
 <?php include ('otherphp/footer.php'); ?>
