@@ -223,15 +223,17 @@
 		<div class="section">
 			<div class="title">Tools</div>
 			<div class="row">
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
+				<div class="row2">
 				<img src="img/2nd.png">
-				<span>Competency Dashboard</span>
-	
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
-				<img src="img/2nd.png">
-				<span>Task Dashboard</span>
+					<div class="tinyfont">Competency Based Learning</div>
+					<div class="normalfont">Competency Dashboard</div>
+				</div>
+				<div class="row2">
+					<img src="img/2nd.png">
+					<div class="tinyfont">Competency Based Learning</div>
+					<div class="normalfont">Task Dashboard</div>
+				</div>
 			</div>
-
 			<div style="clear: both"></div>
 
 			<div class="body"></div>
@@ -240,22 +242,23 @@
 		<div class="section">
 			<div class="title">Name</div>
 			<div class="row">
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-user"></use>
+				<div class="row2">
 				<img src="img/3rd.png">
-				<span>My Profile</span>
-			</a>
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-gearhead"></use>
-				<img src="img/4th.png">
-				<span>Edit Profile</span>
-			</a>
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-writing"></use>
-				<img src="img/5th.png">
-				<span>My Drafts</span>
-			</a>
-			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-logout"></use>
-				<img src="img/6th.png">
-				<span>Log Out</span>
-			</a>
+					<div class="normalfont">My Profile</div>
+				</div>
+				<div class="row2">
+					<img src="img/4th.png">
+					<div class="normalfont">Edit Profile</div>
+				</div>
+				<div class="row2">
+					<img src="img/5th.png">
+					<div class="normalfont">My Drafts</div>
+				</div>
+				<div class="row2">
+					<img src="img/6th.png">
+					<div class="normalfont">Log Out</div>
+				</div>
+			</div>
 
 			<div style="clear: both"></div>
 
@@ -263,7 +266,7 @@
 			</div>
 			
 		</div>
-	</div>
+
 
 	<div class="container_right">
 		<div class="section">

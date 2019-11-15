@@ -286,6 +286,15 @@ border: solid 1px #020202;
 	
 }
 
+.slatedashboard .row{
+	display: inline-block;
+}
+
+.slatedashboard .row2{
+	display: inline-block;
+	position: relative;
+}
+
 .slatedashboard .container_right {
 	max-width: 500px;
 }
@@ -332,11 +341,14 @@ border: solid 1px #020202;
     box-sizing: border-box;
     padding: 5px 0;
     border-radius: 0px;
-    text-align: center;
     display: inline-block;
-    max-width: 500px;
+    text-align: center;
+   	width: 500px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 260px;
+    
 }
 
 .slatedashboard .section .title {
@@ -346,9 +358,38 @@ border: solid 1px #020202;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
-    max-width: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
+    display: inline-block;
+}
+
+.slatedashboard .flex{
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.slatedashboard .tinyfont{
+	color: #949494;
+	font-size: 0.875em;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	bottom: -50px;
+}
+
+.slatedashboard .normalfont{
+	color: #333;
+	font-size: 15px;
+	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	bottom: -100px;
 }
 
 .slatedashboard .section .body {
@@ -397,7 +438,8 @@ border: solid 1px #020202;
 	margin: 0px auto;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+	display: inline-block;
 	
 }
 @media screen and (max-width: 500px){
