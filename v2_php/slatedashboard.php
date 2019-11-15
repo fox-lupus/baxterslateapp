@@ -3,7 +3,9 @@
 <div class="mainContent slatedashboard">
 
 	<div class="pageTitle">My Dashboard</div>
-
+	<div class="section">
+	<div class="title">Courses</div>
+	</div>
 	<div class="container_left">
 
 		<!--<div class="section">
@@ -26,7 +28,6 @@
 			</script>
 
 			<div class="accordion">
-		
 				<div class="item">
 					<div class="title">Advisory 9</div>
 					<div class="body">

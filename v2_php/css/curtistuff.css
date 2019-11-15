@@ -11,6 +11,9 @@ body{
 .spmainContent{
 	padding-top: 60px;
 	border-top: 1px solid gray;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .block{
@@ -276,17 +279,15 @@ border: solid 1px #020202;
     text-rendering: optimizeLegibility;
     font-size: 25px;
     margin: 0px auto;
-	width: 30%;
 	padding: 0 15px;
 	margin: 0px auto;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	
 }
 
 .slatedashboard .container_right {
-	width: 70%;
-	width: 100%;
+	max-width: 500px;
 }
 
 .container.right, .container.left {
@@ -332,6 +333,8 @@ border: solid 1px #020202;
     padding: 5px 0;
     border-radius: 0px;
     text-align: center;
+    display: inline-block;
+    max-width: 500px;
 }
 
 .slatedashboard .section .title {
@@ -341,6 +344,8 @@ border: solid 1px #020202;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+    max-width: 500px;
+
 }
 
 .slatedashboard .section .body {
@@ -701,7 +706,7 @@ border: solid 1px #020202;
 
 .accordion {
 	max-width: 500px;
-	margin: 10px;
+	margin: 0px;
 	border: solid 1px #ccc;
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	font-size: 22px;
