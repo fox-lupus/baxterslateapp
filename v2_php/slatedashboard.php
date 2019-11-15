@@ -225,12 +225,12 @@
 			<div class="row">
 				<div class="row2">
 				<img src="img/2nd.png">
-					<div class="tinyfont">Competency Based Learning</div>
+					<div class="tinyfont">Competency- Based Learning</div>
 					<div class="normalfont">Competency Dashboard</div>
 				</div>
 				<div class="row2">
 					<img src="img/2nd.png">
-					<div class="tinyfont">Competency Based Learning</div>
+					<div class="tinyfont">Competency- Based Learning</div>
 					<div class="normalfont">Task Dashboard</div>
 				</div>
 			</div>
