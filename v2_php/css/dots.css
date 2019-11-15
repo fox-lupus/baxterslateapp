@@ -1,7 +1,7 @@
 .dot-baner{
 	background: url(img/nodes-bg.jpg);
 	height:96px;
-	margin-top: 40px;
+	margin-top: 80px;
 	width: 100%;
 	display:flex;
 	justify-content: flex-start;
@@ -15,7 +15,6 @@
 	font-size: 13px;
 	font-family: 'Lato', sans-serif;
 	display: inline-block;
-	text-transform: uppercase;
 }
 .My-Progress{
 	font-size:32px;

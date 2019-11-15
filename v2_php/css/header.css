@@ -4,6 +4,7 @@ html, body{
 		width: 100%;
 	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale;
+ 	
  	z-index:2;
  	background: #fff
 }
@@ -187,7 +188,7 @@ body{
 .slate-thing{
 	margin-top: 35px;
 	padding:15px;	
-	font-size: 12px;
+	font-size: 15px;
 	font-family: Lato, "Lucida Grande", Verdana, "Helvetica Neue", sans-serif;
 
 	border:2px solid #D4D4D4;

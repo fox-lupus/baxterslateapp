@@ -43,10 +43,11 @@ function callcredit(content, creditframe) {
 	    	"credit. credit";
  		margin-bottom: 100px;*/
 
- 		background: #ddd
+ 		background: #ccc
  		-webkit-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		-moz-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
+		margin-top: 20px;
 
 	}
 	.headline{
@@ -55,7 +56,7 @@ function callcredit(content, creditframe) {
   	grid-row-start: 1;
   	grid-row-end: 1;
 
-  	background: #888;
+  	background: #D1D1D1;
 
   	border-radius: 8px 8px 0 0;
 	}
@@ -77,8 +78,6 @@ function callcredit(content, creditframe) {
 
 		padding: 5px 0 5px 0;
 
-		border-top: solid 2px #ccc;
-
 		display: flex;
 		flex-direction: row;
 
@@ -90,6 +89,8 @@ function callcredit(content, creditframe) {
 		background: #a55;
 
 		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
 
 		padding: 0px 5px 0 0;
 
@@ -98,6 +99,18 @@ function callcredit(content, creditframe) {
 	}
 	.credit:last-child{
 		padding: 0 0 0 5px;
+	}
+	.TextHolder{	
+		border-top: solid 2px #ccc;
+
+		height: 60px;
+
+		display:  inline-block;
+	}
+	.CreditName{
+		margin-left: 8px;
+		font-weight: 500;
+		font-family: 'EB Garamond', serif;
 	}
 </style>
 <div class="mainContent">
@@ -124,20 +137,13 @@ function callcredit(content, creditframe) {
 		</div>
 		<div class="subhead"></div>
 		<div class="creditaline">
-			<div class="creditframe">
-				<div class="credit"></div>
-				<div class="credit"></div>
-				<div class="credit"></div>
-			</div>
-			<div class="creditframe">
-				<div class="credit"></div>
-				<div class="credit"></div>
-				<div class="credit"></div>
-			</div>
-			<div class="creditframe">
-				<div class="credit"></div>
-				<div class="credit"></div>
-				<div class="credit"></div>
+			<div class="TextHolder">
+				<span class="CreditName">place holder</span>
+				<div class="creditframe">
+					<div class="credit"></div>
+					<div class="credit"></div>
+					<div class="credit"></div>
+				</div>
 			</div>
 		</div>
 	</div>	
