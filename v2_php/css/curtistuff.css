@@ -332,8 +332,8 @@ border: solid 1px #020202;
     box-sizing: border-box;
     padding: 5px 0;
     border-radius: 0px;
-    text-align: center;
     display: inline-block;
+    text-align: center;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -349,6 +349,27 @@ border: solid 1px #020202;
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    display: inline-block;
+}
+
+.slatedashboard .flex{
+	display: flex;
+	flex-direction: row;
+	max-width: 100px;
+	margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.slatedashboard .tinyfont{
+	color: #949494;
+	font-size: 0.875em;
+}
+
+.slatedashboard .normalfont{
+	color: #333;
+	font-size: 15px;
+	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 }
 
 .slatedashboard .section .body {

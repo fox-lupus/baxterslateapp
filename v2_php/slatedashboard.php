@@ -225,11 +225,13 @@
 			<div class="row">
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
 				<img src="img/2nd.png">
-				<span>Competency Dashboard</span>
+				<div class="tinyfont">Competency Based Learning</div>
+				<div class="normalfont">Competency Dashboard</div>
 	
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-cbl"></use>
 				<img src="img/2nd.png">
-				<span>Task Dashboard</span>
+				<div class="tinyfont">Competency Based Learning</div>
+				<div class="normalfont">Task Dashboard</div>
 			</div>
 
 			<div style="clear: both"></div>
@@ -242,19 +244,19 @@
 			<div class="row">
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-user"></use>
 				<img src="img/3rd.png">
-				<span>My Profile</span>
+				<div class="normalfont">My Profile</div>
 			</a>
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-gearhead"></use>
 				<img src="img/4th.png">
-				<span>Edit Profile</span>
+				<div class="normalfont">Edit Profile</div>
 			</a>
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-writing"></use>
 				<img src="img/5th.png">
-				<span>My Drafts</span>
+				<div class="normalfont">My Drafts</div>
 			</a>
 			<use xlink:href="/img/slate-icons/slate-icons.svg?_sha1=e812e4c9df495c3901c9e20d119d974f546bd9ce#icon-logout"></use>
 				<img src="img/6th.png">
-				<span>Log Out</span>
+				<div class="normalfont">Log Out</div>
 			</a>
 
 			<div style="clear: both"></div>
