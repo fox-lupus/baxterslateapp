@@ -133,25 +133,28 @@ function callcredit (content, creditframe) {
 			<div style="clear: both; float: right; margin-right: 25px;"></div>
 		</div>
 	</div>	-->
+<template>
+  <div class=""></div>
+</template>
 
 <script>
 function showContent (headline,subhead,creditaline,TextHolder,CreditName,credit) {
-	class="standard_container">
-	class="headline">
+	var = "
+	<div class="standard_container">
+	<div class="headline">
 		"<span></span>"
-	var="</div>"
-	<div class="subhead"></div>
+	<div class="subhead">
 	<div class="creditaline">
 		<div class="TextHolder">
-			<span class="CreditName"></span>
+			<span class="CreditName">
 			<div class="creditframe">
-			<div class="credit">
-			<div class="credit">
-			<div class="credit"></div>
+			<div class=credit>
+			<div class=credit>
+			<div class=credit></div>
 			</div>
 		</div>
 	</div>
-</div>
+</div>"
 }
 </script>
 
