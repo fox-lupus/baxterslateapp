@@ -49,8 +49,8 @@
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
 				<a href="competencydashboard.php">Competency Dashboard</a>
 				<a href="taskdashboard.php">Task Dashboard</a>
-				<a href="upcomingevents.php">Upcoming Events</a>
-				<!-- <a href="contactus.php">Contact Us</a> -->
+				<!--<a href="upcomingevents.php">Upcoming Events</a>-->
+				<a href="contactus.php">Contact Us</a>
 			</div>
 		</div>
 	</div>
