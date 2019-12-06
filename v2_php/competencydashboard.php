@@ -139,7 +139,7 @@ function callcredit (content, creditframe) {
 
 <script>
 function showContent (headline,subhead,creditaline,TextHolder,CreditName,credit) {
-	var = "<div class=standard_container> <div class=headline> <span>"DES.2.0.0"</span> <span>"Aesthetics & Meaning"</span> <div class=subhead> <span>"Working Toward: Entering"</span> <div class=creditaline> <div class=TextHolder> <span>"Aesthetics & Meaning"</span> <span class=CreditName> <div class=creditframe> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> </div> </div> </div> </div> </div>"
+	var standardcredits = '<div class=standard_container> <div class=headline> <span>"DES.2.0.0"</span> <span>"Aesthetics & Meaning"</span> <div class=subhead> <span>"Working Toward: Entering"</span> <div class=creditaline> <div class=TextHolder> <span>"Aesthetics & Meaning"</span> <span class=CreditName> <div class=creditframe> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> </div> </div> </div> </div> </div>';
 }
 console.log('headline','subhead','creditaline','TextHolder','CreditName','credit');
 </script>
