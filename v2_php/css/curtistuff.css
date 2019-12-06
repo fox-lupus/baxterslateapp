@@ -15,7 +15,13 @@ body{
 	display: flex;
 	flex-direction: row;
 }
+.taskdashboard .container.left{
+	margin: 40px 0 40px 0;
 
+}
+.container_left .iconFrame {
+	display: inline-block;
+}
 .block{
 
 		    margin-top: 60px;    
@@ -283,7 +289,12 @@ border: solid 1px #020202;
 	margin: 0px auto;
 	display: flex;
 	flex-direction: column;
-	
+}
+
+@media screen and (min-width: 1000px) {
+	.slatedashboard {
+		padding: 50px 200px 0 200px;
+	}
 }
 
 .slatedashboard2{
@@ -376,6 +387,7 @@ border: solid 1px #020202;
     flex-wrap: wrap-reverse;
     height: 50px;
     background-color: #fff;
+    margin: 0 0 0 30px;
     
 }
 
@@ -534,14 +546,14 @@ border: solid 1px #020202;
 
 
 .taskdashboard{
-	width: 80%;
+	/*width: 80%;*/
 	/*padding: 0 15px;*/
 	margin: 0px auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	display: inline-block;
-	
+
 }
 @media screen and (max-width: 500px){
 .taskdashboard{
@@ -549,17 +561,18 @@ border: solid 1px #020202;
 }
 }
 
-.taskdashboard .container {
+
+/*.taskdashboard .container {
 	width: 60vh;
 	margin-right: 30px;
 }
 
 .taskdashboard .container.left {
-	/*float: left;*/
+	/*float: left;
 	background-color: #e3e3e3;
 	height: 100%
 
-}
+}*/
 
 .taskdashboard .container.right {
 	/*float: right;*/
@@ -570,6 +583,7 @@ border: solid 1px #020202;
 .taskdashboard .headline{
 	background:#808080;
 	padding-left: 12px;
+	margin: 0 0 0 0;
 }
 
 .taskdashboard .headline .select-block {
@@ -890,4 +904,12 @@ border: solid 1px #020202;
 	line-height: 25px;
 	display: none;
 	background: rgba(148, 148, 148, 0.08);
+}
+
+.section1, .container_left, .container_right, .pageTitle {
+	/*box-shadow: 3px 3px 10px -1px rgba(128,128,128,0.64);*/
+
+}
+.headline, .content{
+	padding:0 20px 0 0;
 }

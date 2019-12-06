@@ -11,6 +11,34 @@ html, body{
 body{
 	position: absolute;
 }
+/*.taskcolumn{
+	width: 80%;
+	padding: 0 15px;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px){
+.taskcolumn{
+	width: 100%;	
+}
+}
+
+.taskcolumn .container {
+	width: 60vh;
+	margin-right: 30px;
+}
+
+.taskcolumn .container.left {
+	float: left;
+	background-color: #e3e3e3;
+	height: 100%
+
+}*/
+
 .bottombackground {
 	background: #323232;
 	height: 10vw;
@@ -27,8 +55,10 @@ body{
 	z-index: 30;
 	width: 100%;
 	/*border-bottom-right-radius: 2px;
-		border-bottom-left-radius: 2px;*/
-	box-shadow: 0 0 0.5em rgba(0,0,0,0.6);
+		border-bottom-left-radius: 2px;
+	/*box-shadow: 0 0 0.5em rgba(0,0,0,0.6);
+	box-shadow: 3px 3px 10px -1px rgba(128,128,128,0.64);*/
+	box-shadow: 0px 3px 8px 1px rgba(158,158,158,0.53);
 	}
 .nav .flexbox-container {
 	display: inline-flex;
