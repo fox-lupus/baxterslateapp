@@ -73,6 +73,7 @@ function callcredit (content, creditframe) {
 	}
 	.creditaline {
 		display: inline-block;
+
 	}
 	.creditframe{
 		height: 50px;
@@ -81,7 +82,7 @@ function callcredit (content, creditframe) {
 		padding: 5px 0 5px 0;
 
 		display: flex;
-		flex-direction: row;
+		flex-direction: row
 
 	}
 	.credit{
@@ -108,6 +109,7 @@ function callcredit (content, creditframe) {
 		height: 60px;
 
 		display:  inline-block;
+		border-radius: 0 0 8px 8px;
 	}
 	.CreditName{
 		margin-left: 8px;
