@@ -15,11 +15,11 @@
 	document.querySelectorAll("creditex");
 	document.querySelectorAll("creditba");
 
-function callcredit(content, creditframe) {
+function callcredit (content, creditframe) {
 
 	return credit("ne","en","pr","gb","ad","ex","ba");
 }
-
+	console.log('content','creditframe');
 	console.log(document.querySelectorAll("creditne")); 
 	console.log(document.querySelectorAll("crediten")); 
 	console.log(document.querySelectorAll("creditpr")); 
@@ -32,6 +32,7 @@ function callcredit(content, creditframe) {
 <style type="text/css">
 	.standard_container{
 		width: 500px;
+		height: 160px;
 		display: inline-grid;
 		grid-template-columns: 250px 250px	/*30px 100px 10px 100px 10px 100px 30px*/;
  		grid-template-rows:50px 35px	/* 50px 35px repeat(3, 60px) */;
@@ -134,22 +135,16 @@ function callcredit(content, creditframe) {
 			<div style="clear: both; float: right; margin-right: 25px;"></div>
 		</div>
 	</div>	-->
-	<div class="standard_container">
-		<div class="headline">
-			<span>headline</span>
-		</div>
-		<div class="subhead"></div>
-		<div class="creditaline">
-			<div class="TextHolder">
-				<span class="CreditName">place holder</span>
-				<div class="creditframe">
-					<div class="credit"></div>
-					<div class="credit"></div>
-					<div class="credit"></div>
-				</div>
-			</div>
-		</div>
-	</div>	
+<template>
+  <div class=""></div>
+</template>
+
+<script>
+function showContent (headline,subhead,creditaline,TextHolder,CreditName,credit) {
+	var = "<div class=standard_container> <div class=headline> <span>"DES.2.0.0"</span> <span>"Aesthetics & Meaning"</span> <div class=subhead> <span>"Working Toward: Entering"</span> <div class=creditaline> <div class=TextHolder> <span>"Aesthetics & Meaning"</span> <span class=CreditName> <div class=creditframe> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> <div class=credit> <span>"EN"</span> </div> </div> </div> </div> </div>"
+}
+console.log('headline','subhead','creditaline','TextHolder','CreditName','credit');
+</script>
 
 	<!-- <div class="standard_container">
 
