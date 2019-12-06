@@ -20,7 +20,7 @@ body{
 
 }
 .container_left .iconFrame {
-	display: inline-block;
+display: block;
 }
 .block{
 
@@ -373,7 +373,7 @@ border: solid 1px #020202;
     box-sizing: border-box;
     padding: 5px 0;
     border-radius: 0px;
-    display: inline-block;
+   
     text-align: center;
    	max-width: 500px;
     display: flex;

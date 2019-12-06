@@ -113,7 +113,7 @@ body{
 
 }
 .container_left .iconFrame {
-	display: inline-block;
+	display: block;
 }
 .block{
 
@@ -516,8 +516,8 @@ border: solid 1px #020202;
     padding: 5px 0;
     font-size: 1em;
     border-bottom: solid 1px #ccc;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1px;
+    margin-right: 30px;
     text-align: center;
     max-width: 500px;
     display: flex;
