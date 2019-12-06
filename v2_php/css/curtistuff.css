@@ -8,6 +8,24 @@ body{
 	height: 40px;
 	color: white;
 }
+
+.container.left{
+	order: -1;
+	margin: 0 auto 0 auto;
+	min-width: 350px;
+}
+
+.mainContent{
+	display: grid;
+	grid-template-columns: 50fr 50fr;	
+	grid-template-rows: 50fr;
+	height: 400px;
+
+	 padding: 15px;
+
+	 max-width: 100%;
+}
+
 .spmainContent{
 	padding-top: 60px;
 	border-top: 1px solid gray;
@@ -15,10 +33,11 @@ body{
 	display: flex;
 	flex-direction: row;
 }
-.taskdashboard .container.left{
-	margin: 40px 0 40px 0;
 
+.taskdashboard .container.left{
+	margin: 0px 10px 40px 0;
 }
+
 .container_left .iconFrame {
 display: block;
 }
@@ -570,6 +589,7 @@ border: solid 1px #020202;
 	flex-direction: row;
 	flex-wrap: wrap;
 	display: inline-block;
+	min-width: 315px;
 
 }
 @media screen and (max-width: 500px){
@@ -929,4 +949,7 @@ border: solid 1px #020202;
 }
 .headline, .content{
 	padding:0 20px 0 0;
+}
+.selection-box2{
+	border-radius: 2px;
 }
