@@ -117,7 +117,7 @@ function callcredit (content, creditframe) {
 		font-family: 'EB Garamond', serif;
 	}
 </style>
-<div class="mainContent">
+<!-- <div class="mainContent">
 	<div class="slategrades">
 
 		<div class="portfolio-border">
@@ -132,13 +132,29 @@ function callcredit (content, creditframe) {
 				<div class="ex">EX</div>  
 				<div class="ba">BA</div>
 			</div>
-			<div style="clear: both; float: right; margin-right: 25px;"></div>
+			 <div style="clear: both; float: right; margin-right: 25px;"></div> -->
 		</div>
 	</div>	
-<template>
-  <div class=""></div>
-</template>
 
+	<!-- do not touch -->
+<div class="standard_container">
+	<div class="headline">
+		<span>headline</span>
+	</div>
+	<div class="subhead">
+		<span>subhead</span>
+	</div>
+	<div class="creditaline">
+		<div class="TextHolder">
+			<span class="CreditName"> </span>
+			<div class="creditframe">
+				<div class=credit></div>
+				<div class=credit></div>
+				<div class=credit></div>
+			</div>
+		</div>
+	</div>
+</div>
 <script>
 var standardblock = showContent;
 
