@@ -141,7 +141,7 @@ body{
 .bitmap{
 	height: 20px;
 	/*transform: rotate(35deg);*/
-	margin-left:6px;
+	margin: 0 5px 0 4px;
 }
 
 .slate-logo {
@@ -186,6 +186,7 @@ body{
 	line-height: 38px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin: 0 5px 0 5px;
 }
 .menu:hover {
 	border-radius: 10px;
@@ -302,8 +303,8 @@ display: inline-block;
 	padding: 0 0px 1px 5px;
 	line-height: 30px;
 	font-size: 16px;
-	width:57px;
-	height: 24px; 
+	width:100px;
+	height: 23px; 
 	transition: width 100ms;
 	/*color: white;*/
 	/*transition-timing-function: cubic-bezier(0.4,0.8,0.2,0.5) ;*/
