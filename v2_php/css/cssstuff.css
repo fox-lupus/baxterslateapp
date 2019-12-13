@@ -36,6 +36,13 @@ body{
 	 max-width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+	.mainContent{
+		display: flex;
+	}
+
+}
+
 .spmainContent{
 	padding-top: 60px;
 	border-top: 1px solid gray;
