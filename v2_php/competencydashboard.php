@@ -32,7 +32,7 @@ function callcredit (content, creditframe) {
 <style type="text/css">
 	.standard_container{
 		width: 500px;
-		height: 160px;
+		height: 325px;
 		display: inline-grid;
 		grid-template-columns: 250px 250px	/*30px 100px 10px 100px 10px 100px 30px*/;
  		grid-template-rows:50px 35px	/* 50px 35px repeat(3, 60px) */;
@@ -67,9 +67,40 @@ function callcredit (content, creditframe) {
   	grid-row-start: 2;
   	grid-row-end: 2;
   	/*background: #c55;*/
-  	background: linear-gradient( #c44 , #b33  );
+  	background: linear-gradient( #d94181 , #ca274f );
   	background-color: #b66;
 	}
+
+	.subhead2{
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 2;
+  	/*background: #c55;*/
+ 	background-image: linear-gradient(#ffa200, #ff7d00);
+  	background-color: #ffa200;
+	}
+
+	.subhead3{
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 2;
+  	/*background: #c55;*/
+  	background-image: linear-gradient(#5dc02a, #38a719);
+ 	background-color: #5dc02a;
+	}
+
+	.subhead4{
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 2;
+  	/*background: #c55;*/
+  	background-image: linear-gradient(#008cc1, #005ea8);
+  	background-color: #008cc1;
+	}
+
 	}
 	.creditaline {
 		display: inline-block;
@@ -89,7 +120,7 @@ function callcredit (content, creditframe) {
 		width: 30%;
 		height: 35px;
 
-		background: #b66;
+		background: #d94181;
 
 		margin:auto;
 		margin-top: 0px;
@@ -99,6 +130,90 @@ function callcredit (content, creditframe) {
 
 		border: solid 1px #444;
 		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
+	}
+
+	.credit2{
+		width: 30%;
+		height: 35px;
+
+		background: #ffa200;
+
+		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #444;
+		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
+	}
+
+	.credit3{
+		width: 30%;
+		height: 35px;
+
+		background: #5dc02a;
+
+		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #444;
+		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
+	}
+
+	.credit4{
+		width: 30%;
+		height: 35px;
+
+		background: #008cc1;
+
+		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #444;
+		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
+	}
+
+	.credit5{
+		width: 30%;
+		height: 35px;
+
+		background: #9da39e;
+
+		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #444;
+		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
 	}
 	.credit:last-child{
 		padding: 0 0 0 5px;
@@ -107,9 +222,11 @@ function callcredit (content, creditframe) {
 		border-top: solid 2px #ccc;
 
 		height: 60px;
+		margin-top: 10px;
 
 		display:  inline-block;
 		border-radius: 0 0 8px 8px;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	}
 	.CreditName{
 		margin-left: 8px;
@@ -151,12 +268,35 @@ function callcredit (content, creditframe) {
 			<span class="CreditName"> </span>
 			<div class="creditframe">
 				<div class=credit>EN</div>
+				<div class=credit5>NE</div>
+				<div class=credit2>PR</div>
+			</div>
+		</div>
+
+		<div class="TextHolder">
+			Engagement
+			<span class="CreditName"> </span>
+			<div class="creditframe">
+				<div class=credit>EN</div>
+				<div class=credit2>PR</div>
+				<div class=credit2>PR</div>
+			</div>
+		</div>
+
+		<div class="TextHolder">
+			Work Completion
+			<span class="CreditName"> </span>
+			<div class="creditframe">
+				<div class=credit>EN</div>
 				<div class=credit>EN</div>
 				<div class=credit>EN</div>
 			</div>
 		</div>
 	</div>
-</div>
+
+<div class="standard_container">
+	<div class="headline">
+
 <div onload="showContent(/*headline,subhead,creditaline,TextHolder,CreditName,credit*/);" ></div>
 <script>
 var standardblock = showContent;
