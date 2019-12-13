@@ -31,26 +31,33 @@ function callcredit (content, creditframe) {
 </script>
 <style type="text/css">
 	.standard_container{
-		width: 500px;
-		height: 325px;
 		display: inline-grid;
+		width: 500px;
 		grid-template-columns: 250px 250px	/*30px 100px 10px 100px 10px 100px 30px*/;
  		grid-template-rows:50px 35px	/* 50px 35px repeat(3, 60px) */;
-/* 		grid-column-gap: 5px;
+ 		/*grid-column-gap: 5px;
 		grid-row-gap: 5px;
-	 	grid-template-areas: 
+	 	*//*grid-template-areas: 
 	    	"headline headline headline"
 	    	"subhead subhead subhead"
-	    	"credit. credit";
- 		margin-bottom: 100px;*/
-
+	    	"creditalign creditalign creditalign";*/
+ 		/*margin-bottom: 100px;*/
  		background: #ccc
  		-webkit-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		-moz-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		margin-top: 20px;
+		margin-left: 30px;
 
-	}
+}
+
+@media only screen and (max-width: 550px) {
+
+	 .standard_container{
+  		grid-template-columns: 50% 50%;
+  	}
+
+ }
 	.headline {
 	grid-column-start: 1;
   	grid-column-end: 3;
@@ -102,8 +109,12 @@ function callcredit (content, creditframe) {
 	}
 
 	}
-	.creditaline {
-		display: inline-block;
+	.creditalign {
+		/*display: inline-block;*/
+		grid-column-start: 1;
+    	grid-column-end: 3;
+   	 	grid-row-start: 3;
+		grid-row-end: 3;
 
 	}
 	.creditframe{
@@ -118,7 +129,7 @@ function callcredit (content, creditframe) {
 	}
 	.credit{
 		width: 30%;
-		height: 35px;
+		height: 30px;
 
 		background: #d94181;
 
@@ -138,7 +149,7 @@ function callcredit (content, creditframe) {
 
 	.credit2{
 		width: 30%;
-		height: 35px;
+		height: 30px;
 
 		background: #ffa200;
 
@@ -158,7 +169,7 @@ function callcredit (content, creditframe) {
 
 	.credit3{
 		width: 30%;
-		height: 35px;
+		height: 30px;
 
 		background: #5dc02a;
 
@@ -178,7 +189,7 @@ function callcredit (content, creditframe) {
 
 	.credit4{
 		width: 30%;
-		height: 35px;
+		height: 30px;
 
 		background: #008cc1;
 
@@ -198,9 +209,27 @@ function callcredit (content, creditframe) {
 
 	.credit5{
 		width: 30%;
-		height: 35px;
+		height: 30px;
 
 		background: #9da39e;
+
+		margin:auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+		padding: 0px 5px 0 0;
+
+		border: solid 1px #444;
+		border-radius: 3px;
+		text-align: center;
+		color: #f5f5f5;
+		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+		font-weight: bold;
+	}
+
+	.credit6{
+		width: 30%;
+		height: 30px;
 
 		margin:auto;
 		margin-top: 0px;
@@ -221,8 +250,8 @@ function callcredit (content, creditframe) {
 	.TextHolder{	
 		border-top: solid 2px #ccc;
 
-		height: 60px;
-		margin-top: 10px;
+		/*height: 60px;*/
+		margin-bottom: 10px;
 
 		display:  inline-block;
 		border-radius: 0 0 8px 8px;
@@ -253,227 +282,193 @@ function callcredit (content, creditframe) {
 		</div>
 	</div>	
 
-	<!-- do not touch -->
-<div class="standard_container">
-	<div class="headline">
-		<span class="courseNum">HOW.1.0</span>
-		<span class="courseName">Habits of Work</span>
-	</div>
-	<div class="subhead">
-		<span>Working Toward: Entering</span>
-	</div>
-	<div class="creditaline">
-		<div class="TextHolder">
-			Preparedness
-			<span class="CreditName"> </span>
-			<div class="creditframe">
-				<div class=credit>EN</div>
-				<div class=credit5>NE</div>
-				<div class=credit2>PR</div>
-			</div>
-		</div>
-
-		<div class="TextHolder">
-			Engagement
-			<span class="CreditName"> </span>
-			<div class="creditframe">
-				<div class=credit>EN</div>
-				<div class=credit2>PR</div>
-				<div class=credit2>PR</div>
-			</div>
-		</div>
-
-		<div class="TextHolder">
-			Work Completion
-			<span class="CreditName"> </span>
-			<div class="creditframe">
-				<div class=credit>EN</div>
-				<div class=credit>EN</div>
-				<div class=credit>EN</div>
-			</div>
-		</div>
-	</div>
-
-<div class="standard_container">
-	<div class="headline">
-
-<div onload="showContent(/*headline,subhead,creditaline,TextHolder,CreditName,credit*/);" ></div>
-<script>
-var standardblock = showContent;
-
-function showContent (/*headline,subhead,creditaline,TextHolder,CreditName,credit*/) {
-	document.open();
-    document.write("return '<div class=standard_container>'+'<div class=headline>'+'<span>'DES.2.0.0'</span>'+'<span>'Aesthetics & Meaning'</span>'+'<div class=subhead>'+'<span>'Working Toward: Entering'</span>'+'<div class=creditaline> [<div class=TextHolder>'+'<span>'Aesthetics & Meaning'</span>]'+'<span class=CreditName>'+'<div class=creditframe>'+'<div class=credit>'+'<span>'EN'</span>'+'<div class=credit>'+'<span>'EN'</span>'+'<div class=credit>'+'<span>'EN'</span></div> </div> </div> </div> </div>';");
-    document.close();
-/*return '<div class=standard_container>'+'<div class=headline>'+'<span>"DES.2.0.0"</span>'+'<span>"Aesthetics & Meaning"</span>'+'<div class=subhead>'+'<span>"Working Toward: Entering"</span>'+'<div class=creditaline> [<div class=TextHolder>'+'<span>"Aesthetics & Meaning"</span>]'+'<span class=CreditName>'+'<div class=creditframe>'+'<div class=credit>'+'<span>"EN"</span>'+'<div class=credit>'+'<span>"EN"</span>'+'<div class=credit>'+'<span>"EN"</span></div> </div> </div> </div> </div>';*/
-
-}
-console.log('headline','subhead','creditaline','TextHolder','CreditName','credit', standardblock);
-</script>
-
-	<!-- <div class="standard_container">
-
+	<div class="standard_container">
 		<div class="headline">
 			<span class="courseNum">HOW.1.0</span>
 			<span class="courseName">Habits of Work</span>
 		</div>
+		<div class="subhead">
+			<span>Working Toward: Entering</span>
+		</div>
+		<div class="creditalign">
+			<div class="TextHolder">
+				Preparedness
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit>EN</div>
+					<div class=credit5>NE</div>
+					<div class=credit2>PR</div>
+				</div>
+			</div>
 
-		<div class="subhead en">Working Toward: Entering</div>
-		
-		<div class="content">
-			Preparedness
-			<div class="creditframe">
-				<div class="crediten">EN</div>
-				<div class="creditne">NE</div>
-				<div class="creditpr">PR</div><img src="img/checkmarken.png">
+			<div class="TextHolder">
+				Engagement
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit>EN</div>
+					<div class=credit2>PR</div>
+					<div class=credit2>PR</div>
+				</div>
+			</div>
 
+			<div class="TextHolder">
+				Work Completion
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit>EN</div>
+					<div class=credit>EN</div>
+					<div class=credit>EN</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="content">
-			Engagement
-			<div class="creditframe">
-				<div class="crediten">EN</div>
-				<div class="creditpr">PR</div>
-				<div class="creditpr">PR</div><img src="img/checkmarken.png">
-			</div>
-		</div>
-
-		<div class="content">
-			Work Completion
-			<div class="creditframe">
-				<div class="crediten">EN</div>
-				<div class="crediten">EN</div>
-				<div class="crediten">EN</div><img src="img/checkmarken.png">
-			</div>
-		</div>
-
 	</div>
-
-
-	<div class="standard_container">
-		<div class="headline">
-			<span class="courseNum">HUM.2.0.0</span>
-			<span class="courseName">Reading</span>
-		</div>
-
-		<div class="subhead pr">Working Toward: Progressing</div>
-		
-		<div class="content">
-			Craft and Structure
-			<div class="creditframe">
-				<div class="creditpr">PR</div>
-				<div class="creditpr">PR</div>
-				<div class="creditpr">PR</div><img src="img/checkmarkpr.png">
-			</div>
-		</div>
-
-		<div class="content">
-			Key Ideas and Details
-			<div class="creditframe">
-				<div class="crediten">EN</div>
-				<div class="creditpr">PR</div>
-				<div class="creditpr">PR</div><img src="img/checkmarken.png">
-			</div>
-		</div>
-
-		<div class="content">
-			Citing Evidence
-			<div class="creditframe">
-				<div class="creditpr">PR</div>
-				<div class="creditgb">GB</div>
-				<div class="creditgb">GB</div><img src="img/checkmarkpr.png">
-			</div>
-		</div>
-
-	</div>
-
 	
 	<div class="standard_container">
-
 		<div class="headline">
-			<span class="courseNum">DES 1.0.0</span>
-			<span class="courseName">Design Process</span>
+			<span class="courseNum">SCI.2.0.0</span>
+			<span class="courseName">Matter & Energy</span>
 		</div>
+		<div class="subhead2">
+			<span>Working Toward: Progressing</span>
+		</div>
+		<div class="creditalign">
+			<div class="TextHolder">
+				M&E Science & Engineering Practices
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit2>PR</div>
+					<div class=credit2>PR</div>
+					<div class=credit2>PR</div>
+				</div>
+			</div>
 
-		<div class="subhead gb">Working Toward: Graduation Benchmark</div>
-		
-		<div class="content">
-			Analyze and optimize
-			<div class="creditframe">
-				<div class="creditgb">GB</div>
-				<div class="creditgb">GB</div>
-				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
+			<div class="TextHolder">
+				M&E Crosscutting Concepts
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit2>PR</div>
+					<div class=credit2>PR</div>
+					<div class=credit3>GB</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Reactions Core Ideas
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit2>PR</div>
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Structures Core Ideas
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+				</div>
 			</div>
 		</div>
+	</div>
+	
+	<div class="standard_container">
+		<div class="headline">
+			<span class="courseNum">HUM.3.0.0</span>
+			<span class="courseName">Speaking & Listening</span>
+		</div>
+		<div class="subhead3">
+			<span>Working Toward: Graduation Benchmark</span>
+		</div>
+		<div class="creditalign">
+			<div class="TextHolder">
+				Presentation
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit2>PR</div>
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+				</div>
+			</div>
 
-		<div class="content">
-			Develop Solution
-			<div class="creditframe">
-				<div class="creditpr">PR</div>
-				<div class="creditgb">GB</div>
-				<div class="creditgb">GB</div><img src="img/checkmarkpr.png">
+			<div class="TextHolder">
+				Discussion
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="content">
-			Identify Problems
-			<div class="creditframe">
-				<div class="creditgb">GB</div>
-				<div class="creditpr">PR</div>
-				<div class="creditpr">PR</div><img src="img/checkmarkpr.png">
-			</div>
-		</div>
-
 	</div>
 
-
 	<div class="standard_container">
-
 		<div class="headline">
-			<span class="courseNum">SCI.4.0.0</span>
-			<span class="courseName">Climate Change</span>
+			<span class="courseNum">DES.4.0.0</span>
+			<span class="courseName">Computer Science</span>
 		</div>
+		<div class="subhead4">
+			<span>Working Toward: Advancing</span>
+		</div>
+		<div class="creditalign">
+			<div class="TextHolder">
+				Code Design
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit3>GB</div>
+					<div class=credit3>GB</div>
+					<div class=credit4>AD</div>
+				</div>
+			</div>
 
-		<div class="subhead ad">Working Toward: Advancing</div>
-		
-		<div class="content">
-			CC Science & Engineering Practices
-			<div class="creditframe">
-				<div class="creditad">AD</div>
-				<div class="creditad">AD</div>
-				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
+			<div class="TextHolder">
+				Information Technology
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit3>GB</div>
+					<div class=credit4>AD</div>
+					<div class=credit4>AD</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Professional Practices
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit4>AD</div>
+					<div class=credit4>AD</div>
+					<div class=credit4>AD</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Programming Techniques
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit4>AD</div>
+					<div class=credit6></div>
+					<div class=credit6></div>
+				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="content">
-			CC Crosscutting Concepts
-			<div class="creditframe">
-				<div class="creditad">AD</div>
-				<div class="creditad">AD</div>
-				<div class="creditad">AD</div><img src="img/checkmarkad.png">
-			</div>
-		</div>
+<div onload="showContent(/*headline,subhead,creditalign,TextHolder,CreditName,credit*/);" ></div>
+<script>
+var standardblock = showContent;
 
-		<div class="content">
-			Cycles Core Concepts
-			<div class="creditframe">
-				<div class="creditad">AD</div>
-				<div class="creditgb">GB</div>
-				<div class="creditgb">GB</div><img src="img/checkmarkgb.png">
-			</div>
-		</div>
+function showContent (/*headline,subhead,creditalign,TextHolder,CreditName,credit*/) {
+	document.open();
+    document.write("return '<div class=standard_container>'+'<div class=headline>'+'<span>'DES.2.0.0'</span>'+'<span>'Aesthetics & Meaning'</span>'+'<div class=subhead>'+'<span>'Working Toward: Entering'</span>'+'<div class=creditalign> [<div class=TextHolder>'+'<span>'Aesthetics & Meaning'</span>]'+'<span class=CreditName>'+'<div class=creditframe>'+'<div class=credit>'+'<span>'EN'</span>'+'<div class=credit>'+'<span>'EN'</span>'+'<div class=credit>'+'<span>'EN'</span></div> </div> </div> </div> </div>';");
+    document.close();
+/*return '<div class=standard_container>'+'<div class=headline>'+'<span>"DES.2.0.0"</span>'+'<span>"Aesthetics & Meaning"</span>'+'<div class=subhead>'+'<span>"Working Toward: Entering"</span>'+'<div class=creditalign> [<div class=TextHolder>'+'<span>"Aesthetics & Meaning"</span>]'+'<span class=CreditName>'+'<div class=creditframe>'+'<div class=credit>'+'<span>"EN"</span>'+'<div class=credit>'+'<span>"EN"</span>'+'<div class=credit>'+'<span>"EN"</span></div> </div> </div> </div> </div>';*/
 
-		<div class="content">
-			Systems Core Concepts
-			<div class="creditframe">
-				<div class="creditad">AD</div>
-				<div class="creditad">AD</div>
-				<div class="creditad">AD</div><img src="img/checkmarkad.png">
-			</div>
-		</div>
-
-	</div> --->
+}
+console.log('headline','subhead','creditalign','TextHolder','CreditName','credit', standardblock);
+</script>
 </div>
 
 <?php include('otherphp/footer.php'); ?>	

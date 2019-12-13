@@ -232,6 +232,32 @@ border: solid 1px #020202;
 	line-height: 35px;
 }
 
+.standard_container .subhead2 {
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.standard_container .subhead3 {
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.standard_container .subhead4 {
+	padding-left: 12px;
+	color: white;
+	text-shadow: 1px 1px #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 35px;
+}
 
 .standard_container .content {
 	background:#f5f3f0;
@@ -1004,4 +1030,3 @@ display: block;
             font-family: 40px;
             text-decoration: line-through;
  }
- 
