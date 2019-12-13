@@ -68,7 +68,7 @@ function callcredit (content, creditframe) {
   	grid-row-end: 2;
   	/*background: #c55;*/
   	background: linear-gradient( #c44 , #b33  );
-  	background-color: #b3b3b3;
+  	background-color: #b66;
 	}
 	}
 	.creditaline {
@@ -86,7 +86,7 @@ function callcredit (content, creditframe) {
 
 	}
 	.credit{
-		width: 25%;
+		width: 30%;
 		height: 35px;
 
 		background: #b66;
@@ -139,18 +139,20 @@ function callcredit (content, creditframe) {
 	<!-- do not touch -->
 <div class="standard_container">
 	<div class="headline">
-		<span>headline</span>
+		<span class="courseNum">HOW.1.0</span>
+		<span class="courseName">Habits of Work</span>
 	</div>
 	<div class="subhead">
-		<span>subhead</span>
+		<span>Working Toward: Entering</span>
 	</div>
 	<div class="creditaline">
 		<div class="TextHolder">
+			Preparedness
 			<span class="CreditName"> </span>
 			<div class="creditframe">
-				<div class=credit></div>
-				<div class=credit></div>
-				<div class=credit></div>
+				<div class=credit>EN</div>
+				<div class=credit>EN</div>
+				<div class=credit>EN</div>
 			</div>
 		</div>
 	</div>
