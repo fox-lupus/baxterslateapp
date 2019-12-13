@@ -278,4 +278,4 @@
 </div>	
 
 </div>
-<?php include ('otherphp/footer.php'); ?>
+<?php include ('otherphp/footer2.php'); ?>
