@@ -112,7 +112,7 @@
 		</div>
 	</div>
 	</div>
-	<div>
+	<div class="taskdashboard-containerleft">
 		<div class="taskdashboard">
 		
 		<div class="container right">
@@ -202,7 +202,7 @@
 					<div class="credit"></div>
 				</div>-->
 	</div>
-	<div style="clear: both"></div>
+	<!-- <div style="clear: both"></div> -->
 </div>
 
 <?php include ('otherphp/footer.php'); ?>
