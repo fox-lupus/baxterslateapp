@@ -396,7 +396,6 @@ border: solid 1px #020202;
 .slatedashboard .row2{
 	display: inline-block;
 	position: relative;
-	width: 120px;
 }
 
 .container.right, .container.left {
@@ -501,8 +500,8 @@ border: solid 1px #020202;
     padding: 5px 0;
     font-size: 1em;
     border-bottom: solid 1px #ccc;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 50px;
     text-align: center;
     max-width: 500px;
     display: flex;
@@ -538,7 +537,7 @@ border: solid 1px #020202;
 	display: inline-block;
 	position: absolute;
 	left: 10px;
-	bottom: -50px;
+	bottom: -60px;
 	margin-bottom: 10px;
 }
 
@@ -549,7 +548,7 @@ border: solid 1px #020202;
 	display: inline-block;
 	position: absolute;
 	left: 10px;
-	bottom: -90px;
+	bottom: -95px;
 }
 
 .slatedashboard .normalfont2{
@@ -558,8 +557,8 @@ border: solid 1px #020202;
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	display: inline-block;
 	position: absolute;
-	left: 30px;
-	bottom: -20px;
+	left: 15px;
+	bottom: -40px;
 }
 
 .slatedashboard .section .body {
