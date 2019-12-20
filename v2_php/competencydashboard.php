@@ -117,7 +117,7 @@ function callcredit (content, creditframe) {
 
 	}
 	.creditframe{
-		height: 50px;
+		height: 40px;
 		width: 500px;
 
 		padding: 5px 0 5px 0;
