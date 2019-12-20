@@ -46,8 +46,7 @@ function callcredit (content, creditframe) {
  		-webkit-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		-moz-box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
 		box-shadow: 7px 4px 5px 0px rgba(0,0,0,0.14);
-		margin-top: 20px;
-		margin-left: 30px;
+		margin: 10px;
 
 }
 
@@ -127,122 +126,50 @@ function callcredit (content, creditframe) {
 		flex-direction: row
 
 	}
-	.credit{
+	.credit,.credit2,.credit3,.credit4,.credit5,.credit6{
 		width: 30%;
 		height: 30px;
-
-		background: #d94181;
-
 		margin:auto;
 		margin-top: 0px;
 		margin-bottom: 0px;
+
 
 		padding: 0px 5px 0 0;
 
 		border: solid 1px #444;
 		border-radius: 3px;
 		text-align: center;
-		color: #f5f5f5;
 		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 		font-weight: bold;
+	}
+	.credit{
+		background: #d94181;
+
+		color: #f5f5f5;
 	}
 
 	.credit2{
-		width: 30%;
-		height: 30px;
-
 		background: #ffa200;
-
-		margin:auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-		padding: 0px 5px 0 0;
-
-		border: solid 1px #444;
-		border-radius: 3px;
-		text-align: center;
 		color: #f5f5f5;
-		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
-		font-weight: bold;
-	}
+		}
 
 	.credit3{
-		width: 30%;
-		height: 30px;
-
 		background: #5dc02a;
-
-		margin:auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-		padding: 0px 5px 0 0;
-
-		border: solid 1px #444;
-		border-radius: 3px;
-		text-align: center;
 		color: #f5f5f5;
-		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
-		font-weight: bold;
 	}
 
 	.credit4{
-		width: 30%;
-		height: 30px;
-
 		background: #008cc1;
-
-		margin:auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-		padding: 0px 5px 0 0;
-
-		border: solid 1px #444;
-		border-radius: 3px;
-		text-align: center;
 		color: #f5f5f5;
-		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
-		font-weight: bold;
 	}
 
 	.credit5{
-		width: 30%;
-		height: 30px;
-
 		background: #9da39e;
-
-		margin:auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-		padding: 0px 5px 0 0;
-
-		border: solid 1px #444;
-		border-radius: 3px;
-		text-align: center;
 		color: #f5f5f5;
-		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
-		font-weight: bold;
 	}
 
 	.credit6{
-		width: 30%;
-		height: 30px;
-
-		margin:auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-
-		padding: 0px 5px 0 0;
-
-		border: solid 1px #444;
-		border-radius: 3px;
-		text-align: center;
 		color: #f5f5f5;
-		font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
-		font-weight: bold;
 	}
 	.credit:last-child{
 		padding: 0 0 0 5px;
