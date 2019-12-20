@@ -40,7 +40,7 @@ body{
 	 max-width: 100%;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 845px) {
 .mainContent{
 	display: flex;
 	flex-direction: column;
