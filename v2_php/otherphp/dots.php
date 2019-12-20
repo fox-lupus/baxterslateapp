@@ -5,9 +5,13 @@
 			<span class="Rubric">Rubric</span>
 			<select class="selection-box">	
 				<option value="">Select</option>
-				<option value="">1</option>
-				<option value="">2</option>
-				<option value="">3</option>
+				<option value="">Deprecated</option>
+				<option value="">Design</option>
+				<option value="">Humanities</option>
+				<option value="">Math</option>
+				<option value="">Science</option>
+				<option value="">Wellness</option>
+				<option value="">World Language</option>
 			</select>
 		</div>
 	</div>	

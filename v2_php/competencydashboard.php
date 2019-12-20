@@ -263,6 +263,9 @@ function callcredit (content, creditframe) {
 		font-family: 'EB Garamond', serif;
 	}
 </style>
+<script type="text/javascript">
+document.getElementById("standard_container").className = "standard_container";
+</script>
 <!-- <div class="mainContent">
 	<div class="slategrades">
 
