@@ -1,17 +1,13 @@
 <?php include('otherphp/header.php'); ?>	
 <?php include('otherphp/dots.php'); ?>
 <script type="text/javascript">
-	let = ['en', 'pr', 'gb', 'ad', 'ex', 'ba'];
+	let = ['ne' 'en', 'pr', 'gb', 'ad', 'ex', 'ba'];
 	
 	document.querySelectorAll("creditne");
 	document.querySelectorAll("crediten");
 	document.querySelectorAll("creditpr");
 	document.querySelectorAll("creditgb");
 	document.querySelectorAll("creditad");
-
-/*  document.querySelectorAll(".credit.ex");
-	document.querySelectorAll(".credit.ba");*/
-
 	document.querySelectorAll("creditex");
 	document.querySelectorAll("creditba");
 
@@ -25,9 +21,8 @@ function callcredit (content, creditframe) {
 	console.log(document.querySelectorAll("creditpr")); 
 	console.log(document.querySelectorAll("creditgb")); 
 	console.log(document.querySelectorAll("creditad")); 
-
- /*	console.log(document.querySelectorAll(".credit.ex")); 
-	console.log(document.querySelectorAll(".credit.ba")); */
+    console.log(document.querySelectorAll("creditex")); 
+	console.log(document.querySelectorAll("creditba")); 
 </script>
 <style type="text/css">
 	.standard_container{
