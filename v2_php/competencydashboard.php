@@ -193,7 +193,7 @@ function callcredit (content, creditframe) {
 <script type="text/javascript">
 document.getElementById("standard_container").className = "standard_container";
 </script>
-<!-- <div class="mainContent">
+
 	<div class="slategrades">
 
 		<div class="portfolio-border">
@@ -208,7 +208,7 @@ document.getElementById("standard_container").className = "standard_container";
 				<div class="ex">EX</div>  
 				<div class="ba">BA</div>
 			</div>
-			 <div style="clear: both; float: right; margin-right: 25px;"></div> -->
+			 <div style="clear: both; float: right; margin-right: 25px;"></div> 
 		</div>
 	</div>	
 
