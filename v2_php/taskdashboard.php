@@ -37,11 +37,6 @@
 				<div class="taskdashboard-date">May 13, 2019</div>	
 				<div class="taskdashboard-status">Completed</div>
 			</div>
-			
-			<!--<div class="taskdashboard-statussetup">
-				<div class="taskdashboard-date">May 13, 2019</div>	
-				<div class="taskdashboard-status">Completed</div>	
-			</div> -->
 		</div>
 	
 		<div class="tashdashboard-row">
