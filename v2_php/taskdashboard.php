@@ -154,55 +154,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-			<!--<div class="headline">
-				
-				<span class="courseNum">To-Do List</span>
-					<span class="courseName">Humanities</span>
-			</div>
-
-			<div class="subhead taskdashboardtinyfont">Active Items</div>
-
-			<div class="content">
-				<div class="creditsFrame">
-					<div>New to-do...</div>
-					<span class="textstuff">mm/dd/yyyy</span>
-					<div class="credit"></div>
-				</div>
-			</div>
-			
-			<div class="headline">
-				
-				<span class="courseNum">To-Do List</span>
-					<span class="courseName">Science</span>
-			</div>
-
-			<div class="subhead taskdashboardtinyfont">Active Items</div>
-
-			<div class="content">
-				<div class="creditsFrame">
-					<div>New to-do...</div>
-					<span class="textstuff">mm/dd/yyyy</span>
-					<div class="credit"></div>
-				</div>
-			</div>
-
-			<div class="headline">
-				
-				<span class="courseNum">To-Do List</span>
-					<span class="courseName">World Language</span>
-			</div>
-
-			<div class="subhead taskdashboardtinyfont">Active Items</div>
-
-			<div class="content">
-				<div class="creditsFrame">
-					<div>New to-do...</div>
-					<span class="textstuff">mm/dd/yyyy</span>
-					<div class="credit"></div>
-				</div>-->
+		</div>	
 	</div>
-	<!-- <div style="clear: both"></div> -->
 </div>
 
 <?php include ('otherphp/footer.php'); ?>
