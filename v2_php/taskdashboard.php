@@ -37,11 +37,6 @@
 				<div class="taskdashboard-date">May 13, 2019</div>	
 				<div class="taskdashboard-status">Completed</div>
 			</div>
-			
-			<!--<div class="taskdashboard-statussetup">
-				<div class="taskdashboard-date">May 13, 2019</div>	
-				<div class="taskdashboard-status">Completed</div>	
-			</div> -->
 		</div>
 	
 		<div class="tashdashboard-row">
@@ -65,7 +60,7 @@
 				<div class="taskdashboard-category">Intro To Design</div>
 				<div class="taskdashboard-date3">Oct 27, 2018</div>
 				<div class="taskdashboard-status3">Due</div>
-				<div class="taskdashboard-title">Make The Worst Presentation</div>
+				<div class="taskdashboard-title">Material Presentation</div>
 			</div>
 		</div>
 	
@@ -86,8 +81,8 @@
 			<div class="taskdashboard-nub"></div>
 
 			<div class="text">
-				<div class="taskdashboard-category">Wellness</div>
-				<div class="taskdashboard-title">Presentation</div>
+				<div class="taskdashboard-category">Wellness I</div>
+				<div class="taskdashboard-title">Stress Reflection</div>
 				<div class="taskdashboard-status">Completed</div>
 			</div>
 		</div>
@@ -119,7 +114,8 @@
 	</div>
 	<div>
 		<div class="taskdashboard">
-			<div class="container right">
+		
+		<div class="container right">
 
 				<div class="headline">
 					
@@ -139,7 +135,9 @@
 			</div>
 		</div>
 		<div class="taskdashboard">
-			<div class="container right">
+		
+		<div class="container right">
+				
 				<div class="headline">
 					
 					<span class="courseNum">To-Do List</span>

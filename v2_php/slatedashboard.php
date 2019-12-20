@@ -171,52 +171,9 @@
 				<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardlink">
 
 					    More Information
-				    </a>
-			    </div>
-			</div>
-
-
-
-
-
-		
-				<!-- 
-					<div class="body">
-						<a href="https://baxter.slatepowered.net/sections/spring1819-SCI250-3" class="dashboardlink">
-
-							Physical Science
-
-						</a>
-					</div>
-						<div class="body">
-						<a href="https://baxter.slatepowered.net/sections/spring1819-MAT200-4" class="dashboardlink">
-
-							Advanced Algebra
-
-						</a>
-					</div>
-						<div class="body">
-						<a href="https://baxter.slatepowered.net/sections/spring1819-COS100-2" class="dashboardlink">
-
-							Intro to Computer Science
-
-						</a>
-					</div>
-						<div class="body">
-						<a href="https://baxter.slatepowered.net/sections/spring1819-ENG202-1" class="dashboardlink">
-
-							Coming Of Age
-
-						</a>
-					</div>
-						<div class="body">
-						<a href="https://baxter.slatepowered.net/sections/spring1819-SPA350-1" class="dashboardlink">
-
-							Spanish III/IV
-
-						</a>
-					</div> 
-				</div>-->
+					    </a>
+				    </div>
+				</div>
 			</div>
 		</div>
 				
@@ -278,4 +235,4 @@
 </div>	
 
 </div>
-<?php include ('otherphp/footer.php'); ?>
+<?php include ('otherphp/footer2.php'); ?>
