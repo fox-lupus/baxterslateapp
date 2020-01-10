@@ -1,5 +1,4 @@
 <?php include('otherphp/header.php'); ?>
-<?php include('otherphp/top-head.php'); ?>
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script id="rendered-js">
 
