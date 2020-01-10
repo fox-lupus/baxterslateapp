@@ -186,11 +186,14 @@ body{
 	line-height: 38px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: 0 5px 0 5px;
+	margin: 0 20px 0 20px;
+	padding: 0 0px 0 0px;
 }
 .menu:hover {
-	border-radius: 10px;
+	border-radius: 2px;
 	background:#335F76;
+	padding: 0 20px 0 20px;
+	margin: 0 0px 0 0px;
 }
 .menu-text {
 	font-size:20px;

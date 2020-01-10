@@ -29,7 +29,7 @@
 	//# sourceURL=pen.js
 </script>
 <style type="text/css">
-	@media only screen and (max-width: 420px) {
+	@media only screen and (max-width: 620px) {
 
 	.special_table tr td:before {
 			content: attr(data-label);
@@ -37,6 +37,7 @@
 			display: table-cell;
 			text-align: right;
 			font-weight: bold;
+			color: #303030;
 		}
 		.special_table tr th {
 			display: none;

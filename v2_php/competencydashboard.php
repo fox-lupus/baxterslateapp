@@ -25,6 +25,9 @@ function callcredit (content, creditframe) {
 	console.log(document.querySelectorAll("creditba")); 
 </script>
 <style type="text/css">
+	body{ min-width: 520px
+
+	}
 	.standard_container{
 		display: inline-grid;
 		width: 500px;
