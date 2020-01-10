@@ -121,7 +121,7 @@ function callcredit (content, creditframe) {
 		flex-direction: row
 
 	}
-	.credit,.credit2,.credit3,.credit4,.credit5,.credit6{
+	.credit,.credit2,.credit3,.credit4,.credit5,.credit6,.credit7,.credit8{
 		width: 30%;
 		height: 30px;
 		margin:auto;
@@ -164,6 +164,16 @@ function callcredit (content, creditframe) {
 	}
 
 	.credit6{
+		background: #6320ca;
+		color: #f5f5f5;
+	}
+
+	.credit7{
+		background: #0040ff;
+		color: #f5f5f5;
+	}
+
+	.credit8{
 		color: #f5f5f5;
 	}
 	.credit:last-child{
@@ -374,8 +384,8 @@ document.getElementById("standard_container").className = "standard_container";
 				<span class="CreditName"> </span>
 				<div class="creditframe">
 					<div class=credit4>AD</div>
-					<div class=credit6></div>
-					<div class=credit6></div>
+					<div class=credit8></div>
+					<div class=credit8></div>
 				</div>
 			</div>
 		</div>
