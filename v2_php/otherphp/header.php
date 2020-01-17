@@ -54,7 +54,7 @@
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: #f1f1f1;
+		background-color: #fefefe;
 		min-width: 160px;
 		right: 19px;
 		z-index: 1;
@@ -65,7 +65,7 @@
 	    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2);
 	    display: none;
 
-		background: #ddd;
+		background: #eee;
 
 
 	}
@@ -76,6 +76,7 @@
 		  
 		  text-decoration: none;
 		  display: block;
+		  line-height: 1.8;
 		  padding: 0 5px;
 		  font-weight: bold;
 		  /*font-weight: 300;
