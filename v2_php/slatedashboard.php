@@ -3,8 +3,8 @@
 <div class="mainContent slatedashboard">
 
 	<div class="pageTitle">My Dashboard</div>
-	<div class="section1">
-	<div class="title1">Courses</div>
+	<div class="section2">
+	<div class="title2">Courses</div>
 	</div>
 	<div class="container_left">
 
@@ -197,8 +197,8 @@
 			</div>
 	
 
-		<div class="section">
-			<div class="title">Name</div>
+		<div class="section1">
+			<div class="title1">Name</div>
 			<div class="row">
 				<div class="row2">
 				<img src="img/3rd.png">
@@ -225,9 +225,9 @@
 
 	<div class="container_right">
 		<div>
-		<div class="section2">
-			<div class="title2">Calendar</div>
-			<div class="body2">No future events scheduled</div>
+		<div class="section3">
+			<div class="title3">Calendar</div>
+			<div class="body3">No future events scheduled</div>
 			<div class="slatedashboard2">
 			<a href="coursesectionsdirectory.php">Browse Catalog</a></div>
 		</div>
