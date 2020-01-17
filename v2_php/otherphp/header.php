@@ -57,7 +57,6 @@
 		background-color: #f1f1f1;
 		min-width: 160px;
 		right: 19px;
-		
 		z-index: 1;
 		text-align: center;
 
@@ -79,7 +78,9 @@
 		  display: block;
 		  padding: 0 5px;
 		  font-weight: bold;
-		  
+		  /*font-weight: 300;
+    	  font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
+    	  text-rendering: optimizeLegibility;*/
 		  border-top: solid 1px #eee;
 		  border-bottom: solid 1px #888;
 		  font-size: 22px;
@@ -165,7 +166,7 @@ window.onclick = function(event) {
 			</div>
 		</div> -->
 		<div class="dropdown">
- 			<button onclick="myFunction()" class="dropbtn">menu</button>
+ 			<button onclick="myFunction()" class="dropbtn">Menu</button>
 			<div id="myDropdown" class="dropdown-content">
 				<a href="slatedashboard.php">Slate Dashboard</a>
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
