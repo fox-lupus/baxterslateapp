@@ -21,8 +21,7 @@
 		.dropbtn {
 		  background-color: #333333;
 		  color: white;
-		  padding: 16px;
-		  font-size: 16px;
+		  font-size: 22px;
 		  border: none;
 		  cursor: pointer;
 		  line-height: 38px;
@@ -30,11 +29,12 @@
 			padding-right: 10px;
 			margin: 0 20px 0 20px;
 			padding: 0 0px 0 0px;
+			border-radius: 3px;
 		}
 
 		/* Dropdown button on hover & focus */
 		.dropbtn:hover, .dropbtn:focus {
-		  background-color: #2980B9;
+		  background-color: #777;
 		}
 
 		/* The container <div> - needed to position the dropdown content */
@@ -56,7 +56,12 @@
 		position: absolute;
 		background-color: #f1f1f1;
 		min-width: 160px;
+<<<<<<< HEAD
 		right: 18px;
+=======
+		right: 19px;
+		
+>>>>>>> 05c056aaaa45dfc05a0cb58f9efd0e948c80c75c
 		z-index: 1;
 		max-width: 250px;
 	   	box-shadow: 10px 10px 5px grey;
@@ -168,7 +173,11 @@ window.onclick = function(event) {
 			</div>
 		</div> -->
 		<div class="dropdown">
+<<<<<<< HEAD
  			<button onclick="myFunction()" class="dropbtn">Menu</button>
+=======
+ 			<button onclick="myFunction()" class="dropbtn">menu</button>
+>>>>>>> 05c056aaaa45dfc05a0cb58f9efd0e948c80c75c
 			<div id="myDropdown" class="dropdown-content">
 				<a href="slatedashboard.php">Slate Dashboard</a>
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
