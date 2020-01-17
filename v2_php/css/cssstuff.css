@@ -414,7 +414,7 @@ border: solid 1px #020202;
     display: flex;
 	flex-direction: column;
 	border: 1px solid #333333;
-	border-radius: 5px;	
+	border-radius: 2px;	
 	-webkit-box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
 	-moz-box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
 	box-shadow: 5px 7px 6px 0px rgba(102,102,102,0.41);
@@ -673,6 +673,7 @@ border: solid 1px #020202;
 	flex-wrap: wrap;
 	display: inline-block;
 	min-width: 415px;
+	margin-top: 10px;
 
 }
 @media screen and (max-width: 550px){
