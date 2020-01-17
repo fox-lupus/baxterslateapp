@@ -28,7 +28,7 @@
 			padding-left: 10px;
 			padding-right: 10px;
 			margin: 0 20px 0 20px;
-			padding: 0 0px 0 0px;
+			padding: 0 5px 0 5px;
 			border-radius: 3px;
 		}
 
@@ -58,9 +58,7 @@
 		min-width: 160px;
 		right: 19px;
 		z-index: 1;
-		max-width: 250px;
-	   	box-shadow: 10px 10px 5px grey;
-	   	text-align: center;
+		text-align: center;
 
 	    border-radius: 2px;
 
@@ -68,7 +66,6 @@
 	    display: none;
 
 		background: #ddd;
-		overflow: hidden;
 
 
 	}
@@ -79,14 +76,15 @@
 		  
 		  text-decoration: none;
 		  display: block;
-		  padding: 0 0px;
+		  padding: 0 5px;
 		  font-weight: bold;
 		  /*font-weight: 300;
     	  font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
     	  text-rendering: optimizeLegibility;*/
 		  border-top: solid 1px #eee;
 		  border-bottom: solid 1px #888;
-		  font-size: 18px;
+		  font-size: 22px;
+		  min-width:200px;
 		
 	}
 	 .dropdown-content a:first-child {
