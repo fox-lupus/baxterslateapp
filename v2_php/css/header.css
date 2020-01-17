@@ -11,6 +11,23 @@ html, body{
 body{
 	position: absolute;
 }
+
+@media screen and (min-width:700px){
+ 	.Navmobile {
+ 		display: none;
+ 	}
+ 	.Nav {
+ 		display: block;
+ 	}
+ }
+@media screen and (max-width:700px){
+ 	.Navmobile {
+ 		display: block;
+ 	}
+ 	.Nav {
+ 		display: none;
+ 	}
+ }
 /*.taskcolumn{
 	width: 80%;
 	padding: 0 15px;
@@ -64,7 +81,7 @@ body{
 	height: 10vw;
 	width: 100%;
 }
-.nav{
+.NavMobile{
 	display: block;
 	height: 40px;
 	box-shadow: 10px;
@@ -80,7 +97,7 @@ body{
 	box-shadow: 3px 3px 10px -1px rgba(128,128,128,0.64);*/
 	box-shadow: 0px 3px 8px 1px rgba(158,158,158,0.53);
 	}
-.nav .flexbox-container {
+.NavMobile .flexbox-container {
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: center;
@@ -92,19 +109,19 @@ body{
 	position: absolute;
 }
 @media screen and (max-width: 600px){
- .nav .flexbox-container{
+ .NavMobile .flexbox-container{
  	margin: auto;
  	float: right;
 
  }
 
- .nav .flexbox-container img{
+ .NavMobile .flexbox-container img{
  	display: none;
  }
- .nav .Search{
+ .NavMobile .Search{
  	display: none;
  }
- .nav .slate-logo {
+ .NavMobile .slate-logo {
  	display: none;
  }
   .Searc-moblie {
@@ -134,7 +151,7 @@ body{
  	.Searc-moblie {
  		display: none;
 	}
-	.nav .Search{
+	.NavMobile .Search{
  		display: inline-block;
  	}
 }
@@ -153,10 +170,10 @@ body{
 	margin-left: 5px;
 }
 
-.nav .Search{
+.NavMobile .Search{
 	/*display: inline-block;	*/
 }
-.nav .Search form input{
+.NavMobile .Search form input{
 	border-radius: 2px;/*
 	border: 1px solid #;*/
 
@@ -174,7 +191,7 @@ body{
 	background: #565656;
 }
 
-.nav .Search form input:focus{
+.NavMobile .Search form input:focus{
 	width: 160px;
 	color: black;
 	border-bottom: 1px solid #08a;

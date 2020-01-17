@@ -16,10 +16,119 @@
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Zilla+Slab?<?php echo microtime();?>" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lato?<?php echo microtime();?>" rel="stylesheet">	
-	
+	<style type="text/css">
+		 /* Dropdown Button */
+		.dropbtn {
+		  background-color: #333333;
+		  color: white;
+		  padding: 16px;
+		  font-size: 16px;
+		  border: none;
+		  cursor: pointer;
+		  line-height: 38px;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0 20px 0 20px;
+			padding: 0 0px 0 0px;
+		}
+
+		/* Dropdown button on hover & focus */
+		.dropbtn:hover, .dropbtn:focus {
+		  background-color: #2980B9;
+		}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		/*.menu:hover {
+			border-radius: 2px;
+			background:#335F76;
+			padding: 0 20px 0 20px;
+			margin: 0 0px 0 0px;
+		}*/
+
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		right: 18px;
+		
+		z-index: 1;
+		max-width: 250px;
+	   	box-shadow: 10px 10px 5px grey;
+	   	text-align: center;
+
+	    border-radius: 2px;
+
+	    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2);
+	    display: none;
+
+		background: #ddd;
+		overflow: hidden;
+
+
+	}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+		  color: black;
+		  
+		  text-decoration: none;
+		  display: block;
+		  padding: 0 0px;
+		  font-weight: bold;
+		  
+		  border-top: solid 1px #eee;
+		  border-bottom: solid 1px #888;
+		  font-size: 22px;
+		
+	}
+	 .dropdown-content a:first-child {
+		border-top: none;
+	}
+	 .dropdown-content a:last-child {
+		border-bottom: none;
+	}
+
+	.dropdown-content a:hover {
+		background: #fff;
+	}
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #ddd}
+
+		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+		.show {display:block;} 
+	</style>
 </head>
-<body>	
-<div class="nav">
+<body>
+	<!-- from w3schools Tutorial including css https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<script type="text/javascript">
+	/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>	
+<div class="NavMobile">
 	<div class="slate-logo">
 		<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 392.4" height="38">
 			<g fill="#fff">
@@ -47,7 +156,7 @@
 			</form>
 		</div>
 		
-		<div class="menu">
+		<!-- <div class="menu">
 			<span class="menu-text">Menu</span>
 			<div class="dropdown_menu">
 				<a href="slatedashboard.php">Slate Dashboard</a>
@@ -56,6 +165,16 @@
 				<a href="taskdashboard.php">Task Dashboard</a>
 				<a href="contactus.php">Contact Us</a>
 			</div>
+		</div> -->
+		<div class="dropdown">
+ 			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="slatedashboard.php">Slate Dashboard</a>
+				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
+				<a href="competencydashboard.php">Competency Dashboard</a>
+				<a href="taskdashboard.php">Task Dashboard</a>
+				<a href="contactus.php">Contact Us</a>
+  			</div>
 		</div>
 	</div>
 </div>
