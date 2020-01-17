@@ -105,7 +105,16 @@ function callcredit (content, creditframe) {
   	background-color: #008cc1;
 	}
 
+	.subhead5{
+	grid-column-start: 1;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 2;
+  	/*background: #c55;*/
+  	background-image: linear-gradient(#6320ca, #4a1f8e);
+  	background-color: #6320ca;
 	}
+
 	.creditalign {
 		/*display: inline-block;*/
 		grid-column-start: 1;
@@ -179,6 +188,7 @@ function callcredit (content, creditframe) {
 	.credit8{
 		color: #f5f5f5;
 	}
+
 	.credit:last-child{
 		padding: 0 0 0 5px;
 	}
@@ -389,6 +399,47 @@ document.getElementById("standard_container").className = "standard_container";
 					<div class=credit4>AD</div>
 					<div class=credit8></div>
 					<div class=credit8></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="standard_container">
+		<div class="headline">
+			<span class="courseNum">MATH.5.0.0</span>
+			<span class="courseName">Geometry & Spatial Reasoning</span>
+		</div>
+		<div class="subhead5">
+			<span>Working Toward: Excelling</span>
+		</div>
+		<div class="creditalign">
+			<div class="TextHolder">
+				Expressing Geometric Properties with Equations
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit4>AD</div>
+					<div class=credit4>AD</div>
+					<div class=credit6>EX</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Similarity, Right Triangles, & Trigonometry
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit4>AD</div>
+					<div class=credit6>EX</div>
+					<div class=credit6>EX</div>
+				</div>
+			</div>
+
+			<div class="TextHolder">
+				Congruence
+				<span class="CreditName"> </span>
+				<div class="creditframe">
+					<div class=credit6>EX</div>
+					<div class=credit6>EX</div>
+					<div class=credit6>EX</div>
 				</div>
 			</div>
 		</div>
