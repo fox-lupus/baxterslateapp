@@ -1000,12 +1000,12 @@ border: solid 1px #020202;
 
 .accordion {
 	max-width: 500px;
-	border: solid 1px #ccc;
+	/*border: solid 1px #ccc;*/
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	font-size: 22px;
 	text-align: center;
 	border-radius: 3px;
-	box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);
+	/*box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);*/
 	margin-bottom: 15px;
 	margin-top: 10px;
 	height: 620px;
