@@ -56,12 +56,7 @@
 		position: absolute;
 		background-color: #f1f1f1;
 		min-width: 160px;
-<<<<<<< HEAD
-		right: 18px;
-=======
 		right: 19px;
-		
->>>>>>> 05c056aaaa45dfc05a0cb58f9efd0e948c80c75c
 		z-index: 1;
 		max-width: 250px;
 	   	box-shadow: 10px 10px 5px grey;
@@ -173,11 +168,7 @@ window.onclick = function(event) {
 			</div>
 		</div> -->
 		<div class="dropdown">
-<<<<<<< HEAD
  			<button onclick="myFunction()" class="dropbtn">Menu</button>
-=======
- 			<button onclick="myFunction()" class="dropbtn">menu</button>
->>>>>>> 05c056aaaa45dfc05a0cb58f9efd0e948c80c75c
 			<div id="myDropdown" class="dropdown-content">
 				<a href="slatedashboard.php">Slate Dashboard</a>
 				<a href="coursesectionsdirectory.php">Course Sections Directory</a>
