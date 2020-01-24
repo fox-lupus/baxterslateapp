@@ -21,13 +21,13 @@
 		.dropbtn {
 		  background-color: #333333;
 		  color: white;
-		  font-size: 22px;
+		  font-size: 20px;
 		  border: none;
 		  cursor: pointer;
 		  line-height: 38px;
 			padding-left: 10px;
 			padding-right: 10px;
-			margin: 0 0px 0 20px;
+			margin: 0 0px 0 5px;
 			padding: 1px 5px 1px 5px;
 			border-radius: 3px;
 		}
