@@ -16,7 +16,7 @@
 		<input class="textInput2"/>
 		<p>*Required</p>
 		<div class="sendbutton"/>
-		<p>Send</p>
+		<input type="submit" value="Send">
 		</div>
 	</div>
 </div>
