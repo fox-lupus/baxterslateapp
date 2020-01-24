@@ -374,7 +374,7 @@ border: solid 1px #020202;
     margin: 0px auto;
 	padding: 0 15px;
 	margin: 0px auto;
-	height: 1720px;
+	height: 1800px;
 	display: flex;
 	flex-direction: column;
 }
@@ -457,7 +457,7 @@ border: solid 1px #020202;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
-    height: 300px;
+    height: 330px;
     background-color: #fff;
     
 }
@@ -471,7 +471,7 @@ border: solid 1px #020202;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
-    height: 400px;
+    height: 450px;
     background-color: #fff;
     
 }

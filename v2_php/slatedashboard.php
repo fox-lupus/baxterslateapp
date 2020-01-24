@@ -181,12 +181,12 @@
 			<div class="title">Tools</div>
 			<div class="row">
 				<div class="row2">
-				<img src="img/2nd.png">
+				<img src="img/f5rfOcmWJD.svg">
 					<div class="tinyfont">Competency- Based Learning</div>
 					<div class="normalfont">Competency Dashboard</div>
 				</div>
 				<div class="row2">
-					<img src="img/2nd.png">
+					<img src="img/f5rfOcmWJD.svg">
 					<div class="tinyfont">Competency- Based Learning</div>
 					<div class="normalfont">Task Dashboard</div>
 				</div>
@@ -201,19 +201,19 @@
 			<div class="title1">Name</div>
 			<div class="row">
 				<div class="row2">
-				<img src="img/3rd.png">
+				<img src="img/uC4rxbmhpK.svg">
 					<div class="normalfont2">My Profile</div>
 				</div>
 				<div class="row2">
-					<img src="img/4th.png">
+					<img src="img/6tnBDkEcsC.svg">
 					<div class="normalfont2">Edit Profile</div>
 				</div>
 				<div class="row2">
-					<img src="img/5th.png">
+					<img src="img/R9D5Sjwpp9.svg">
 					<div class="normalfont2">My Drafts</div>
 				</div>
 				<div class="row2">
-					<img src="img/6th.png">
+					<img src="img/WncDEPdJy2.svg">
 					<div class="normalfont2">Log Out</div>
 				</div>
 			</div>
