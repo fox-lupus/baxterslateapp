@@ -84,7 +84,7 @@
     	  text-rendering: optimizeLegibility;*/
 		  border-top: solid 1px #eee;
 		  border-bottom: solid 1px #888;
-		  font-size: 22px;
+		  font-size: 20px;
 		  min-width:200px;
 		
 	}
