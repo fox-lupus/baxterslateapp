@@ -34,7 +34,7 @@
 			content: attr(data-label);
 			
 			display: table-cell;
-			text-align: right;
+			text-align: left;
 			font-weight: bold;
 			color: #303030;
 		}
