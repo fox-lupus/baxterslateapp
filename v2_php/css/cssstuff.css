@@ -473,7 +473,7 @@ border: solid 1px #020202;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
-    height: 450px;
+    height: 475px;
     background-color: #fff;
     
 }
@@ -596,7 +596,7 @@ border: solid 1px #020202;
 	font: normal normal 400 16px/1.5 Lato,"Lucida Grande",Verdana,"Helvetica Neue",sans-serif;
 	display: inline-block;
 	position: absolute;
-	left: 15px;
+	left: 25px;
 	bottom: -40px;
 }
 
@@ -1011,7 +1011,7 @@ border: solid 1px #020202;
 	/*box-shadow: 0 0.125em 0.375em rgba(0,0,0,0.2);*/
 	margin-bottom: 15px;
 	margin-top: 10px;
-	height: 620px;
+	height: 600px;
 
 }
 
