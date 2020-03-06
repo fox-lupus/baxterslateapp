@@ -1,28 +1,37 @@
 <?php include('otherphp/header.php'); ?>	
 <?php include('otherphp/dots.php'); ?>
 <script type="text/javascript">
-	let = ['ne' 'en', 'pr', 'gb', 'ad', 'ex', 'ba'];
+
+	var ne = 0;
+	var en = 1;
+	var pr = 2;
+	var gb = 3;
+	var ad = 4;
+	var ex = 5;
+	var ba = 6;
+
+// 	let = ['ne', 'en', 'pr', 'gb', 'ad', 'ex', 'ba'];
 	
-	document.querySelectorAll("creditne");
-	document.querySelectorAll("crediten");
-	document.querySelectorAll("creditpr");
-	document.querySelectorAll("creditgb");
-	document.querySelectorAll("creditad");
-	document.querySelectorAll("creditex");
-	document.querySelectorAll("creditba");
+// 	document.querySelectorAll("creditne");
+// 	document.querySelectorAll("crediten");
+// 	document.querySelectorAll("creditpr");
+// 	document.querySelectorAll("creditgb");
+// 	document.querySelectorAll("creditad");
+// 	document.querySelectorAll("creditex");
+// 	document.querySelectorAll("creditba");
 
-function callcredit (content, creditframe) {
+// function callcredit (content, creditframe) {
 
-	return credit("ne","en","pr","gb","ad","ex","ba");
-}
-	console.log('content','creditframe');
-	console.log(document.querySelectorAll("creditne")); 
-	console.log(document.querySelectorAll("crediten")); 
-	console.log(document.querySelectorAll("creditpr")); 
-	console.log(document.querySelectorAll("creditgb")); 
-	console.log(document.querySelectorAll("creditad")); 
-    console.log(document.querySelectorAll("creditex")); 
-	console.log(document.querySelectorAll("creditba")); 
+// 	return credit("ne","en","pr","gb","ad","ex","ba");
+// }
+// 	console.log('content','creditframe');
+// 	console.log(document.querySelectorAll("creditne")); 
+// 	console.log(document.querySelectorAll("crediten")); 
+// 	console.log(document.querySelectorAll("creditpr")); 
+// 	console.log(document.querySelectorAll("creditgb")); 
+// 	console.log(document.querySelectorAll("creditad")); 
+//     console.log(document.querySelectorAll("creditex")); 
+// 	console.log(document.querySelectorAll("creditba")); 
 </script>
 <style type="text/css">
 	body{ min-width: 520px
