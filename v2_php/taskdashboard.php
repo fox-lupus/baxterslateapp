@@ -123,6 +123,19 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="tashdashboard-row">
+		
+			<div class="taskdashboard-nub2"></div>
+
+			<div class="text">
+				<div class="taskdashboard-category">American Studies</div>
+				<div class="othertext">
+					<div class="taskdashboard-title">Unit 1 Assessment</div>
+					<div class="taskdashboard-status2">Due</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	</div>
 	<div class="taskdashboard-containerleft">
